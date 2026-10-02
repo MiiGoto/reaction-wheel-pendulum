@@ -73,3 +73,7 @@ flowchart TB
 - センサ: 異なる時刻の値を混ぜない。共通time baseと角度/回転方向の符号定義を作成する。
 
 電源・GND・回生の検討は [power_tree.md](power_tree.md)、GPIO需要は [pinout.md](pinout.md) を参照。
+
+## Task 2 implementation boundary
+
+Concept above remains the whole-system target. Only the control-board branch is implemented: external regulated5 V → SS14 → AP2112K-3.3 → STM32G431RBT6, decoupling, NRST/BOOT, SWD/SWO, power LED and probe points. Sensors/CAN/UART/encoder/ESC/USB have no interface circuits yet. Their MCU pins are provisional reservations in pinout.md; motor supply/battery/regen remains TBD.

@@ -1,50 +1,91 @@
-# MCU pin requirements and provisional allocation
+# MCU and SWD pin allocation — Task 2
 
-## Selection status
+STM32G431RBT6 / LQFP64. Physical numbers from DS12589 Figure 10 / Table 12, functions from Table 13. `used` is wired now; `reserved` and `free` have explicit no-connect marks in this schematic. Reservations are a future plan, not implemented peripheral circuits. Remove NC when connecting in a subsequent task.
 
-STM32G431は第一候補。正確なordering code・package・物理pin番号はTBD。I/O要件の確定前にLQFP48/64等を固定しない。以下は**需要表**であり、PCB配線やfirmwareの確定pin mapではない。
+| MCU Pin | Peripheral | Signal | Destination | Status | Reason |
+| --- | --- | --- | --- | --- | --- |
+| 1 / VBAT | Power | +3V3 | Rail / C8 | used | no backup battery |
+| 2 / PC13 | GPIO | — | Unconnected | free | extension margin |
+| 3 / PC14 | RCC | LSE_IN | Future clock | reserved | clock reserve |
+| 4 / PC15 | RCC | LSE_OUT | Future clock | reserved | clock reserve |
+| 5 / PF0 | RCC | HSE_IN | Future clock | reserved | FDCAN clock upgrade |
+| 6 / PF1 | RCC | HSE_OUT | Future clock | reserved | FDCAN clock upgrade |
+| 7 / PG10 | Reset | NRST | C13 / J2.5 / TP5 | used | NRST_MODE=3 |
+| 8 / PC0 | ADC12_IN6 | ADC_AUX1 | Future measurement | reserved | analog range/filter TBD |
+| 9 / PC1 | ADC12_IN7 | ADC_AUX2 | Future measurement | reserved | analog range/filter TBD |
+| 10 / PC2 | GPIO | — | Unconnected | free | extension margin |
+| 11 / PC3 | GPIO | — | Unconnected | free | extension margin |
+| 12 / PA0 | TIM2_CH1 AF1 | ENC_PEND_A | Future encoder | reserved | quadrature pair |
+| 13 / PA1 | TIM2_CH2 AF1 | ENC_PEND_B | Future encoder | reserved | quadrature pair |
+| 14 / PA2 | GPIO | — | Unconnected | free | extension margin |
+| 15 / VSS | Power | GND | Ground | used | all supply returns |
+| 16 / VDD | Power | +3V3 | Rail / local 100nF | used | all VDD pins |
+| 17 / PA3 | GPIO | — | Unconnected | free | extension margin |
+| 18 / PA4 | GPIO | SPI_CS | Future sensor | reserved | software chip select |
+| 19 / PA5 | SPI1_SCK AF5 | SPI_SCK | Future sensor | reserved | SPI alternative |
+| 20 / PA6 | SPI1_MISO AF5 | SPI_MISO | Future sensor | reserved | SPI alternative |
+| 21 / PA7 | SPI1_MOSI AF5 | SPI_MOSI | Future sensor | reserved | SPI alternative |
+| 22 / PC4 | GPIO / EXTI | IMU_DRDY | Future sensor | reserved | timestamp candidate |
+| 23 / PC5 | GPIO | ESC_ENABLE | Future ESC | reserved | actual interface TBD |
+| 24 / PB0 | GPIO / EXTI | ESC_FAULT | Future ESC | reserved | actual interface TBD |
+| 25 / PB1 | GPIO | ARM_BUTTON | Future UI | reserved | not independent safety isolation |
+| 26 / PB2 | GPIO | STATUS_LED | Future UI | reserved | separate from power LED |
+| 27 / VSSA | Analog power | GND | Analog return | used | no separate VREF- pad |
+| 28 / VREF+ | Reference | +3V3 | C11/C12 | used | VREFBUF disabled |
+| 29 / VDDA | Analog power | +3V3 | C9/C10 | used | direct common rail |
+| 30 / PB10 | GPIO | — | Unconnected | free | extension margin |
+| 31 / VSS | Power | GND | Ground | used | all supply returns |
+| 32 / VDD | Power | +3V3 | Rail / local 100nF | used | all VDD pins |
+| 33 / PB11 | GPIO | — | Unconnected | free | extension margin |
+| 34 / PB12 | GPIO | — | Unconnected | free | extension margin |
+| 35 / PB13 | GPIO | — | Unconnected | free | extension margin |
+| 36 / PB14 | GPIO | — | Unconnected | free | extension margin |
+| 37 / PB15 | GPIO | — | Unconnected | free | extension margin |
+| 38 / PC6 | GPIO | — | Unconnected | free | extension margin |
+| 39 / PC7 | GPIO | — | Unconnected | free | extension margin |
+| 40 / PC8 | GPIO | — | Unconnected | free | extension margin |
+| 41 / PC9 | GPIO | — | Unconnected | free | extension margin |
+| 42 / PA8 | TIM1_CH1 AF6 | MOTOR_PWM | Future ESC | reserved | PWM candidate only |
+| 43 / PA9 | USART1_TX AF7 | UART_TX | Future debug UART | reserved | no circuit now |
+| 44 / PA10 | USART1_RX AF7 | UART_RX | Future debug UART | reserved | no circuit now |
+| 45 / PA11 | FDCAN1_RX AF9 | CAN_RX | Future transceiver | reserved | USB DM shares pin |
+| 46 / PA12 | FDCAN1_TX AF9 | CAN_TX | Future transceiver | reserved | USB DP shares pin |
+| 47 / VSS | Power | GND | Ground | used | all supply returns |
+| 48 / VDD | Power | +3V3 | Rail / local 100nF | used | all VDD pins |
+| 49 / PA13 | SWD AF0 | SWDIO | J2.2 | used | retain debug |
+| 50 / PA14 | SWD AF0 | SWCLK | J2.4 | used | retain debug |
+| 51 / PA15 | GPIO | — | Unconnected | free | extension margin |
+| 52 / PC10 | GPIO | — | Unconnected | free | extension margin |
+| 53 / PC11 | GPIO | — | Unconnected | free | extension margin |
+| 54 / PC12 | GPIO | — | Unconnected | free | extension margin |
+| 55 / PD2 | GPIO | — | Unconnected | free | extension margin |
+| 56 / PB3 | Trace AF0 | SWO | J2.6 | used | optional trace fitted |
+| 57 / PB4 | TIM3_CH1 AF2 | ENC_WHEEL_A | Future encoder | reserved | separate timer |
+| 58 / PB5 | TIM3_CH2 AF2 | ENC_WHEEL_B | Future encoder | reserved | separate timer |
+| 59 / PB6 | I2C1_SCL AF4 | IMU_SCL | Future sensor | reserved | bus candidate |
+| 60 / PB7 | I2C1_SDA AF4 | IMU_SDA | Future sensor | reserved | bus candidate |
+| 61 / PB8 | BOOT | BOOT0 | R1 / TP6 | used | normal flash configuration |
+| 62 / PB9 | GPIO | — | Unconnected | free | extension margin |
+| 63 / VSS | Power | GND | Ground | used | all supply returns |
+| 64 / VDD | Power | +3V3 | Rail / local 100nF | used | all VDD pins |
 
-公式DS12589のpin definition/alternate function表、RM0440のdevice feature tableとencoder interface modeを部分確認済み。boot/clock/全register設定を含む詳細reviewは未完了で、実回路前に両資料の対象仕様と選定packageを照合する。確認状態は [sources.md](sources.md) を参照。
+Physical pins: 17 used (includes power), 26 reserved, 21 free. All 64 accounted for. Free GPIOs can accommodate a second ESC UART (PA2/PA3 USART2 AF7), CAN standby, encoder index and additional ADC after actual device selection.
 
-## Pin allocation table
+## SWD connector J2
 
-| MCU pin | Peripheral | Signal | Destination | Reason |
-| --- | --- | --- | --- | --- |
-| TBD (physical) | VDD/VSS | 3.3 V candidate / GND | Power regulation | 全電源pinとdecouplingをpackage選定後に確認 |
-| TBD (physical) | VDDA/VSSA/VREF+/VBAT | Analog/reference/backup supply | Analog supply tree | 供給方式・未使用時の処理は公式仕様で確認 |
-| PA13 / physical TBD | SWD | SWDIO | Debug connector | 書込み・debug用。GPIO用途に割り当てない |
-| PA14 / physical TBD | SWD | SWCLK | Debug connector | debugアクセスを維持 |
-| NRST / physical TBD | Reset | NRST | Debug connector / reset button | 書込み復旧とreset試験 |
-| PB8-BOOT0 / physical TBD | Boot / GPIO | BOOT0 | Boot configuration / test access | option bytesと起動条件を確認。他busとの競合を避ける |
-| TBD (two pins) | RCC | HSE_IN / HSE_OUT | Optional clock circuit | FDCAN等のclock精度を評価し外部clockの要否を決定 |
-| TBD (two pins if needed) | RCC | LSE_IN / LSE_OUT | Optional low-speed clock | RTC/timekeeping要件TBD。不要なら割当しない |
-| TBD (two pins) | USART/UART | DEBUG_TX / DEBUG_RX | PC USB-UART adapter | SWDと別の診断経路。signal levelとbaudはTBD |
-| TBD (two pins) | FDCAN1 | CAN_TX / CAN_RX | External CAN transceiver | MCU controllerだけではCANH/CANLを直接駆動できない |
-| TBD (one GPIO if needed) | GPIO | CAN_STB / EN | Transceiver | selected partのenable/fault仕様に依存 |
-| TBD (two pins) | I2C | SCL / SDA | IMU / absolute angle candidates | アドレス衝突・帯域・pullup・bus lengthを確認 |
-| TBD (three pins + CS per device) | SPI | SCK / MISO / MOSI / CS | IMU / encoder alternatives | I2C代替。I2CとSPIを両方必須と決めない |
-| TBD (one per device) | GPIO / EXTI | IMU_DRDY / SENSOR_IRQ | Sensor | 取得時刻と同期。DMA/interrupt routingも確認 |
-| TBD (two pins + optional Z) | Encoder-capable timer | PEND_A / PEND_B / optional INDEX | Pendulum encoder alternative | timerのCH1/CH2 pair。sensor方式次第で不要 |
-| TBD (two pins + optional Z) | Separate encoder-capable timer | WHEEL_A / WHEEL_B / optional INDEX | Wheel encoder alternative | 同時計数。速度・分解能に対する入力rateとcounter幅確認 |
-| TBD (one pin if PWM used) | PWM-capable timer | ESC_COMMAND | External ESC | pulse方式・frequency・resolutionはESC資料に依存 |
-| TBD (two pins if serial used) | Separate USART/UART | ESC_TX / ESC_RX | External ESC alternative | debug UARTとの同時利用が可能か確認 |
-| TBD (two GPIO candidates) | GPIO / EXTI | ESC_ENABLE / ESC_FAULT | ESC if supported | 起動時disable、fault検出。実在signalを資料で確認 |
-| TBD (one per analog channel) | ADC | VIN_SENSE / TEMP / optional current | Measurement circuits TBD | input range、source impedance、sampling time、analog filter確認 |
-| TBD (two GPIO candidates) | GPIO | STATUS_LED / ARM_BUTTON | UI | user操作と状態表示。安全遮断をbutton GPIOのみに依存しない |
-| TBD (two pins, optional) | USB | DM / DP | Optional USB connector | CAN/SWD/UART/PWMとのAF競合をpackageごとに確認 |
-| No external pin required | Basic timer / SysTick | CONTROL_TICK | Control scheduler | encoder/PWM timerと独立した固定周期を検討 |
+Custom 1x6 2.54 mm vertical header, **not ARM 10-pin compatible**. Pin 1 square pad; number sequentially down header. PCB silk is planned, not yet drawn.
 
-## I/O budget (assumption)
+| J2 pin | Signal | MCU / rail | Use |
+| --- | --- | --- | --- |
+| 1 | VTref | +3V3 | ST-LINK voltage sense only, never supply target here |
+| 2 | SWDIO | PA13 / 49 | bidirectional debug |
+| 3 | GND | Ground | common reference |
+| 4 | SWCLK | PA14 / 50 | clock from probe |
+| 5 | NRST | PG10 / 7 | reset from probe |
+| 6 | SWO | PB3 / 56 | optional trace to probe |
 
-同時需要の見積り例: SWD 2、UART debug 2、FDCAN 2、I2C 2、SPI 3+CS 1、DRDY 1、二つのAB encoder 4、ESC PWM 1、enable/fault 2、ADC 2、UI 2 = **24 GPIO**。これは比較用に代替方式も併記した保守的な案で、確定需要ではない。
+J1: pin 1 +5V_IN, pin 2 GND. TP1 GND / TP2 input / TP3 protected input / TP4 +3V3 / TP5 NRST / TP6 BOOT0.
 
-NRST、BOOT、HSE 2、LSE 2、USB 2、CAN standby、encoder index、別ESC UARTなどの追加需要と全電源pinを別途評価する。48/64 pin候補での実際のbonding・AF競合・ADC選択を比較してからpackageを決める。ピン数だけで採用しない。
+## Reservation review limits
 
-## Before freezing allocation
-
-1. IMU/二つのencoder/ESCの方式を決め、同時使用するsignalsを選ぶ。
-2. DS12589 Table 12 (pin definition)、Table 13 (AF) の対象package列で物理番号・AF・voltage toleranceを照合。
-3. RM0440でtimer encoder mode、PWM、ADC、DMA/DMAMUX、I2C/SPI/USART、FDCAN clock、boot/option bytesを確認。
-4. CubeMXで全機能を同時に配置して競合・clock・DMAを確認し、`.ioc`を保存。
-5. Nucleo/ESC側pin使用と照合。KiCad symbolとfootprintのpin番号・orientationを別に確認。
-6. 表を実際の `GPIO / physical pin / AF` へ更新し、資料・review結果を記録する。
+TIM2 is used for pendulum AB, TIM3 for wheel AB, TIM1 for one PWM; no timer pair is shared. I2C1/SPI1/USART1/FDCAN1 do not collide with implemented SWD/reset/BOOT pins. ADC12_IN6/7 is not an AF selection. PA11/12 USB conflicts with the FDCAN reservation and needs a subsequent pin-plan revision if selected. PB8 is kept for BOOT in this revision. DMA/DMAMUX, interrupts, actual sensor/ESC levels, peripheral setup and CubeMX simultaneous allocation remain TBD. No external peripherals are connected in Task 2.

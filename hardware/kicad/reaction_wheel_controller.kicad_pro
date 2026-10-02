@@ -36,9 +36,13 @@
     [
       "56c7795e-d739-4c45-a73e-6c5ecdfd94b9",
       "Concept blocks"
+    ],
+    [
+      "87e1ebbe-146b-4e6f-b02d-98c3ee8c4d35",
+      "MCU POWER SWD"
     ]
   ],
   "text_variables": {
-    "DESIGN_STATUS": "CONCEPT_ONLY"
+    "DESIGN_STATUS": "MCU_POWER_SWD_SCHEMATIC"
   }
 }

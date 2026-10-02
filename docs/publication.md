@@ -32,3 +32,7 @@ pushはforceを使用せず `main` の通常pushのみ。完了時にremote `ref
 ## Scope at initial publication
 
 環境調査、要求・前提・architecture・I/O需要表・電源tree・bring-up計画、KiCad概念初期化まで。実回路・PCB・firmware executable・simulation結果は未作成。ERCの範囲と公式資料確認の限界は `validation.md`、`sources.md` に記録。
+
+## Task 2 publication scope
+
+Branch `feature/mcu-power-swd`, no merge to main. Public content now includes native MCU/power/SWD electrical schematic with embedded KiCad standard symbols. Their license is known: CC-BY-SA4.0 plus explicit design-artifact exception (see sources.md). No vendor PDFs, SDK/HAL, binary tools, raw local logs, authentication data or private URLs are included. Native reports/previews/netlists remain ignored outputs; summarized verification is tracked. Use the same staged-file and unpublished-commit audit as initial publication.

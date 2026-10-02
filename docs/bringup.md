@@ -13,3 +13,16 @@
 9. 固定治具でopen-loopの小commandから評価し、limit・故障時挙動を確認。制御modelとsignを照合して閉loopへ進む。
 
 各段階で条件、測定値、期待値、結果、commit IDを `test/results/` にローカル保存。公開する記録は個人情報と機器固有の秘密情報を除去して別途reviewする。
+
+## Task 2 standalone control-board bring-up (future physical test)
+
+1. Review U1 LQFP64 orientation, all supply pins, D1/D2 polarity and J1/J2 labels before assembly. Select ceramic MPNs meeting effective capacitance, verify soldering/shorts with no power.
+2. Keep motor/ESC and future sensor circuits disconnected. Confirm J1 external supply 4.8–5.25 V, current limit <=150 mA; start with low-energy short-circuit checks. Never power target through J2 VTref.
+3. Measure TP2/TP3/TP4/GND, input/output ripple and regulator temperature. Confirm protected VIN >=4.3 V, +3V3 within AP2112 tolerance under actual load <=100 mA. Motor voltage not approved.
+4. Verify J2 physical adapter wiring individually, connect common GND/VTref before SWD and NRST, and avoid driving an unpowered target.
+5. Read device ID, silicon revision and ES0431 errata; retain NRST_MODE=3. Read boot option bytes, program normal-flash nSWBOOT0=0/nBOOT0=1 only after recovery path review. Empty flash may boot ROM intentionally.
+6. Check NRST waveform, SWD recovery, power LED and HSI clock timing. Keep VREFBUF disabled/high impedance. Measure ADC noise before adopting analog precision targets.
+
+These are planned tests; no assembled board, firmware, option-byte programming or hardware measurements were performed in Task 2.
+
+Task2 errata addition: ES0431 §2.2.6 requires verifying VDD/VBAT decay below100 mV for >200 ms between bench power cycles, or applying its software backup-domain reset workaround. Because VBAT is tied +3V3, measure TP4. Do not assume a brief supply interruption guarantees a valid backup-domain reset.

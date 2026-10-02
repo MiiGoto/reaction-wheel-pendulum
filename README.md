@@ -8,9 +8,9 @@ BLDCでホイールを加減速し、その反作用で振子の姿勢を制御�
 
 ## Hardware
 
-STM32系、第一候補STM32G431。NucleoとB-G431B-ESC1を評価候補とし、初期試作では外部ESCを優先します。センサ、電源、CANトランシーバ、MCUの正確な型番・packageはTBDです。AS5600は候補に留まります。
+制御基板MCUはSTM32G431RBT6（LQFP64、128 KB Flash / 32 KB RAM）を採用。NucleoとB-G431B-ESC1を評価候補とし、初期試作では外部ESCを優先します。Task 2では安定化5 V入力、AP2112K-3.3 LDO、MCU基本回路とSWDを実装。センサ、モータ電源、CANトランシーバはTBDです。AS5600は候補に留まります。
 
-KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開きます。現状の回路図は非電気的なブロック配置と境界の説明のみで、部品・配線・PCBはありません。ERCの合格は実回路の正しさを意味しません。
+KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開きます。rootは概念ブロックの概要、階層sheet `mcu_power_swd.kicad_sch` はMCU・電源・SWDの実回路です。PCBはありません。ERCの合格は実回路の正しさを意味しません。
 
 ## Firmware
 
@@ -23,7 +23,7 @@ KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開き�
 ## Repository structure
 
 ```text
-hardware/kicad/   KiCad project and conceptual schematic
+hardware/kicad/   KiCad project, concept overview and MCU/power/SWD schematic
 firmware/stm32/   Firmware scope and future STM32 project
 simulation/      Model and parameter requirements
 mechanical/      Geometry, inertia and fixture requirements
@@ -35,7 +35,7 @@ test/            Verification plan
 
 ## Current status
 
-初期構築段階。仕様・ブロック構成・I/O要件を整理しています。部品選定、実回路、実機試験、PCB routing、製造データは未実施です。検証の範囲と結果は [docs/validation.md](docs/validation.md) を参照してください。
+Task 2: MCU・電源・SWD回路を作成し、全severity ERCはError 0 / Warning 0。将来I/Oは予約のみ。CAN・センサ・ESC回路、PCB、実機試験、製造データは未実施です。検証の範囲と結果は [docs/validation.md](docs/validation.md) を参照してください。
 
 ## Roadmap
 
@@ -49,4 +49,4 @@ test/            Verification plan
 
 ## Publication and license
 
-公開ファイルは本プロジェクト用に作成した文書・初期設計のみです。ベンダーのPDF、SDK、HAL、第三者ライブラリ、ツールの実行ファイルは含めません。プロジェクトのライセンス選択はTBDです。公開されていること自体は第三者コードの利用許諾を意味しません。
+公開ファイルは本プロジェクト用の文書・設計です。回路図内のKiCad標準symbolは[ライブラリの設計成果物例外](https://www.kicad.org/libraries/license/)を確認済みです。ベンダーのPDF、SDK、HAL、独立した第三者ライブラリ集、ツールの実行ファイルは含めません。プロジェクトのライセンス選択はTBDです。公開されていること自体は第三者コードの利用許諾を意味しません。

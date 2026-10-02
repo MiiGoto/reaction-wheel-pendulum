@@ -37,3 +37,18 @@
 ## 実回路への移行条件
 
 O-01～O-04を整理し、電圧/電流/インターフェース/必要I/Oを確定する。公式資料とpin/footprintを照合し、受入基準を設定してから部品と値を回路図へ追加する。一般的なESCの速度指令が双方向トルク指令として使えるとは仮定しない。
+
+## Task 2 control-board baseline
+
+この限定範囲はMCU・電源・SWDのみ。下記は初号機の設計条件であり、全システムの電源・安全・通信要求を確定したものではない。
+
+| ID | Baseline | Verification / status |
+| --- | --- | --- |
+| E-01-T2 | 外部安定化5 V、J1で4.8–5.25 V、短いbench配線。モータbattery直結禁止 | 人間による電源適合確認・実測TBD |
+| E-02-T2 | AP2112K-3.3、3.3 V load budget <=100 mA、室温bench。各railをprobe可能にする | datasheet/headroom/熱見積り確認、負荷・ripple・温度実測TBD |
+| E-04-T2 | SS14直列逆接保護。給電元を<=150 mA current limitとする | fuse/TVSなし。hot-plug/surge/長ケーブル保証なし |
+| D-01-T2 | 1x6 SWD header、VTref sense/SWDIO/GND/SWCLK/NRST/SWO | schematic/netlist確認。ST-LINK adapter接続試験TBD |
+| D-02-T2 | HSI16、NRST 100 nF、BOOT0 10k pulldown、normal-flash option-byte確認 | firmware/option-byte設定は未実施 |
+| T-02-T2 | 全severity ERC 0/0、全MCU physical pinとLDO pinoutを照合 | 結果はdocs/validation.md。PCBなし、DRC対象外 |
+
+MCU基本回路のみの移行条件はTask 2の公式資料・pinout・限定電源条件で満たす。O-01～O-04の全システム移行条件はCAN/センサ/ESC回路・motor通電前に引き続き適用する。
