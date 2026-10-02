@@ -1,0 +1,376 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="36 35 98 80" width="1176" height="960">
+<rect x="36" y="35" width="98" height="80" fill="#f6f8fa"/>
+<rect x="40" y="40" width="90" height="70" fill="white" stroke="#333" stroke-width=".25"/>
+<g stroke="#5b8db8" stroke-width=".12" stroke-dasharray=".5 .5" opacity=".6"><line x1="123.0" y1="65.4625" x2="117.475" y2="62.365"/><line x1="117.475" y1="62.365" x2="119.3625" y2="56.75"/><line x1="119.3625" y1="56.75" x2="125.0" y2="54.0"/><line x1="125.0" y1="54.0" x2="121.0" y2="50.0"/><line x1="125.0" y1="56.54" x2="119.3625" y2="58.65"/><line x1="119.3625" y1="58.65" x2="117.475" y2="63.635"/><line x1="119.3625" y1="58.65" x2="116.0" y2="50.0"/><line x1="117.475" y1="63.635" x2="125.0" y2="72.54"/><line x1="78.25" y1="87.675" x2="89.5" y2="91.0875"/><line x1="89.5" y1="91.0875" x2="89.0875" y2="99.0"/><line x1="77.75" y1="87.675" x2="88.8375" y2="91.25"/><line x1="88.8375" y1="91.25" x2="93.0875" y2="99.0"/><line x1="85.675" y1="81.25" x2="106.0875" y2="81.0"/><line x1="106.0875" y1="81.0" x2="104.8625" y2="89.0"/><line x1="77.25" y1="87.675" x2="90.0" y2="91.0875"/><line x1="90.0" y1="91.0875" x2="86.9125" y2="99.0"/><line x1="85.675" y1="79.25" x2="109.9125" y2="72.0"/><line x1="109.9125" y1="72.0" x2="106.0" y2="64.0"/><line x1="106.0" y1="64.0" x2="112.525" y2="61.095"/><line x1="79.25" y1="76.325" x2="79.0875" y2="68.0"/><line x1="79.0875" y1="68.0" x2="80.0" y2="63.0875"/><line x1="80.0" y1="63.0875" x2="80.0" y2="59.0"/><line x1="76.75" y1="87.675" x2="86.9125" y2="96.0"/><line x1="86.9125" y1="96.0" x2="90.5" y2="91.0875"/><line x1="86.9125" y1="96.0" x2="86.0" y2="103.0"/><line x1="79.75" y1="76.325" x2="75.0875" y2="68.0"/><line x1="75.0875" y1="68.0" x2="76.0" y2="63.0875"/><line x1="76.0" y1="63.0875" x2="75.0" y2="59.0"/><line x1="79.25" y1="87.675" x2="102.0875" y2="81.0"/><line x1="102.0875" y1="81.0" x2="104.8625" y2="88.05"/><line x1="104.8625" y1="88.05" x2="109.0875" y2="92.0"/><line x1="85.675" y1="79.75" x2="106.0" y2="60.0"/><line x1="106.0" y1="60.0" x2="112.525" y2="64.905"/></g>
+<circle cx="108.0875" cy="68.0" r=".3" fill="#c83e42"/>
+<circle cx="109.9125" cy="68.0" r=".3" fill="#c83e42"/>
+<rect x="107.5" y="67.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="113.0" cy="52.9125" r=".3" fill="#c83e42"/>
+<circle cx="113.0" cy="51.0875" r=".3" fill="#c83e42"/>
+<rect x="111.5" y="51.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="53.05" cy="58.0" r=".3" fill="#c83e42"/>
+<circle cx="54.95" cy="58.0" r=".3" fill="#c83e42"/>
+<rect x="52.5" y="57.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="119.0875" cy="93.0" r=".3" fill="#c83e42"/>
+<circle cx="120.9125" cy="93.0" r=".3" fill="#c83e42"/>
+<rect x="118.5" y="92.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="109.95" cy="64.0" r=".3" fill="#c83e42"/>
+<circle cx="108.05" cy="64.0" r=".3" fill="#c83e42"/>
+<rect x="107.5" y="63.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="48.0" cy="61.0" r=".3" fill="#c83e42"/>
+<circle cx="48.0" cy="61.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="48.0" y="59.5" font-size="1" text-anchor="middle" fill="#20262b">TP2</text>
+<circle cx="108.55" cy="86.0" r=".3" fill="#c83e42"/>
+<circle cx="110.45" cy="86.0" r=".3" fill="#c83e42"/>
+<rect x="108.0" y="85.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="76.25" cy="73.85" r=".3" fill="#c83e42"/>
+<circle cx="76.25" cy="71.95" r=".3" fill="#c83e42"/>
+<rect x="74.75" y="72.10000000000001" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="74.325" cy="78.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="78.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="79.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="79.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="80.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="80.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="81.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="81.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="82.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="82.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="83.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="83.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="84.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="84.75" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="85.25" r=".3" fill="#c83e42"/>
+<circle cx="74.325" cy="85.75" r=".3" fill="#c83e42"/>
+<circle cx="76.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="76.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="77.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="77.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="78.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="78.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="79.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="79.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="80.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="80.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="81.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="81.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="82.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="82.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="83.25" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="83.75" cy="87.675" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="85.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="85.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="84.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="84.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="83.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="83.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="82.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="82.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="81.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="81.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="80.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="80.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="79.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="79.25" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="78.75" r=".3" fill="#c83e42"/>
+<circle cx="85.675" cy="78.25" r=".3" fill="#c83e42"/>
+<circle cx="83.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="83.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="82.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="82.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="81.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="81.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="80.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="80.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="79.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="79.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="78.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="78.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="77.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="77.25" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="76.75" cy="76.325" r=".3" fill="#c83e42"/>
+<circle cx="76.25" cy="76.325" r=".3" fill="#c83e42"/>
+<rect x="78.5" y="81.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="80.0" y="80.5" font-size="1" text-anchor="middle" fill="#20262b">U1</text>
+<circle cx="108.0875" cy="72.0" r=".3" fill="#c83e42"/>
+<circle cx="109.9125" cy="72.0" r=".3" fill="#c83e42"/>
+<rect x="107.5" y="71.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="123.0" cy="65.4625" r=".3" fill="#c83e42"/>
+<circle cx="123.0" cy="62.5375" r=".3" fill="#c83e42"/>
+<rect x="121.5" y="63.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="88.05" cy="78.25" r=".3" fill="#c83e42"/>
+<circle cx="89.95" cy="78.25" r=".3" fill="#c83e42"/>
+<rect x="87.5" y="77.45" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="68.0" cy="79.0" r=".3" fill="#c83e42"/>
+<circle cx="68.0" cy="79.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="68.0" y="77.5" font-size="1" text-anchor="middle" fill="#20262b">TP5</text>
+<circle cx="79.75" cy="94.55" r=".3" fill="#c83e42"/>
+<circle cx="79.75" cy="96.45" r=".3" fill="#c83e42"/>
+<rect x="78.25" y="94.7" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="113.5875" cy="93.0" r=".3" fill="#c83e42"/>
+<circle cx="115.4125" cy="93.0" r=".3" fill="#c83e42"/>
+<rect x="113.0" y="92.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="75.0" cy="59.0" r=".3" fill="#c83e42"/>
+<circle cx="75.0" cy="59.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="75.0" y="57.5" font-size="1" text-anchor="middle" fill="#20262b">TP13</text>
+<circle cx="75.0875" cy="68.0" r=".3" fill="#c83e42"/>
+<circle cx="76.9125" cy="68.0" r=".3" fill="#c83e42"/>
+<rect x="74.5" y="67.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="79.0875" cy="68.0" r=".3" fill="#c83e42"/>
+<circle cx="80.9125" cy="68.0" r=".3" fill="#c83e42"/>
+<rect x="78.5" y="67.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="89.0875" cy="99.0" r=".3" fill="#c83e42"/>
+<circle cx="90.9125" cy="99.0" r=".3" fill="#c83e42"/>
+<rect x="88.5" y="98.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="85.3" cy="88.75" r=".3" fill="#c83e42"/>
+<circle cx="85.3" cy="90.65" r=".3" fill="#c83e42"/>
+<rect x="83.8" y="88.9" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="93.05" cy="92.75" r=".3" fill="#c83e42"/>
+<circle cx="94.95" cy="92.75" r=".3" fill="#c83e42"/>
+<rect x="92.5" y="91.95" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="93.0875" cy="99.0" r=".3" fill="#c83e42"/>
+<circle cx="94.9125" cy="99.0" r=".3" fill="#c83e42"/>
+<rect x="92.5" y="98.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="106.0875" cy="81.0" r=".3" fill="#c83e42"/>
+<circle cx="107.9125" cy="81.0" r=".3" fill="#c83e42"/>
+<rect x="105.5" y="80.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="112.0875" cy="56.0" r=".3" fill="#c83e42"/>
+<circle cx="113.9125" cy="56.0" r=".3" fill="#c83e42"/>
+<rect x="111.5" y="55.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="86.0" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="88.54" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="91.08" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="93.62" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="96.16" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="98.7" cy="45.0" r=".3" fill="#c83e42"/>
+<rect x="84.5" y="44.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="86.0" y="43.5" font-size="1" text-anchor="middle" fill="#20262b">J2</text>
+<circle cx="76.0875" cy="70.0" r=".3" fill="#c83e42"/>
+<circle cx="77.9125" cy="70.0" r=".3" fill="#c83e42"/>
+<rect x="75.5" y="69.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="107.0875" cy="105.0" r=".3" fill="#c83e42"/>
+<circle cx="108.9125" cy="105.0" r=".3" fill="#c83e42"/>
+<rect x="106.5" y="104.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="116.0" cy="98.0" r=".3" fill="#c83e42"/>
+<circle cx="116.0" cy="98.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="116.0" y="96.5" font-size="1" text-anchor="middle" fill="#20262b">TP16</text>
+<circle cx="104.8625" cy="88.05" r=".3" fill="#c83e42"/>
+<circle cx="104.8625" cy="89.0" r=".3" fill="#c83e42"/>
+<circle cx="104.8625" cy="89.95" r=".3" fill="#c83e42"/>
+<circle cx="107.1375" cy="89.95" r=".3" fill="#c83e42"/>
+<circle cx="107.1375" cy="88.05" r=".3" fill="#c83e42"/>
+<rect x="104.5" y="88.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="106.0" y="87.5" font-size="1" text-anchor="middle" fill="#20262b">U5</text>
+<circle cx="125.0" cy="83.0" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="85.54" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="88.08" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="90.62" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="93.16" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="95.7" r=".3" fill="#c83e42"/>
+<rect x="123.5" y="82.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="125.0" y="81.5" font-size="1" text-anchor="middle" fill="#20262b">J6</text>
+<circle cx="85.0875" cy="99.0" r=".3" fill="#c83e42"/>
+<circle cx="86.9125" cy="99.0" r=".3" fill="#c83e42"/>
+<rect x="84.5" y="98.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="125.0" cy="105.0" r="4" fill="none" stroke="#aaa" stroke-width=".15"/><circle cx="125.0" cy="105.0" r="1.6" fill="#ccc"/>
+<circle cx="72.0" cy="64.9125" r=".3" fill="#c83e42"/>
+<circle cx="72.0" cy="63.0875" r=".3" fill="#c83e42"/>
+<rect x="70.5" y="63.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="61.05" cy="55.0" r=".3" fill="#c83e42"/>
+<circle cx="62.95" cy="55.0" r=".3" fill="#c83e42"/>
+<rect x="60.5" y="54.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="85.0875" cy="96.0" r=".3" fill="#c83e42"/>
+<circle cx="86.9125" cy="96.0" r=".3" fill="#c83e42"/>
+<rect x="84.5" y="95.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="56.8625" cy="54.05" r=".3" fill="#c83e42"/>
+<circle cx="56.8625" cy="55.0" r=".3" fill="#c83e42"/>
+<circle cx="56.8625" cy="55.95" r=".3" fill="#c83e42"/>
+<circle cx="59.1375" cy="55.95" r=".3" fill="#c83e42"/>
+<circle cx="59.1375" cy="54.05" r=".3" fill="#c83e42"/>
+<rect x="56.5" y="54.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="58.0" y="53.5" font-size="1" text-anchor="middle" fill="#20262b">U2</text>
+<circle cx="66.0" cy="57.0" r=".3" fill="#c83e42"/>
+<circle cx="66.0" cy="57.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="66.0" y="55.5" font-size="1" text-anchor="middle" fill="#20262b">TP4</text>
+<circle cx="79.75" cy="90.05" r=".3" fill="#c83e42"/>
+<circle cx="79.75" cy="91.95" r=".3" fill="#c83e42"/>
+<rect x="78.25" y="90.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="90.0" cy="94.35" r=".3" fill="#c83e42"/>
+<circle cx="90.0" cy="96.25" r=".3" fill="#c83e42"/>
+<rect x="88.5" y="94.5" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="88.8375" cy="91.25" r=".3" fill="#c83e42"/>
+<circle cx="88.8375" cy="91.75" r=".3" fill="#c83e42"/>
+<circle cx="88.8375" cy="92.25" r=".3" fill="#c83e42"/>
+<circle cx="88.8375" cy="92.75" r=".3" fill="#c83e42"/>
+<circle cx="89.5" cy="92.9125" r=".3" fill="#c83e42"/>
+<circle cx="90.0" cy="92.9125" r=".3" fill="#c83e42"/>
+<circle cx="90.5" cy="92.9125" r=".3" fill="#c83e42"/>
+<circle cx="91.1625" cy="92.75" r=".3" fill="#c83e42"/>
+<circle cx="91.1625" cy="92.25" r=".3" fill="#c83e42"/>
+<circle cx="91.1625" cy="91.75" r=".3" fill="#c83e42"/>
+<circle cx="91.1625" cy="91.25" r=".3" fill="#c83e42"/>
+<circle cx="90.5" cy="91.0875" r=".3" fill="#c83e42"/>
+<circle cx="90.0" cy="91.0875" r=".3" fill="#c83e42"/>
+<circle cx="89.5" cy="91.0875" r=".3" fill="#c83e42"/>
+<rect x="88.5" y="91.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="90.0" y="90.5" font-size="1" text-anchor="middle" fill="#20262b">U4</text>
+<circle cx="121.0" cy="98.0" r=".3" fill="#c83e42"/>
+<circle cx="121.0" cy="98.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="121.0" y="96.5" font-size="1" text-anchor="middle" fill="#20262b">TP15</text>
+<circle cx="66.05" cy="50.0" r=".3" fill="#c83e42"/>
+<circle cx="67.95" cy="50.0" r=".3" fill="#c83e42"/>
+<rect x="65.5" y="49.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="71.95" cy="86.4" r=".3" fill="#c83e42"/>
+<circle cx="70.05" cy="86.4" r=".3" fill="#c83e42"/>
+<rect x="69.5" y="85.60000000000001" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="108.0" cy="52.9125" r=".3" fill="#c83e42"/>
+<circle cx="108.0" cy="51.0875" r=".3" fill="#c83e42"/>
+<rect x="106.5" y="51.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="89.05" cy="83.0" r=".3" fill="#c83e42"/>
+<circle cx="90.95" cy="83.0" r=".3" fill="#c83e42"/>
+<rect x="88.5" y="82.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="112.0875" cy="101.0" r=".3" fill="#c83e42"/>
+<circle cx="113.9125" cy="101.0" r=".3" fill="#c83e42"/>
+<rect x="111.5" y="100.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="70.0" cy="72.0" r=".3" fill="#c83e42"/>
+<circle cx="70.0" cy="72.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="70.0" y="70.5" font-size="1" text-anchor="middle" fill="#20262b">TP6</text>
+<circle cx="94.0875" cy="89.0" r=".3" fill="#c83e42"/>
+<circle cx="95.9125" cy="89.0" r=".3" fill="#c83e42"/>
+<rect x="93.5" y="88.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="45.0" cy="45.0" r="4" fill="none" stroke="#aaa" stroke-width=".15"/><circle cx="45.0" cy="45.0" r="1.6" fill="#ccc"/>
+<circle cx="107.0875" cy="101.0" r=".3" fill="#c83e42"/>
+<circle cx="108.9125" cy="101.0" r=".3" fill="#c83e42"/>
+<rect x="106.5" y="100.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="71.0875" cy="68.0" r=".3" fill="#c83e42"/>
+<circle cx="72.9125" cy="68.0" r=".3" fill="#c83e42"/>
+<rect x="70.5" y="67.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="117.0875" cy="87.0" r=".3" fill="#c83e42"/>
+<circle cx="118.9125" cy="87.0" r=".3" fill="#c83e42"/>
+<rect x="116.5" y="86.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="118.0" cy="67.55" r=".3" fill="#c83e42"/>
+<circle cx="118.0" cy="69.45" r=".3" fill="#c83e42"/>
+<rect x="116.5" y="67.7" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="80.0" cy="59.0" r=".3" fill="#c83e42"/>
+<circle cx="80.0" cy="59.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="80.0" y="57.5" font-size="1" text-anchor="middle" fill="#20262b">TP14</text>
+<circle cx="125.0" cy="54.0" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="56.54" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="59.08" r=".3" fill="#c83e42"/>
+<rect x="123.5" y="53.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="125.0" y="52.5" font-size="1" text-anchor="middle" fill="#20262b">J3</text>
+<circle cx="70.55" cy="77.0" r=".3" fill="#c83e42"/>
+<circle cx="72.45" cy="77.0" r=".3" fill="#c83e42"/>
+<rect x="70.0" y="76.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="112.525" cy="61.095" r=".3" fill="#c83e42"/>
+<circle cx="112.525" cy="62.365" r=".3" fill="#c83e42"/>
+<circle cx="112.525" cy="63.635" r=".3" fill="#c83e42"/>
+<circle cx="112.525" cy="64.905" r=".3" fill="#c83e42"/>
+<circle cx="117.475" cy="64.905" r=".3" fill="#c83e42"/>
+<circle cx="117.475" cy="63.635" r=".3" fill="#c83e42"/>
+<circle cx="117.475" cy="62.365" r=".3" fill="#c83e42"/>
+<circle cx="117.475" cy="61.095" r=".3" fill="#c83e42"/>
+<rect x="113.5" y="62.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="115.0" y="61.5" font-size="1" text-anchor="middle" fill="#20262b">U3</text>
+<circle cx="80.0" cy="64.9125" r=".3" fill="#c83e42"/>
+<circle cx="80.0" cy="63.0875" r=".3" fill="#c83e42"/>
+<rect x="78.5" y="63.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="125.0" cy="45.0" r="4" fill="none" stroke="#aaa" stroke-width=".15"/><circle cx="125.0" cy="45.0" r="1.6" fill="#ccc"/>
+<circle cx="57.0" cy="61.0" r=".3" fill="#c83e42"/>
+<circle cx="57.0" cy="61.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="57.0" y="59.5" font-size="1" text-anchor="middle" fill="#20262b">TP3</text>
+<circle cx="125.0" cy="70.0" r=".3" fill="#c83e42"/>
+<circle cx="125.0" cy="72.54" r=".3" fill="#c83e42"/>
+<rect x="123.5" y="69.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="125.0" y="68.5" font-size="1" text-anchor="middle" fill="#20262b">J4</text>
+<circle cx="109.0875" cy="92.0" r=".3" fill="#c83e42"/>
+<circle cx="110.9125" cy="92.0" r=".3" fill="#c83e42"/>
+<rect x="108.5" y="91.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="117.0875" cy="101.0" r=".3" fill="#c83e42"/>
+<circle cx="118.9125" cy="101.0" r=".3" fill="#c83e42"/>
+<rect x="116.5" y="100.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="109.0875" cy="89.5" r=".3" fill="#c83e42"/>
+<circle cx="110.9125" cy="89.5" r=".3" fill="#c83e42"/>
+<rect x="108.5" y="88.7" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="65.0" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="67.54" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="70.08" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="72.62" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="75.16" cy="45.0" r=".3" fill="#c83e42"/>
+<rect x="63.5" y="44.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="65.0" y="43.5" font-size="1" text-anchor="middle" fill="#20262b">J5</text>
+<circle cx="76.0" cy="64.9125" r=".3" fill="#c83e42"/>
+<circle cx="76.0" cy="63.0875" r=".3" fill="#c83e42"/>
+<rect x="74.5" y="63.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="49.0625" cy="71.0" r=".3" fill="#c83e42"/>
+<circle cx="50.9375" cy="71.0" r=".3" fill="#c83e42"/>
+<rect x="48.5" y="70.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="50.0" y="69.5" font-size="1" text-anchor="middle" fill="#20262b">D2</text>
+<circle cx="106.0" cy="64.0" r=".3" fill="#c83e42"/>
+<circle cx="106.0" cy="64.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="106.0" y="62.5" font-size="1" text-anchor="middle" fill="#20262b">TP9</text>
+<circle cx="68.0" cy="84.0" r=".3" fill="#c83e42"/>
+<circle cx="68.0" cy="84.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="68.0" y="82.5" font-size="1" text-anchor="middle" fill="#20262b">TP1</text>
+<circle cx="49.8" cy="54.0" r=".3" fill="#c83e42"/>
+<circle cx="53.8" cy="54.0" r=".3" fill="#c83e42"/>
+<rect x="50.3" y="53.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="51.8" y="52.5" font-size="1" text-anchor="middle" fill="#20262b">D1</text>
+<circle cx="82.75" cy="94.55" r=".3" fill="#c83e42"/>
+<circle cx="82.75" cy="96.45" r=".3" fill="#c83e42"/>
+<rect x="81.25" y="94.7" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="70.05" cy="80.0" r=".3" fill="#c83e42"/>
+<circle cx="71.95" cy="80.0" r=".3" fill="#c83e42"/>
+<rect x="69.5" y="79.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="117.0875" cy="84.0" r=".3" fill="#c83e42"/>
+<circle cx="118.9125" cy="84.0" r=".3" fill="#c83e42"/>
+<rect x="116.5" y="83.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="98.0" cy="88.0" r=".3" fill="#c83e42"/>
+<circle cx="98.0" cy="88.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="98.0" y="86.5" font-size="1" text-anchor="middle" fill="#20262b">TP12</text>
+<circle cx="62.05" cy="50.0" r=".3" fill="#c83e42"/>
+<circle cx="63.95" cy="50.0" r=".3" fill="#c83e42"/>
+<rect x="61.5" y="49.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="119.3625" cy="56.75" r=".3" fill="#c83e42"/>
+<circle cx="119.3625" cy="58.65" r=".3" fill="#c83e42"/>
+<circle cx="121.2375" cy="57.7" r=".3" fill="#c83e42"/>
+<rect x="118.8" y="56.900000000000006" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="120.3" y="56.2" font-size="1" text-anchor="middle" fill="#20262b">D3</text>
+<circle cx="54.0875" cy="71.0" r=".3" fill="#c83e42"/>
+<circle cx="55.9125" cy="71.0" r=".3" fill="#c83e42"/>
+<rect x="53.5" y="70.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="106.0" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="108.54" cy="45.0" r=".3" fill="#c83e42"/>
+<circle cx="111.08" cy="45.0" r=".3" fill="#c83e42"/>
+<rect x="104.5" y="44.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="106.0" y="43.5" font-size="1" text-anchor="middle" fill="#20262b">J7</text>
+<circle cx="106.0" cy="60.0" r=".3" fill="#c83e42"/>
+<circle cx="106.0" cy="60.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="106.0" y="58.5" font-size="1" text-anchor="middle" fill="#20262b">TP10</text>
+<circle cx="121.0" cy="50.0" r=".3" fill="#c83e42"/>
+<circle cx="121.0" cy="50.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="121.0" y="48.5" font-size="1" text-anchor="middle" fill="#20262b">TP7</text>
+<circle cx="45.0" cy="105.0" r="4" fill="none" stroke="#aaa" stroke-width=".15"/><circle cx="45.0" cy="105.0" r="1.6" fill="#ccc"/>
+<circle cx="86.0" cy="103.0" r=".3" fill="#c83e42"/>
+<circle cx="86.0" cy="103.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="86.0" y="101.5" font-size="1" text-anchor="middle" fill="#20262b">TP11</text>
+<circle cx="46.0" cy="54.0" r=".3" fill="#c83e42"/>
+<circle cx="46.0" cy="56.54" r=".3" fill="#c83e42"/>
+<rect x="44.5" y="53.2" width="3" height="1.6" fill="#e3eaf1" stroke="#777" stroke-width=".1"/>
+<text x="46.0" y="52.5" font-size="1" text-anchor="middle" fill="#20262b">J1</text>
+<circle cx="116.0" cy="50.0" r=".3" fill="#c83e42"/>
+<circle cx="116.0" cy="50.0" r=".75" fill="#e6b340" stroke="#777" stroke-width=".1"/>
+<text x="116.0" y="48.5" font-size="1" text-anchor="middle" fill="#20262b">TP8</text>
+<circle cx="102.0875" cy="81.0" r=".3" fill="#c83e42"/>
+<circle cx="103.9125" cy="81.0" r=".3" fill="#c83e42"/>
+<rect x="101.5" y="80.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<circle cx="82.75" cy="90.05" r=".3" fill="#c83e42"/>
+<circle cx="82.75" cy="91.95" r=".3" fill="#c83e42"/>
+<rect x="81.25" y="90.2" width="3" height="1.6" fill="#eee" stroke="#777" stroke-width=".1"/>
+<text x="54" y="63" font-size="1.4" fill="#234" text-anchor="middle">Power</text>
+<text x="80" y="82" font-size="1.4" fill="#234" text-anchor="middle">MCU</text>
+<text x="92" y="90" font-size="1.4" fill="#234" text-anchor="middle">IMU</text>
+<text x="115" y="59" font-size="1.4" fill="#234" text-anchor="middle">CAN</text>
+<text x="105" y="95" font-size="1.4" fill="#234" text-anchor="middle">ESC logic</text>
+<text x="84" y="113" font-size="1.4" fill="#234" text-anchor="middle">Selected airwires only / NOT ROUTED</text>
+</svg>

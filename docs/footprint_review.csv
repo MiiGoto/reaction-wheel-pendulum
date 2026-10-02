@@ -1,0 +1,87 @@
+Reference,Value,Footprint,Pad_count,X_mm,Y_mm,Rotation_deg,Exclude_BOM,Pad_dimensions_mm
+C1,4.7uF 10V X7R,Capacitor_SMD:C_0805_2012Metric,2,54.0,58.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C10,1uF VDDA29,Capacitor_SMD:C_0805_2012Metric,2,82.75,95.5,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+C11,100nF VREF28,Capacitor_SMD:C_0805_2012Metric,2,79.75,91.0,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+C12,1uF VREF28,Capacitor_SMD:C_0805_2012Metric,2,79.75,95.5,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+C13,100nF NRST,Capacitor_SMD:C_0805_2012Metric,2,71.0,80.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C14,100nF VCC,Capacitor_SMD:C_0805_2012Metric,2,109.0,64.0,180.0,False,1:1.0x1.45; 2:1.0x1.45
+C15,100nF VIO,Capacitor_SMD:C_0805_2012Metric,2,118.0,68.5,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+C16,100nF VDDIO5,Capacitor_SMD:C_0805_2012Metric,2,90.0,95.3,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+C17,100nF VDD8,Capacitor_SMD:C_0805_2012Metric,2,94.0,92.75,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C18,100nF port,Capacitor_SMD:C_0805_2012Metric,2,63.0,50.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C19,1uF port,Capacitor_SMD:C_0805_2012Metric,2,67.0,50.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C2,4.7uF 10V X7R,Capacitor_SMD:C_0805_2012Metric,2,62.0,55.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C20,100nF buffer,Capacitor_SMD:C_0805_2012Metric,2,109.5,86.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C3,100nF VDD16,Capacitor_SMD:C_0805_2012Metric,2,71.0,86.4,180.0,False,1:1.0x1.45; 2:1.0x1.45
+C4,100nF VDD32,Capacitor_SMD:C_0805_2012Metric,2,85.3,89.7,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+C5,100nF VDD48,Capacitor_SMD:C_0805_2012Metric,2,89.0,78.25,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C6,100nF VDD64,Capacitor_SMD:C_0805_2012Metric,2,76.25,72.9,90.0,False,1:1.0x1.45; 2:1.0x1.45
+C7,4.7uF VDD bulk,Capacitor_SMD:C_0805_2012Metric,2,90.0,83.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C8,100nF VBAT1,Capacitor_SMD:C_0805_2012Metric,2,71.5,77.0,0.0,False,1:1.0x1.45; 2:1.0x1.45
+C9,10nF VDDA29,Capacitor_SMD:C_0805_2012Metric,2,82.75,91.0,-90.0,False,1:1.0x1.45; 2:1.0x1.45
+D1,SS14-E3/61T,Diode_SMD:D_SMA,2,51.8,54.0,0.0,False,1:2.5x1.8; 2:2.5x1.8
+D2,APT2012SECK,LED_SMD:LED_0805_2012Metric,2,50.0,71.0,0.0,False,1:0.975x1.4; 2:0.975x1.4
+D3,PESD2CANFD24V-T,Package_TO_SOT_SMD:SOT-23,3,120.3,57.7,0.0,False,1:1.475x0.6; 2:1.475x0.6; 3:1.475x0.6
+H1,M3 NPTH preliminary,MountingHole:MountingHole_3.2mm_M3,1,45.0,45.0,0.0,True,:3.2x3.2
+H2,M3 NPTH preliminary,MountingHole:MountingHole_3.2mm_M3,1,125.0,45.0,0.0,True,:3.2x3.2
+H3,M3 NPTH preliminary,MountingHole:MountingHole_3.2mm_M3,1,45.0,105.0,0.0,True,:3.2x3.2
+H4,M3 NPTH preliminary,MountingHole:MountingHole_3.2mm_M3,1,125.0,105.0,0.0,True,:3.2x3.2
+J1,5V INPUT: 1=+5V 2=GND,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,2,46.0,54.0,0.0,False,1:1.7x1.7; 2:1.7x1.7
+J2,SWD: VTref IO GND CLK RST SWO,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6,86.0,45.0,90.0,False,1:1.7x1.7; 2:1.7x1.7; 3:1.7x1.7; 4:1.7x1.7; 5:1.7x1.7; 6:1.7x1.7
+J3,CAN: H L GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,3,125.0,54.0,0.0,False,1:1.7x1.7; 2:1.7x1.7; 3:1.7x1.7
+J4,TERM: shunt=ON,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,2,125.0,70.0,0.0,False,1:1.7x1.7; 2:1.7x1.7
+J5,ENC: 3V3 GND A B Z,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,5,65.0,45.0,90.0,False,1:1.7x1.7; 2:1.7x1.7; 3:1.7x1.7; 4:1.7x1.7; 5:1.7x1.7
+J6,ESC: PWM EN FAULT GND TX RX,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,6,125.0,83.0,0.0,False,1:1.7x1.7; 2:1.7x1.7; 3:1.7x1.7; 4:1.7x1.7; 5:1.7x1.7; 6:1.7x1.7
+J7,DEBUG: TX RX GND,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,3,106.0,45.0,90.0,False,1:1.7x1.7; 2:1.7x1.7; 3:1.7x1.7
+R1,10k BOOT0 pulldown,Resistor_SMD:R_0805_2012Metric,2,77.0,70.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R10,100k IRQ default,Resistor_SMD:R_0805_2012Metric,2,95.0,89.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R11,100R,Resistor_SMD:R_0805_2012Metric,2,76.0,64.0,90.0,False,1:1.025x1.4; 2:1.025x1.4
+R12,100R,Resistor_SMD:R_0805_2012Metric,2,80.0,64.0,90.0,False,1:1.025x1.4; 2:1.025x1.4
+R13,100R,Resistor_SMD:R_0805_2012Metric,2,72.0,64.0,90.0,False,1:1.025x1.4; 2:1.025x1.4
+R14,100k,Resistor_SMD:R_0805_2012Metric,2,76.0,68.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R15,100k,Resistor_SMD:R_0805_2012Metric,2,80.0,68.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R16,100k,Resistor_SMD:R_0805_2012Metric,2,72.0,68.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R17,100R,Resistor_SMD:R_0805_2012Metric,2,110.0,89.5,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R18,10k PWM disabled low,Resistor_SMD:R_0805_2012Metric,2,118.0,84.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R19,10k OE default low,Resistor_SMD:R_0805_2012Metric,2,103.0,81.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R2,2.2k,Resistor_SMD:R_0805_2012Metric,2,55.0,71.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R20,100k input default,Resistor_SMD:R_0805_2012Metric,2,107.0,81.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R21,100R,Resistor_SMD:R_0805_2012Metric,2,110.0,92.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R22,10k EN default low,Resistor_SMD:R_0805_2012Metric,2,118.0,87.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R23,10k FAULT pull-up,Resistor_SMD:R_0805_2012Metric,2,120.0,93.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R24,100R,Resistor_SMD:R_0805_2012Metric,2,114.5,93.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R25,100R,Resistor_SMD:R_0805_2012Metric,2,108.0,52.0,90.0,False,1:1.025x1.4; 2:1.025x1.4
+R26,100R,Resistor_SMD:R_0805_2012Metric,2,113.0,52.0,90.0,False,1:1.025x1.4; 2:1.025x1.4
+R27,100k RX idle,Resistor_SMD:R_0805_2012Metric,2,113.0,56.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R28,100R,Resistor_SMD:R_0805_2012Metric,2,118.0,101.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R29,100R,Resistor_SMD:R_0805_2012Metric,2,113.0,101.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R3,120R 1% >=0.25W,Resistor_SMD:R_1206_3216Metric,2,123.0,64.0,90.0,False,1:1.125x1.75; 2:1.125x1.75
+R30,100k RX idle,Resistor_SMD:R_0805_2012Metric,2,108.0,101.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R31,10k TX idle,Resistor_SMD:R_0805_2012Metric,2,108.0,105.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R4,10k STB default HIGH,Resistor_SMD:R_0805_2012Metric,2,109.0,68.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R5,10k TX recessive,Resistor_SMD:R_0805_2012Metric,2,109.0,72.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R6,10k CS pull-up,Resistor_SMD:R_0805_2012Metric,2,86.0,96.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R7,100k SPI mode3 idle,Resistor_SMD:R_0805_2012Metric,2,86.0,99.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R8,100k MOSI default,Resistor_SMD:R_0805_2012Metric,2,90.0,99.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+R9,100k MISO idle,Resistor_SMD:R_0805_2012Metric,2,94.0,99.0,0.0,False,1:1.025x1.4; 2:1.025x1.4
+TP1,GND,TestPoint:TestPoint_Pad_D1.5mm,1,68.0,84.0,0.0,True,1:1.5x1.5
+TP10,FDCAN_RX,TestPoint:TestPoint_Pad_D1.5mm,1,106.0,60.0,0.0,True,1:1.5x1.5
+TP11,IMU_CS_N,TestPoint:TestPoint_Pad_D1.5mm,1,86.0,103.0,0.0,True,1:1.5x1.5
+TP12,IMU_INT1,TestPoint:TestPoint_Pad_D1.5mm,1,98.0,88.0,0.0,True,1:1.5x1.5
+TP13,ENC_A,TestPoint:TestPoint_Pad_D1.5mm,1,75.0,59.0,0.0,True,1:1.5x1.5
+TP14,ENC_B,TestPoint:TestPoint_Pad_D1.5mm,1,80.0,59.0,0.0,True,1:1.5x1.5
+TP15,ESC_PWM,TestPoint:TestPoint_Pad_D1.5mm,1,121.0,98.0,0.0,True,1:1.5x1.5
+TP16,ESC_EN_OUT,TestPoint:TestPoint_Pad_D1.5mm,1,116.0,98.0,0.0,True,1:1.5x1.5
+TP2,+5V_IN,TestPoint:TestPoint_Pad_D1.5mm,1,48.0,61.0,0.0,True,1:1.5x1.5
+TP3,+5V_PROTECTED,TestPoint:TestPoint_Pad_D1.5mm,1,57.0,61.0,0.0,True,1:1.5x1.5
+TP4,+3V3,TestPoint:TestPoint_Pad_D1.5mm,1,66.0,57.0,0.0,True,1:1.5x1.5
+TP5,NRST,TestPoint:TestPoint_Pad_D1.5mm,1,68.0,79.0,0.0,True,1:1.5x1.5
+TP6,BOOT0,TestPoint:TestPoint_Pad_D1.5mm,1,70.0,72.0,0.0,True,1:1.5x1.5
+TP7,CANH,TestPoint:TestPoint_Pad_D1.5mm,1,121.0,50.0,0.0,True,1:1.5x1.5
+TP8,CANL,TestPoint:TestPoint_Pad_D1.5mm,1,116.0,50.0,0.0,True,1:1.5x1.5
+TP9,FDCAN_TX,TestPoint:TestPoint_Pad_D1.5mm,1,106.0,64.0,0.0,True,1:1.5x1.5
+U1,STM32G431RBT6,Package_QFP:LQFP-64_10x10mm_P0.5mm,64,80.0,82.0,0.0,False,1:1.55x0.3; 2:1.55x0.3; 3:1.55x0.3; 4:1.55x0.3; 5:1.55x0.3; 6:1.55x0.3; 7:1.55x0.3; 8:1.55x0.3; 9:1.55x0.3; 10:1.55x0.3; 11:1.55x0.3; 12:1.55x0.3; 13:1.55x0.3; 14:1.55x0.3; 15:1.55x0.3; 16:1.55x0.3; 17:0.3x1.55; 18:0.3x1.55; 19:0.3x1.55; 20:0.3x1.55; 21:0.3x1.55; 22:0.3x1.55; 23:0.3x1.55; 24:0.3x1.55; 25:0.3x1.55; 26:0.3x1.55; 27:0.3x1.55; 28:0.3x1.55; 29:0.3x1.55; 30:0.3x1.55; 31:0.3x1.55; 32:0.3x1.55; 33:1.55x0.3; 34:1.55x0.3; 35:1.55x0.3; 36:1.55x0.3; 37:1.55x0.3; 38:1.55x0.3; 39:1.55x0.3; 40:1.55x0.3; 41:1.55x0.3; 42:1.55x0.3; 43:1.55x0.3; 44:1.55x0.3; 45:1.55x0.3; 46:1.55x0.3; 47:1.55x0.3; 48:1.55x0.3; 49:0.3x1.55; 50:0.3x1.55; 51:0.3x1.55; 52:0.3x1.55; 53:0.3x1.55; 54:0.3x1.55; 55:0.3x1.55; 56:0.3x1.55; 57:0.3x1.55; 58:0.3x1.55; 59:0.3x1.55; 60:0.3x1.55; 61:0.3x1.55; 62:0.3x1.55; 63:0.3x1.55; 64:0.3x1.55
+U2,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,5,58.0,55.0,0.0,False,1:1.325x0.6; 2:1.325x0.6; 3:1.325x0.6; 4:1.325x0.6; 5:1.325x0.6
+U3,TCAN3413DR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,8,115.0,63.0,0.0,False,1:1.95x0.6; 2:1.95x0.6; 3:1.95x0.6; 4:1.95x0.6; 5:1.95x0.6; 6:1.95x0.6; 7:1.95x0.6; 8:1.95x0.6
+U4,LSM6DSLTR,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,14,90.0,92.0,0.0,False,1:0.625x0.35; 2:0.625x0.35; 3:0.625x0.35; 4:0.625x0.35; 5:0.35x0.625; 6:0.35x0.625; 7:0.35x0.625; 8:0.625x0.35; 9:0.625x0.35; 10:0.625x0.35; 11:0.625x0.35; 12:0.35x0.625; 13:0.35x0.625; 14:0.35x0.625
+U5,SN74LVC1G126DBVR,Package_TO_SOT_SMD:SOT-23-5,5,106.0,89.0,0.0,False,1:1.325x0.6; 2:1.325x0.6; 3:1.325x0.6; 4:1.325x0.6; 5:1.325x0.6

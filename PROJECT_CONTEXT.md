@@ -53,3 +53,11 @@ PID、状態フィードバック、LQR、swing-up、状態推定、パラメー
 仮定（ユーザー承認済み）: external module3.3V push-pullABI <=20mA、ESC3.3V PWM/active-highEN/active-lowODFAULT。型番と最高RPMは未定。180mA/220mAは新たな室温bench設計予算で実測未完。
 
 未決: actual encoder/ESC/magnet/RPM/PPR、正負torque/停止/回生、CANbitrate/clock、sensor制御周期/axis mapping、電源熱/EMC/配線/connectorkey、PCB/firmware。ERConewarningはST指定SDX接地によるpin-type warningで抑制なし。Task4への自動移行なし。
+
+## Task 4 current state — 2026-10-03
+
+確定（設計）: Task3 cc09087からfeature/pcb-placement、Task2/3依存保持、main未変更。回路の電気接続とMCU35used/12reserved/17freeを保持。全86footprints配置、4層、配線/via/zoneなし。ERC0error/1intentional warning、baselineDRC0配置違反/0parity/173未配線。
+
+仮定:90x70mm暫定外形、M3四点/端から5mm/頭部半径4mm、板厚1.6mm、generic2.54header。メーカーstackup/機構/ねじ/ケーブル/IMU姿勢の最終確定ではない。
+
+未決: 実機ESC/encoder/RPM、安全停止/正負トルク/回生、debughalt中出力保持への対策、IMU die-axis mappingと振子機構、0.15mmIMU内部pad間隔/assembly、供給熱/HSI CAN-FD精度、製造会社stackup。Task5へ自動移行しない。

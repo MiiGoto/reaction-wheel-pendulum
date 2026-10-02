@@ -69,3 +69,11 @@ Task2 table is historical for MCU-only loading. Current E-02 budget180mA at3.3V,
 | T-02-T3 | native ERC + full new/preserved netlist cross-check | one intentional SDX/GND warning documented; no exclusions; noPCB/DRC |
 
 O-01/O-02/O-04 motor/sensor system requirements remain gates before powered operation. Pendulum angle sensor remains reserved and unimplemented; IMU alone is not assumed to replace it.
+
+## Task 4 preliminary PCB constraints — 2026-10-03
+
+- Board90x70mm is placement feasibility only, final mechanical envelope TBD. Four3.2mm M3 NPTH, hole centers5mm from edge,4mm radius screw/spacer reserve, actual mounting hardware TBD.
+- Four copper layers planned;1.6mm nominal thickness placeholder, supplier stackup/copper/impedance TBD. All top components, probe/rework/header access must survive enclosure assembly.
+- General track/clearance0.20mm; POWER0.50mm,CAN0.25mm; through-via0.60/0.30mm; copper-edge0.50mm. Only U4 internal pad clearance0.15mm for its native LGA geometry, supplier qualification required.
+- No motor current path on this controller. Reset low ESC gating does not ensure SWD halt stop or broken-fault-wire detection; independent motor power isolation/actual ESC timeout/arming qualification before motor tests.
+- IMU native axes/position relative to pivot, connector keying/mating height, exact passive/connector MPNs and assembly/stencil remain TBD. Unrouted baseline DRC is not manufacturing acceptance.

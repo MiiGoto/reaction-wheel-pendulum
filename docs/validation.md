@@ -106,3 +106,32 @@ Validated source SHA256:
 - `rwp_interfaces.kicad_sym`: `ee484b067c763b17b49c608470ba0d68151c124793324e265a915f07d077c9ea`
 - `sym-lib-table`: `9badf35df2adc37dd17b40410c4c925b6be1224a0d817eff3d2b856d543362ee`
 - `reaction_wheel_controller.kicad_pro`: `30270bb33d13d7de6a1b42568ec290d565c1b0eaa5489de47c3f03d0a6ed6e78`
+
+## Task 4 final validation — 2026-10-03
+
+KiCad10.0.6 native CLI, final all-severity ERC: **Error0 / Warning1**, exit5 for visible intentional U4 SDX-ground type warning. No exclusions, NoERC markers or ignored checks. Native PCB DRC with schematic parity: **0physical violations,0parity issues,173unconnected items**; exit5 because unrouted items remain. No routing to clear those items. Baseline is not fabrication approval.
+
+Native schematic XML vs PCB independently checked every connected physical pad.86footprints,4copperlayers,0tracks/vias,0zones. Mounted-hole symbols and16test-pad BOM exclusions now match schematic/PCB. Native footprints match installed libraries; no courtyard/pad short/clearance/silk violations remain. Initial placement overlaps/legends were corrected; IMU0.15mm internal pad gap has an explicit justified local rule.
+
+Read-only native pad distances and original selected-airwire review support placement feasibility; native SVG and local3D top rendering visually reviewed.3D IMU/header models missing, so connector housing/height and native IMU axes need human review. No physical hardware tests, return-loop routing, final planes, final DRC closure, Gerbers or BOM ordering.
+
+Reproduce (create ignored output folder first):
+
+```powershell
+kicad-cli sch erc --severity-all --exit-code-violations --output hardware/kicad/outputs/task4/erc.rpt hardware/kicad/reaction_wheel_controller.kicad_sch
+kicad-cli sch export netlist --format kicadxml --output hardware/kicad/outputs/task4/netlist.xml hardware/kicad/reaction_wheel_controller.kicad_sch
+kicad-cli pcb drc --schematic-parity --severity-all --exit-code-violations --format json --output hardware/kicad/outputs/task4/drc_final.json hardware/kicad/reaction_wheel_controller.kicad_pcb
+```
+
+Reports/temporary PNG/3D are ignored under outputs. Published SVG/CSV review artifacts are project-original, no vendor PDFs/models/tools copied. Publication audit checks staged files and reachable history for credentials/private keys/local PC secrets/personal information and local links.
+
+Task4 validated source SHA256:
+
+- `reaction_wheel_controller.kicad_sch`: `2f66de22c669626a202b91802ec765303255b1f45f492840096e2e9396be2121`
+- `mcu_power_swd.kicad_sch`: `c8160fba73fed5f125ad53bf448bc42822b512bc4d224271a91b790e55c956ac`
+- `can_imu.kicad_sch`: `8d5caeec8840d44874e166b6a836e7ff6a03a08785f6b29a8c6232ddc596bc64`
+- `encoder_esc.kicad_sch`: `f1016d4dbbe4229bcf954c48416b852ee4a8ed366572b9dd7d0a8552cacb3f0e`
+- `reaction_wheel_controller.kicad_pcb`: `c054036d2c4b3eab9c1d8cd77fbab7e5559ba981cc4ecd77cf8b85d1d5d8bb5e`
+- `reaction_wheel_controller.kicad_pro`: `feecf14ada0ca7ed8340619ba5ac35b09e11ee880f10a083ac2d9518b4813c61`
+- `reaction_wheel_controller.kicad_dru`: `2597194a4bca9e2f34bac71cd7f5d681ede94ab4daf9add32734efa9e5c735cf`
+- `fp-lib-table`: `8190612078a59ec8c5b2027a1b021e0b729aa9685271197d779b9357b0d15179`
