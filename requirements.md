@@ -1,0 +1,39 @@
+# Initial requirements
+
+状態: 初期版。Mustは要求、Candidateは候補、TBDは未決。数値のない項目はまだ受入判定できないため、実回路設計・実機評価前に基準を確定する。
+
+| ID | Category | Requirement / status | Verification / open criterion |
+| --- | --- | --- | --- |
+| F-01 | Functional requirements | Must: 1自由度の姿勢とホイール運動を観測し、BLDCの反作用で姿勢を制御する | 治具付き実機。許容姿勢誤差・保持時間・外乱TBD |
+| F-02 | Functional requirements | Must: IMU、振子角、ホイール角/速度を時刻付きで取得 | 静的校正、既知角度・速度、同期誤差TBD |
+| F-03 | Functional requirements | Must: 固定周期の制御と飽和監視を実装 | WCET、jitter、sample period、遅延予算TBD |
+| E-01 | Electrical requirements | Must: 電源入力、保護、電圧変換、電流予算を定義 | 入力範囲・連続/peak電流・ripple・温度TBD |
+| E-02 | Electrical requirements | Candidate: 3.3 V logicと必要に応じ5 V補助rail | 部品仕様、startup、負荷・降圧損失試験 |
+| E-03 | Electrical requirements | Must: ESC powerとlogic powerの分岐・GND・回生・逆流を検討 | ESC資料、電源吸収能力、配線レビュー |
+| E-04 | Electrical requirements | Must: ESD・逆接・過電流・外部信号levelを確認 | 保護部品/定格TBD、回路レビュー・低energy試験 |
+| M-01 | Mechanical constraints | Candidate: 振子約220 mm、wheel径約130 mm、質量約90 g | 基準寸法・材料・形状・許容差・balanceTBD |
+| M-02 | Mechanical constraints | Must: 重心、慣性、摩擦、固定方法を記録 | CAD/実測/同定。支点・wheel軸の定義 |
+| M-03 | Mechanical constraints | Must: ガード・固定治具・可動域制限を設ける | 最大rpm・保存energy・耐荷重・clearanceTBD |
+| C-01 | Communication | Must: CAN/FDCAN controllerと外付けtransceiverを検討 | classic/FD、bitrate、電圧、終端・bus-off復帰TBD |
+| C-02 | Communication | Must: UART loggingとSWDを使用可能にする | logic level、baud、connector、debug adapterTBD |
+| C-03 | Communication | TBD: USB採用 | native USBのピン競合、clock、外付けadapterとの比較 |
+| S-01 | Sensors | Must: IMU、振子角、wheel角/速度の仕様を定義 | range・分解能・帯域・遅延・校正・axis/signTBD |
+| S-02 | Sensors | Candidate: AS5600、I2C/SPI/ABZ等 | 候補ごとの公式資料と最大wheel速度を比較 |
+| S-03 | Sensors | Must: 欠測・古い値・不整合を検出 | age limit・異常threshold・fault injectionTBD |
+| MO-01 | Motor interface | Must: 初期構成は外部ESC/B-G431B-ESC1を優先 | ボードrevision、motor適合、電源・connection確認 |
+| MO-02 | Motor interface | Must: 正負トルク・回生・速度飽和を評価 | 電流/トルクcommandの可否・latency・braking試験 |
+| MO-03 | Motor interface | TBD: PWM、UARTまたはCAN command | pulse幅/rate、protocol、timeout、enable、fault signal |
+| D-01 | Debug interface | Must: SWDIO、SWCLK、NRST、VTref、GNDを設ける | debug/programming・reset・recover試験 |
+| D-02 | Debug interface | Must: BOOT、clock、ログUART、test pointを検討 | option bytes、起動mode、probe接続、pin conflict確認 |
+| SA-01 | Safety | Must: 電源投入/reset/通信切断時に意図しない始動を防ぐ | explicit arm、watchdog、timeout、故障注入 |
+| SA-02 | Safety | Must: 手動電源遮断とmotor limitを設ける | speed/current/温度limit、遮断後回生処理TBD |
+| SA-03 | Safety | Must: fault後は原因確認と明示操作で復帰 | 自動再始動を禁止。disable/coast/brake方針TBD |
+| T-01 | Testability | Must: 電源・GND・reset・bus・motor interfaceを観測可能にする | test point、logging、scopeアクセスレビュー |
+| T-02 | Testability | Must: schematic ERC、PCB DRC、段階bring-upを実施 | 全severity報告を確認。PCB作成まではDRC N/A |
+| T-03 | Testability | Must: パラメータ・firmware・配線・試験条件を追跡 | run metadataとcommit ID、公開ログの匿名化 |
+| X-01 | Future expansion | Target: PID、state feedback、LQR、swing-up、estimation、identification、sim2real | modelと実機の比較。性能基準TBD |
+| X-02 | Future expansion | Candidate: センサ/通信/モータ制御のcustom PCB統合 | 初期評価後にscopeを決定。power stage別review |
+
+## 実回路への移行条件
+
+O-01～O-04を整理し、電圧/電流/インターフェース/必要I/Oを確定する。公式資料とpin/footprintを照合し、受入基準を設定してから部品と値を回路図へ追加する。一般的なESCの速度指令が双方向トルク指令として使えるとは仮定しない。
