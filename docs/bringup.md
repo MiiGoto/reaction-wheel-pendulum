@@ -1,6 +1,6 @@
 # Bring-up plan (not executed)
 
-開始条件: 電源/部品/配線を公式資料で確認し、ERCをreview。PCB導入後はDRCと製造reviewも必要。現時点では概念図のため通電できる設計はない。
+開始条件: 電源/部品/配線を公式資料で確認し、ERCをreview。PCB導入後はDRCと製造reviewも必要。Task4時点では実回路図と未配線の暫定PCB配置がある。製造・組立・通電試験は未実施。
 
 1. ガード・治具・電源遮断手段を用意し、定格、limit、coast/brake/disable方針を確定。ホイール回転試験は最大rpm・energy確認後。
 2. モータを接続せず、外観・continuity・GND/電源short・connector polarityを確認。
@@ -37,9 +37,13 @@ Motor **unplugged** for steps1–9. Use existing SWD recovery/BOOT/reset steps; 
 4. U4 SPI1 start1MHz mode3, CS default high, read WHO_AM_I0x0F=0x6A; software reset, configure4wire/BDU/increment, INT1active-high push-pull, sensor hub/INT2DEN disabled. Measure interrupt-to-read age, ODR, sensor bias/axis sign/filter latency; finalrate TBD.
 5. Select a documented3.3V push-pull ABI module <=20mA; motor disconnected, hand-turn guarded shaft or use a calibrated3.3V signal generator. Confirm A/B quadrature/count direction/index and unplug default00; test maximumrequirededge rate/filter/16bit overflow separately. Confirm magnet/alignment/RPM before spinning.
 6. MCU internal FDCAN loopback first (not a transceiver test). Then two-node real bus with exactlytwo120ohm ends, J4 shunt only at end, ground reference and twistedH/L. Start conservative bitrate, CAN_STB low for normal; observe TP7–10, ACK/error counters/bus-off. Use FD only after HSI timing tolerance/topology qualified; apply silicon-specific errata policy.
-7. J6 to scope/dummy logic load **without ESC power or motor**. During power-up, reset, SWD halt and disconnectedMCU command, EN and PWM must stay low; verify U5 gating and series/pull resistors. Fault pin simulate open-drain low/high; unplug reads high, so cable loss needs separate health detection.
+7. J6 to scope/dummy logic load **without ESC power or motor**. During power-up/reset or an unpowered/disconnected MCU, EN and PWM must stay low; verify U5 gating and series/pull resistors. SWD halt can retain EN and timer/PWM outputs: halt is not a stop mechanism. Keep motor power independently isolated during debugging; qualify actual ESC timeout/watchdog and arming before motor tests. Fault pin simulate open-drain low/high; unplug reads high, so cable loss needs separate health detection.
 8. With EN low verify no command pulses at TP15; with an explicit bench command check PWM rate/pulse shape and U5 enable timing. Do not choose an arbitrary ESC pulse convention; no analog low-pass filter fitted.
 9. Verify selected ESC official pinout/3.3V thresholds/enable polarity/fault type/timeout; only then connect logic with motor still unplugged, review BEC backfeed/commonGND. For B-G431B-ESC1 only J3.4PWM/J3.5GND adapter initially, correct generatedMCSDK firmware required. Confirm actual disable/reset/watchdog behavior without motor. OptionalUART2 after protocol/cable verification only.
 10. Motor test requires a separate approved plan: secure fixture/guard, maximumRPM/current/torque, independent motor power isolation, regenerative energy handling, reverse-command behavior and explicit arming. Unknown motor/ESC or RPM blocks powered motor testing. Begin minimumenergy tests last; control stabilization/FOC are outside Task3.
 
 Acceptance thresholds for latency/ripple/temperature/edge loss/CANbitrate are TBD until control and external devices are selected. This plan is not evidence that any powered test passed.
+
+## Task 4 review gates before routing / assembly
+
+Confirm preliminary90x70mm/fourM3holes against mounting and screw/spacer dimensions; check all header mating height/cable orientation. Map ST IMU Figure1 native axes and pin1 to board/mechanical frame. Qualify0.15mm IMU internal pad spacing/stencil/paste and actual supplier4layer stackup. Review capacitor return routing, TVS discharge GND and rail thermal budget when routing is authorized. No physical bring-up has been performed. A173unrouted baseline DRC is not a fabrication release.

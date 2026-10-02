@@ -58,3 +58,16 @@ Historical Task1/2 selections above are superseded for this interface scope. No 
 | [ST ES0431](https://www.st.com/resource/en/errata_sheet/es0431-stm32g431xx441xx-device-errata-stmicroelectronics.pdf) | Rev9 June2024 summary, §2.14SPI / §2.15FDCAN | BSY / edge-filter / FIFO-order limitations recorded as firmware gates; siliconREV_ID/peripheral workarounds TBD |
 
 Custom RWP symbols are original simple shapes/pin tables; standard KiCad symbols are only cached inside design files under the design exception. Native library matching/ERC checks retained. Manufacturer package drawings versus installed footprint pin count/order/pitch reviewed; assembly process and physical sensor-axis mapping await PCB/mechanical review.
+
+## Task 4 official cross-check — 2026-10-03
+
+Reviewed package/pin/supply/decoupling/logic drawings against installed KiCad symbol and native PCB pads:
+
+- ST [STM32G431RB DS12589 Rev6](https://www.st.com/resource/en/datasheet/stm32g431rb.pdf), LQFP64 figure/table12 and AFtable13; [AN5093 Rev2](https://www.st.com/resource/en/application_note/an5093-getting-started-with-stm32g4-series--hardware-development-boards-stmicroelectronics.pdf) for G4 supply/reset/SWD/PCB recommendations. Official RM0440 download was unavailable in this review; retained prior documented timer/encoder reference checks, not a claim of full manual rereading.
+- Diodes [AP2112 DS39724 Rev2-2](https://www.diodes.com/datasheet/download/AP2112.pdf):SOT25 pinout, ceramic input/output >=1uF, dropout/thermal and lands.
+- TI [TCAN3413 SLLSFS8A](https://www.ti.com/lit/ds/symlink/tcan3413.pdf):SOIC8/3.3V VCC/VIO/STB/decoupling/bus limits; [SN74LVC1G126 SCES224S](https://www.ti.com/lit/ds/symlink/sn74lvc1g126.pdf):DBV5pin/OE/logic/Ioff.
+- ST [LSM6DSL DocID028475 Rev7](https://www.st.com/resource/en/datasheet/lsm6dsl.pdf):table2,7.1 unused auxiliary SPI and capacitors, section10 LGA14; Figure1 die axes need final graphical/mechanical mapping review.
+- Nexperia [PESD2CANFD24V-T](https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf):SOT23 pins/common ground/bidirectional clamp; Vishay [SS12–SS16](https://www.vishay.com/docs/88746/ss12.pdf):SS14 SMA/polarity/current limits.
+- Kingbright [APT2012SECK](https://www.kingbrightusa.com/images/catalog/SPEC/APT2012SECK.pdf):0805 geometry/polarity/LED ratings; Samtec [TSW family drawing](https://suddendocs.samtec.com/catalog_english/tsw_th.pdf):2.54pitch/0.64post family compatibility only; ordering/mating options TBD.
+
+No external encoder/ESC was selected, so no inferred module pinout/absolute ratings or guaranteed maximum RPM. Generic passive MPNs/DC bias and final connector ordering remain procurement review items. No manufacturer PDF, model library or tool executable is published.

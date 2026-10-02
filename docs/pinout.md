@@ -73,7 +73,7 @@ Physical pins: **35 used, 12 reserved, 17 free**. All64 accounted for. PA2/PA3, 
 
 ## SWD connector J2
 
-Custom 1x6 2.54 mm vertical header, **not ARM 10-pin compatible**. Pin 1 square pad; number sequentially down header. PCB silk is planned, not yet drawn.
+Custom 1x6 2.54 mm vertical header, **not ARM 10-pin compatible**. Pin 1 square pad; number sequentially down header. Task4 provisional ordered pin legends are drawn; custom adapter wiring still requires checking.
 
 | J2 pin | Signal | MCU / rail | Use |
 | --- | --- | --- | --- |
@@ -119,3 +119,11 @@ Directions are relative to this controller. All headers are prototype 2.54mm ver
 TP7 CANH, TP8 CANL, TP9 FDCAN_TX, TP10 FDCAN_RX, TP11 IMU_CS_N, TP12 IMU_INT1, TP13 ENC_A, TP14 ENC_B, TP15 ESC_PWM, TP16 ESC_EN_OUT. Probe SPI SCK/MOSI/MISO at U4/R7–R9 and UART/fault/index at headers; no redundant pads added.
 
 B-G431B-ESC1 conditional adapter: J6.1 -> board J3.4 PWM and J6.4 -> board J3.5 GND (UM2516). J6.2/.3 do **not** map to documented generic enable/fault pins on that board. Do not join BEC +5V to controller rails. Board UART adapter/cable numbering is TBD pending actual revision and schematic check; no speculative assignment.
+
+## Task 4 review — 2026-10-03
+
+No electrical pin reassignment or connector signal-order change. Native board pads match final schematic XML nets. MCU remains35used/12reserved/17free; reserved/free pins are not electrically connected to external hardware and retain intentional NC markers. Their firmware analog/pull configuration is future work. PA15/PB7 I2C reservation remains; PB6 is not I2C SCL.
+
+J1 left edge; J2/SWD, J5/ABI and J7/UART upper edge; J3/CAN,J4/termination,J6/ESC right edge. All generic2.54mm headers, square pad1, printed ordered legends. Unkeyed headers require cable continuity/polarity check; J2 is a custom6pin layout, not ARM10pin. ESC signals3.3V only; J6 has no supply pin. J5 has3.3V module supply; J7 has no adapter supply. Pin numbers/voltage/direction remain the tables above.
+
+TP1–16 are bare1.5mm copper pads, excluded from BOM/position file, not purchased pins. Existing probes coverGND/VIN/+3V3/BOOT0/NRST, CAN TX/RX/H/L, IMU CS/IRQ, ABI A/B and PWM/EN. SWD and UART signals are accessible at headers; FAULT accessible J6. H1–H4 are mechanical3.2mm NPTH only. Scope ground return at header GND or TP1; long probe ground leads distort measurements.

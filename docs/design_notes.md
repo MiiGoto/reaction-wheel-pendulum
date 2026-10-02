@@ -142,3 +142,49 @@ Footprints: SOIC8 3.9x4.9mm1.27mm pitch: pin1 upper-left,4 lower-left,5 lower-ri
 Intentional **one** pin_to_pin WARNING: U4.2 SDX (standard symbol bidirectional) tied to GND flagged as connected to power-output #FLG02. ST §7.1 explicitly requires unused SDX/SCX to GND or VDDIO; GND is selected. Do not leave SDX floating merely to clear ERC. No NoERC marker, excluded check or changed rule severity used; power PWR_FLAG is retained for the real supply. U4.9/10/11 NCs reflect disabled output/physicallyNC functions; unused MCU pins alone have NC. Final count in validation.md.
 
 Firmware gates: ES0431 Rev9 SPI §2.14 BSY behavior on disable/slave (use master and bounded completion); FDCAN §2.15 edge filtering desynchronization (disable EFBI) and mixed dedicated/FIFO ordering (choose documented workaround), timer/UART restrictions against purchased REV_ID. No workaround implemented. HSI16 tolerance/FD bitrate, sampling latency, input edge-rate, power temperature and motor disable remain unmeasured. No PCB/DRC/manufacturing approval claimed.
+
+## Task 4 review and placement — 2026-10-03
+
+Task2/3 are not merged to main. `feature/pcb-placement` starts at Task3 cc09087 and retains Task2 a77dee8. Electrical pin assignments and component selections are preserved. Placement only; no routing, pours, manufacturing release or powered tests.
+
+### Schematic / pin / safety review
+
+| Block | Cross-check and result |
+| --- | --- |
+| POWER | J1 regulated5V4.8–5.25V, SS14 reverse-polarity diode, AP2112 EN/VIN/GND/NC/VOUT matched. C1/C2 ceramic effective capacitance must meet datasheet after DC bias. No motor power/BEC connection. 180mA load/25C bench thermal budget remains unmeasured. |
+| MCU | STM32G431RBT6 LQFP64: all64 symbol pins compared to DS12589 package table and native netlist. VDD16/32/48/64, VSS15/31/47/63, VBAT1, VDDA29/VSSA27/VREF28, NRST7 and PB8 BOOT0 preserved. HSI16 selected; VREFBUF disabled, VREF+ tied analog supply, analog decoupling retained. |
+| AF / unused | FDCAN PA11/12 AF9; SPI1 PA4–7 AF5; TIM3 PB4/5 AF2 encoder; TIM1 PA8 AF6 PWM; USART1 PA9/10 AF7; USART2 PA2/3 AF7; PA13/14 SWD, PB3 SWO. No conflicts or connected-pin moves. PA15/PB7 AF4 future I2C remains reserved. PB4 dead-battery behavior requires PWR_CR3.UCPD1_DBDIS before encoder use. 35used/12reserved/17free, NC on deliberately unconnected schematic pins, firmware must configure unused pins appropriately. |
+| DEBUG / UART | J2 custom6pin SWD including target reference/NRST; J7 TX/RX/GND, 3.3V adapter only. Not ARM10pin/RS232; reference must not power target. Pin1/silk legends checked. |
+| CAN | TCAN3413 VCC/VIO3.3V, separate100nF caps, STB10k high default standby, TX pull-up. TVS1CANH/2CANL/3GND, bidirectional, >=24V stand-off vs58V bus fault rating; clamp performance/ESD remains real-test item. 120ohm1% >=0.25W via removable shunt, OFF unless at bus end. No common-mode choke pending EMC evidence. |
+| IMU | LSM6DSL full14pin map,3.3V VDD/VDDIO,100nF per supply, SPI4wire CS high/SCK high/pulls, INT1 active-high planned. SDX/SCX grounded per ST7.1; INT2/DEN disabled, physical NC pads retained. Native package pin1 verified; die-axis mapping to mechanics remains TBD. |
+| ENCODER | J5 external3.3V push-pull ABI module, timer A/B and index, series resistors/pull-downs and local supply decoupling. Actual module/RPM/PPR/magnet/latency unknown; no encoder IC or inferred5V compatibility. |
+| ESC | J6 user-approved3.3V PWM/active-highEN/active-low open-drainFAULT contract, optional USART2. U5 pin1OE/pin2A/pin3GND/pin4Y/pin5VCC checked. EN/PWM pull-downs and OE gate suppress output during reset/unpowered MCU. FAULT pull-up means unplug reads inactive; cannot detect broken wire independently. Actual ESC is not yet qualified. |
+
+Finding: previous bring-up text incorrectly required ESC EN/PWM low during **SWD halt**. A halted core can retain asserted GPIO/timer outputs; reset defaults do not guarantee halt/frozen-firmware safety. Corrected the test plan. Independent motor power isolation and qualified ESC timeout/watchdog/arming are mandatory before powered motor tests; no new safety circuit or firmware claimed here.
+
+Schematic changes: added four mechanical hole symbols so PCB/schematic remain equivalent; excluded16 bare test pads from BOM and position files consistently. No new electrical circuit or pin reassignment. ERC:0errors/1warning. Category C (standard bidirectional SDX vs power-output GND flag), intentionally retained per ST; no NoERC/excluded checks. No outstanding category A or D ERC message. External-device and safety judgments remain separate review gates.
+
+### Footprint / BOM review
+
+Installed KiCad10 standard pad numbering, pitch/body and pin1 were compared to manufacturer drawings; embedded board footprints match their libraries. Full actual pad sizes, positions, rotations and counts: [footprint_review.csv](footprint_review.csv).
+
+| Ref | Native footprint / manufacturer package | Verification |
+| --- | --- | --- |
+| U1 | LQFP-64_10x10mm_P0.5mm |64pads,0.5pitch,10x10body, noEP, counterclockwise numbering/top-view pin1. Pads1.55x0.30mm. |
+| U2 / U5 | SOT-23-5 / AP2112 SOT25 and TI DBV |5pads,0.95pitch,~2.9x1.6body, noEP. Pin numbers matched individually; pads1.325x0.60mm. Prototype toe extension differs from the manufacturer's example land geometry; assembly process must qualify lands/paste. |
+| U3 | SOIC-8_3.9x4.9mm_P1.27mm / TI D |8pads,1.27pitch,3.9x4.9body, noEP. Pads1.95x0.60mm. |
+| U4 | LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y |14pads,0.5pitch,3x2.5body, no centralEP. Border pads0.625x0.35mm. Native0.15mm adjacent-pad gap requires explicit local clearance rule, not global relaxed clearance. Reflow/stencil inspection needed. |
+| D1 | D_SMA / Vishay DO-214AC |2pads, cathode1/anode2; stripe/polarity checked; pads2.5x1.8mm. |
+| D2 | LED_0805_2012Metric / Kingbright APT2012SECK |2x1.25body, cathode1/anode2, polarity marker; pads0.975x1.4mm. Existing low-current R2 calculation retained. |
+| D3 | SOT-23 / Nexperia SOT23 |3pads,1/2same side,3opposite,1.9mm outer-lead pitch; noEP, pads1.475x0.60mm. Bidirectional TVS has no series-diode polarity. |
+| J1–J7 | 2.54mm vertical single-row THT headers | Samtec TSW family geometry:0.64square posts,2.54pitch. KiCad1.0drill/1.7pad. Specific plating/length/mating housing not selected; no keying. |
+| R / C |0805metric2012, R3termination1206 | Hand solder/rework priority; no0402. Exact passive MPNs, DC-bias capacitance and power/voltage ratings before procurement. |
+| TP1–16 / H1–4 |1.5mm bare-pad probes /3.2mm M3 NPTH | No bought testpin assumed. Holes have no electrical net;4mm radius head/spacer reserve. Excluded from electrical BOM. |
+
+86 footprints:5IC+20capacitors+31resistors+3diodes+7headers+16probe pads+4holes.66 purchasable electrical component positions, no accidental DNI; screws/spacers separate TBD. No redundant protection or obviously inconsistent values/package found. Official documents remain available; actual stock/lifecycle/orderable passive/header MPNs are not established by this review. LQFP/SOIC/0805 support rework; LGA IMU requires competent reflow, not a promised hand-iron assembly.
+
+### PCB decisions / remaining gates
+
+See [pcb_placement.md](pcb_placement.md): preliminary90x70mm,4layers,4M3holes, all top, no copper tracks/vias/zones. Native DRC after placement repairs:0physical violations,0schematic parity issues,173unrouted items. Initial overlaps/pad/silk collisions were corrected by placement/legend changes. Fine-pitch U4 internal0.15mm clearance is geometry-driven and still requires manufacturer acceptance.
+
+Routing must establish short local capacitor-return loops, uninterrupted GND, CAN return/TVS discharge path, and actual power thermal margin. IMU native axes/rigid mount relative to pendulum, connector housings/cable strain/clearance, actual ESC/encoder behavior, HSI CAN-FD timing, supplier stackup/clearance and sensor assembly/paste are human gates before Task5. Missing3D models do not validate mating height;2D pads/courtyards were reviewed. No Task5 begun.
