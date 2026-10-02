@@ -8,9 +8,9 @@ BLDCでホイールを加減速し、その反作用で振子の姿勢を制御�
 
 ## Hardware
 
-制御基板MCUはSTM32G431RBT6（LQFP64、128 KB Flash / 32 KB RAM）を採用。NucleoとB-G431B-ESC1を評価候補とし、初期試作では外部ESCを優先します。Task 2では安定化5 V入力、AP2112K-3.3 LDO、MCU基本回路とSWDを実装。センサ、モータ電源、CANトランシーバはTBDです。AS5600は候補に留まります。
+制御基板MCUはSTM32G431RBT6（LQFP64、128 KB Flash / 32 KB RAM）を採用。NucleoとB-G431B-ESC1を評価候補とし、初期試作では外部ESCを優先します。Task 2では安定化5 V入力、AP2112K-3.3 LDO、MCU基本回路とSWDを実装。Task 3ではTCAN3413DR CAN FD、LSM6DSLTR SPI、外付け3.3 V ABI Encoder、外部ESC PWM/ENABLE/FAULT、UART接続を追加。Encoder/ESCの型番、最高RPM、モータ電源は未決です。
 
-KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開きます。rootは概念ブロックの概要、階層sheet `mcu_power_swd.kicad_sch` はMCU・電源・SWDの実回路です。PCBはありません。ERCの合格は実回路の正しさを意味しません。
+KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開きます。rootは概念ブロックの概要、階層sheetはMCU/電源/SWD、CAN/IMU、Encoder/ESC、UARTに分割した実回路です。PCBはありません。ERCの合格は実回路の正しさを意味しません。
 
 ## Firmware
 
@@ -23,7 +23,7 @@ KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開き�
 ## Repository structure
 
 ```text
-hardware/kicad/   KiCad project, concept overview and MCU/power/SWD schematic
+hardware/kicad/   KiCad project, concept overview, MCU/power/SWD and interface schematics
 firmware/stm32/   Firmware scope and future STM32 project
 simulation/      Model and parameter requirements
 mechanical/      Geometry, inertia and fixture requirements
@@ -35,7 +35,7 @@ test/            Verification plan
 
 ## Current status
 
-Task 2: MCU・電源・SWD回路を作成し、全severity ERCはError 0 / Warning 0。将来I/Oは予約のみ。CAN・センサ・ESC回路、PCB、実機試験、製造データは未実施です。検証の範囲と結果は [docs/validation.md](docs/validation.md) を参照してください。
+Task 3: MCU・電源・SWDを保持し通信・センサ・外部ESC接続を追加。全severity ERCはError 0 / Warning 1（公式指定SDX接地の意図的警告、抑制なし）。回路図と接続表を検証済み。Encoder/ESC実機適合、PCB、firmware、実機試験、製造データは未実施です。検証の範囲と結果は [docs/validation.md](docs/validation.md) を参照してください。
 
 ## Roadmap
 

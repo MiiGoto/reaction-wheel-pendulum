@@ -35,3 +35,26 @@ Silicon-specific ES0431 errata review against the purchased revision remains a p
 ### ES0431 circuit-scope cross-check
 
 [ST ES0431 Rev9 (June2024)](https://www.st.com/resource/en/errata_sheet/es0431-stm32g431xx441xx-device-errata-stmicroelectronics.pdf): summary and System §2.2.1–2.2.10 reviewed. SWD avoids the full-JTAG/PB4 limitation. HSI-only design has no HSE-bypass/LSE circuit. Backup-domain reset after partial supply decay is a real concern even with VBAT tied VDD; bring-up must confirm VDD/VBAT <100 mV for >200 ms before repowering, or implement the documented firmware backup-domain reset on power-on. No firmware workaround is implemented in Task2. Low-power debug, SRAM initialization, flash programming interruption and silicon-revision-specific peripheral limitations remain firmware/bring-up checks. Identify REV_ID before peripheral enable.
+
+## Task 3 primary-source verification (2026-10-02)
+
+Historical Task1/2 selections above are superseded for this interface scope. No vendor PDF/tool/SDK is committed.
+
+| Primary source | Revision / reviewed sections | Applied result / limits |
+| --- | --- | --- |
+| [DS12589 G431 family](https://www.st.com/resource/en/datasheet/stm32g431r8.pdf) | Rev6 Tables12/13, samex6/x8/xB family pinouts | physical64pin andSPI1/FDCAN1/TIM1/TIM3/USART1/2/I2C1 AF rechecked; corrected PB6 reservation; no connected reassignment |
+| [RM0440](https://www.st.com/resource/en/reference_manual/rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf) | Rev9 indexed encoder30.4.18, GPIO/UCPD requirements | TI1/TI2 quadrature, PB4 special startup noted; full peripheral/register/DMA review not claimed |
+| [TI TCAN3413](https://www.ti.com/lit/ds/symlink/tcan3413.pdf) | SLLSFS8A Nov2023, §4pinout, §5limits/current, §7modes, §8termination/caps, Dpackage | exact8pin, VCC/VIO3.3V, standby high, ±58V, ±30V, FD claims and100nF each reviewed |
+| [TI TCAN33x](https://www.ti.com/lit/ds/symlink/tcan332.pdf) | RevF May2025 device comparisons/limits | TCAN334G candidate, not selected; limited ±14V fault margin |
+| [Nexperia PESD2CANFD24V-T](https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf) | 2020-08-11, pin/characteristics/SOT23 sections | bidirectional1K1/2K2/3CC,24V,42V@1A,6pF; clamp condition not arbitrary transient guarantee |
+| [ST LSM6DSL](https://www.st.com/resource/en/datasheet/lsm6dsl.pdf) | DocID028475 Rev7, Tables2–7, §7.1mode1, §9.12ID, §10package | all14pins, SPI10MHz, voltages/caps/unused auxiliary bus/NC, ID0x6A, LGA14 reviewed |
+| [ST LSM6DSL product](https://www.st.com/en/mems-and-sensors/lsm6dsl.html) | active-product/order status | LSM6DSLTR exists; supplierstock/pricing not asserted |
+| [ST LSM6DSO](https://www.st.com/resource/en/datasheet/lsm6dso.pdf) | DS12140 Rev3, overview/mechanical characteristics | alternate IMU, not designed in; lower gyro noise/larger FIFO, same reflow class |
+| [ams AS5600](https://look.ams-osram.com/m/7059eac7531a86fd/original/AS5600-DS000365.pdf) | v1-06, sampling/slow-filter indexed table |12bit serial/PWM candidate, latency comparison, no IC circuit placed |
+| [ams position-sensor selector](https://look.ams-osram.com/m/8afbfbd9bb094a0f/original/Position_Sensors_FS001005_2-00.pdf) | FS001005_2-00 official family table | AS5047P14bitSPI/12bitABI/28000RPM/typ15mA candidate, external module TBD |
+| [AS5047P full datasheet entry](https://look.ams-osram.com/m/d05ee39221f9857/original/AS5047P-DS000324.pdf) | indexed magnet field text only; full URL returned404 | incomplete: do not fix IC/module, magnet gap, supply strapping or logic until actual module official資料確認 |
+| [TI SN74LVC1G126](https://www.ti.com/lit/ds/symlink/sn74lvc1g126.pdf) | SCES224S Aug2026, pin/truth/limits/Ioff/DBV sections | active-high OE,5pinSOT23,3.3V,Ioff,decoupling; logic buffer not motor gate driver |
+| [ST UM2516](https://www.st.com/resource/en/user_manual/dm00564746-electronic-speed-controller-discovery-kit-for-drones-with-stm32g431cb-stmicroelectronics.pdf) | Rev4, hardware UART/CAN and §5PWM pp20–21 | J3.4PWM/J3.5GND3.3/5V,490Hzexample,MCSDK prerequisite; no assumed genericEN/FAULT or bidirectional torque |
+| [ST ES0431](https://www.st.com/resource/en/errata_sheet/es0431-stm32g431xx441xx-device-errata-stmicroelectronics.pdf) | Rev9 June2024 summary, §2.14SPI / §2.15FDCAN | BSY / edge-filter / FIFO-order limitations recorded as firmware gates; siliconREV_ID/peripheral workarounds TBD |
+
+Custom RWP symbols are original simple shapes/pin tables; standard KiCad symbols are only cached inside design files under the design exception. Native library matching/ERC checks retained. Manufacturer package drawings versus installed footprint pin count/order/pitch reviewed; assembly process and physical sensor-axis mapping await PCB/mechanical review.

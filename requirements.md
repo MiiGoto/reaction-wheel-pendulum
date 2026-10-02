@@ -52,3 +52,20 @@ O-01～O-04を整理し、電圧/電流/インターフェース/必要I/Oを確
 | T-02-T2 | 全severity ERC 0/0、全MCU physical pinとLDO pinoutを照合 | 結果はdocs/validation.md。PCBなし、DRC対象外 |
 
 MCU基本回路のみの移行条件はTask 2の公式資料・pinout・限定電源条件で満たす。O-01～O-04の全システム移行条件はCAN/センサ/ESC回路・motor通電前に引き続き適用する。
+
+## Task 3 interface baseline / superseding power limits
+
+Task2 table is historical for MCU-only loading. Current E-02 budget180mA at3.3V, room-temperature bench, E-04 supply current limit220mA. Input4.8–5.25V and all Task2 circuits remain. Controller assumptions explicitly accepted by user; unidentified encoder/ESC compatibility is not confirmed.
+
+| ID | Implemented requirement | Acceptance / open constraint |
+| --- | --- | --- |
+| C-01-T3 | TCAN3413DR FD-capable3.3V,120ohm shunt-selectable, CAN TVS,3wire connector | both physical ends terminated; bitrate/HSI/cable/common-ground test TBD |
+| C-02-T3 | USART1 TX/RX/GND debug3.3V TTL; optionalUSART2 ESC | adapter/baud/protocol TBD; no5V/RS232 or adapter backfeed |
+| S-01-T3 | LSM6DSLTR four-wire SPI1,INT1,local decoupling | WHO_AM_I0x6A; ODR/filter age/calibration/frame/axes acceptance TBD |
+| S-02-T3 | external3.3V push-pull ABI wheel port <=20mA,TIM3 A/B,PC3 index | module not fixed; maximumRPM/PPR/bandwidth/alignment must be verified |
+| MO-03-T3 | gated3.3V PWM,active-high enable,active-low open-drain fault,optionalUART | external device must satisfy contract; reverse torque/timeout/regeneration remain TBD |
+| SA-01-T3 | reset outputs EN/PWM low, no motor power on controller | physical ESC behavior, fault-wire loss and independent isolation not validated |
+| T-01-T3 | CAN/IRQ/ABI/PWM/EN probe pads; remaining buses accessible at parts/headers | scope frequency/ground technique and physical access review before PCB |
+| T-02-T3 | native ERC + full new/preserved netlist cross-check | one intentional SDX/GND warning documented; no exclusions; noPCB/DRC |
+
+O-01/O-02/O-04 motor/sensor system requirements remain gates before powered operation. Pendulum angle sensor remains reserved and unimplemented; IMU alone is not assumed to replace it.

@@ -77,3 +77,27 @@ flowchart TB
 ## Task 2 implementation boundary
 
 Concept above remains the whole-system target. Only the control-board branch is implemented: external regulated5 V → SS14 → AP2112K-3.3 → STM32G431RBT6, decoupling, NRST/BOOT, SWD/SWO, power LED and probe points. Sensors/CAN/UART/encoder/ESC/USB have no interface circuits yet. Their MCU pins are provisional reservations in pinout.md; motor supply/battery/regen remains TBD.
+
+## Task 3 implemented interface architecture
+
+```mermaid
+flowchart LR
+ P[Regulated bench 5V] --> L[AP2112K 3.3V / 180mA budget]
+ L --> M[STM32G431RBT6 / power and SWD retained]
+ L --> C[TCAN3413DR / VCC and VIO 3.3V]
+ L --> I[LSM6DSLTR / VDD and VDDIO 3.3V]
+ M <-->|FDCAN1| C
+ C <--> T[TVS + selectable120ohm / J3 CAN bus]
+ M <-->|SPI1 + INT1| I
+ E[External 3.3V push-pull ABI module / J5] -->|TIM3 A/B + PC3 index| M
+ M -->|TIM1 PWM + GPIO EN| G[Logic buffer / default low]
+ G --> X[External ESC / J6 / type TBD]
+ X -->|Open-drain FAULT_N| M
+ M <-->|Optional USART2| X
+ M <-->|USART1 / J7 3.3V TTL| A[USB-UART adapter]
+ A <--> PC[PC logging]
+ MP[Separate motor power / voltage TBD] --> X
+ X --> B[BLDC] --> W[Reaction wheel]
+```
+
+Controller includes no BLDC power bridge. PC adapter and external motor/encoder hardware are not implemented in this repository. Pendulum angle sensing remains reserved TIM2; IMU frame/control model TBD. CAN GND, ESC GND and encoder GND are logic references, not high-current motor paths. B-G431B-ESC1 is an evaluation option with adapter/firmware constraints, not a guaranteed genericJ6-compatible ESC.

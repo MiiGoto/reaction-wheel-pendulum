@@ -26,3 +26,20 @@
 These are planned tests; no assembled board, firmware, option-byte programming or hardware measurements were performed in Task 2.
 
 Task2 errata addition: ES0431 §2.2.6 requires verifying VDD/VBAT decay below100 mV for >200 ms between bench power cycles, or applying its software backup-domain reset workaround. Because VBAT is tied +3V3, measure TP4. Do not assume a brief supply interruption guarantees a valid backup-domain reset.
+
+## Task 3 staged interface bring-up (future hardware; not executed)
+
+Motor **unplugged** for steps1–9. Use existing SWD recovery/BOOT/reset steps; initial220mA bench limit at5V, reduce limit for power-only diagnosis. Record board revision, siliconREV_ID, firmwarecommit, instruments and observed values.
+
+1. J1 polarity/input4.8–5.25V, protected input,3.3V/VDDA/VREF, idle/current/ripple and LDO temperature; verify180mA budget under expected loads. Stop on overheating/rail droop.
+2. SWD identification/reset/flash and normal boot; inspect reset states. Explicitly disable PB4 UCPD dead-battery before ABI input sampling, preserve SWD and BOOT.
+3. J7 USB-UART with3.3V I/O only, crossoverTX/RX, commonGND; no adapter power pin. Verify USART1 output/readback, chosenbaud/error rate and reset idle.
+4. U4 SPI1 start1MHz mode3, CS default high, read WHO_AM_I0x0F=0x6A; software reset, configure4wire/BDU/increment, INT1active-high push-pull, sensor hub/INT2DEN disabled. Measure interrupt-to-read age, ODR, sensor bias/axis sign/filter latency; finalrate TBD.
+5. Select a documented3.3V push-pull ABI module <=20mA; motor disconnected, hand-turn guarded shaft or use a calibrated3.3V signal generator. Confirm A/B quadrature/count direction/index and unplug default00; test maximumrequirededge rate/filter/16bit overflow separately. Confirm magnet/alignment/RPM before spinning.
+6. MCU internal FDCAN loopback first (not a transceiver test). Then two-node real bus with exactlytwo120ohm ends, J4 shunt only at end, ground reference and twistedH/L. Start conservative bitrate, CAN_STB low for normal; observe TP7–10, ACK/error counters/bus-off. Use FD only after HSI timing tolerance/topology qualified; apply silicon-specific errata policy.
+7. J6 to scope/dummy logic load **without ESC power or motor**. During power-up, reset, SWD halt and disconnectedMCU command, EN and PWM must stay low; verify U5 gating and series/pull resistors. Fault pin simulate open-drain low/high; unplug reads high, so cable loss needs separate health detection.
+8. With EN low verify no command pulses at TP15; with an explicit bench command check PWM rate/pulse shape and U5 enable timing. Do not choose an arbitrary ESC pulse convention; no analog low-pass filter fitted.
+9. Verify selected ESC official pinout/3.3V thresholds/enable polarity/fault type/timeout; only then connect logic with motor still unplugged, review BEC backfeed/commonGND. For B-G431B-ESC1 only J3.4PWM/J3.5GND adapter initially, correct generatedMCSDK firmware required. Confirm actual disable/reset/watchdog behavior without motor. OptionalUART2 after protocol/cable verification only.
+10. Motor test requires a separate approved plan: secure fixture/guard, maximumRPM/current/torque, independent motor power isolation, regenerative energy handling, reverse-command behavior and explicit arming. Unknown motor/ESC or RPM blocks powered motor testing. Begin minimumenergy tests last; control stabilization/FOC are outside Task3.
+
+Acceptance thresholds for latency/ripple/temperature/edge loss/CANbitrate are TBD until control and external devices are selected. This plan is not evidence that any powered test passed.

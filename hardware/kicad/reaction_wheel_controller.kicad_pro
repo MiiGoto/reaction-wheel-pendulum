@@ -40,9 +40,21 @@
     [
       "87e1ebbe-146b-4e6f-b02d-98c3ee8c4d35",
       "MCU POWER SWD"
+    ],
+    [
+      "abc62b74-3a28-4af7-9f37-2e1e0209501e",
+      "CAN IMU"
+    ],
+    [
+      "5febb7f7-899b-4eaf-9fee-36dcc2e6f480",
+      "ENCODER ESC"
+    ],
+    [
+      "92068215-fd75-4ba9-a133-6484a2102142",
+      "UART"
     ]
   ],
   "text_variables": {
-    "DESIGN_STATUS": "MCU_POWER_SWD_SCHEMATIC"
+    "DESIGN_STATUS": "TASK3_INTERFACES_SCHEMATIC"
   }
 }

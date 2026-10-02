@@ -67,3 +67,42 @@ Validated primary-file SHA256:
 - `reaction_wheel_controller.kicad_sch`: `dd4f0c6b13738b5a284c19c06aec189cd0c93755a733b1e2642264909a611458`
 - `mcu_power_swd.kicad_sch`: `d5324fdd7098aac2c133b82a741a608af91464afc869caeb0ca1b45fdcfd42a6`
 - `reaction_wheel_controller.kicad_pro`: `5ca29a6e5faf34205469db95e0d0c058c8554f3bf0c78b19a8ad6dc867b3045b`
+
+## Task 3 final validation — 2026-10-02
+
+Base `a77dee8` (Task2 not merged into main), branch `feature/interfaces-sensors`. KiCad10.0.6 native ERC with **all severity**, no exclusions/ignored checks: **Error0 / Warning1**, CLI exit5 because the intentional warning remains visible. It is not an all-green exit0 result. SDX is grounded exactly as ST LSM6DSL §7.1 requires for an unused auxiliary bus; explanation in design_notes.md. NoPCB/DRC or firmware/physical test.
+
+```text
+Sheet /                  no messages
+Sheet /MCU POWER SWD/     no messages
+Sheet /CAN IMU/
+[pin_to_pin] warning: U4.2 SDX (Bidirectional) -> GND #FLG02 (Power output)
+Sheet /ENCODER ESC/       no messages
+Sheet /UART/             no messages
+ERC messages:1 Errors0 Warnings1
+Ignored checks:None
+```
+
+Reproduce after creating `hardware/kicad/outputs/task3/`:
+
+```powershell
+kicad-cli sch erc --severity-all --exit-code-violations --output hardware/kicad/outputs/task3/erc.rpt hardware/kicad/reaction_wheel_controller.kicad_sch
+kicad-cli sch export netlist --format kicadxml --output hardware/kicad/outputs/task3/netlist.xml hardware/kicad/reaction_wheel_controller.kicad_sch
+kicad-cli sch export svg --output hardware/kicad/outputs/task3/ hardware/kicad/reaction_wheel_controller.kicad_sch
+```
+
+Native XML independently checked all new connected component pins and all64 U1 pins:35used,12reserved,17free. Preserved U2 power/EN, all13 prior capacitors, SWD/reset/BOOT and rail nets; linked +3V3/GND across sheets. Verified U3 all8 official pins, TVS1H/2L/3GND,120ohm+J4 series termination, U4 full14-pin map (6/7 stacked GND,9/10/11NC), SPI connections, TIM3 ABI+PC3 index, U5 OE/A/Y/VCC/GND, default pulls, J3–J7 signal order, series resistors and UART cross-sheet continuity. MCU AF plan rechecked against DS12589; PB6 false reservation corrected to PA15 without moving connected pins. Logical review covered reset defaults, open fault-wire limitations, logic references and external-device voltage contracts. No 5V-tolerance shortcut, unnecessary NoERC or disconnected-but-used signal.
+
+Footprint pad counts/numbers/order/pitch: SOIC8 (1.27mm), SOT23(3), SOT23-5(5), LGA14(0.5mm), no exposed/central extra pad. Original custom symbols matched the project-local library in native ERC. Standard cached symbol pin names/numbers compared to manufacturer tables. Native SVGs rendered and visually reviewed for all5 pages; power-label rotation, component reference clearance and A3 overview hierarchy corrected. PCB orientation/axes, solder/paste and real connector keying remain human review gates.
+
+Initial ERC had0errors/3warnings:2 local/global power label naming warnings corrected by making common rail labels consistently global. One intentional SDX warning remains; no repeated attempts to hide it. Report/export images/netlist stay ignored under outputs. Publication checks examine staged files/history for credentials, personal/non-public data, binaries/third-party content and broken document links; vendor files/tool binaries excluded.
+
+Validated source SHA256:
+- `reaction_wheel_controller.kicad_sch`: `cf63191d80b73b6f0aca1115e3e4a188e9273959d80975163d2542797726bbfd`
+- `mcu_power_swd.kicad_sch`: `95121839df55a0a4d6b6d534f677bf558cc88d5a4b73fe96eea38d87f9774df6`
+- `can_imu.kicad_sch`: `9382cc5126a209855c3391e811d487ae0704b3f184b65925abc2543e7b504114`
+- `encoder_esc.kicad_sch`: `9e375abe3bf05172b123201e2c05a97c43f4ba6993e31e65eb6e3f6369accdb3`
+- `uart_interfaces.kicad_sch`: `49be91342c4a911e477873a35d964da86ceb9ff81111ee2e1bfb34d5941e9b98`
+- `rwp_interfaces.kicad_sym`: `ee484b067c763b17b49c608470ba0d68151c124793324e265a915f07d077c9ea`
+- `sym-lib-table`: `9badf35df2adc37dd17b40410c4c925b6be1224a0d817eff3d2b856d543362ee`
+- `reaction_wheel_controller.kicad_pro`: `30270bb33d13d7de6a1b42568ec290d565c1b0eaa5489de47c3f03d0a6ed6e78`
