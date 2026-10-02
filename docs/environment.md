@@ -7,7 +7,7 @@
 | OS | Windows NT 10.0.26200.0、64-bit環境 | ローカルPowerShellで調査 |
 | Git | 2.44.0.windows.1、Program Files/Git/cmd | 使用可能 |
 | GitHub CLI | 当初PATH/標準配置に見つからず。公式portable版2.102.0を用意 | GitHub release checksumとSHA256一致。repository外のlocal toolsに保管 |
-| gh authentication | 初期調査では未ログイン | ログイン後の最終状態はpublication記録参照。tokenは保存/表示しない |
+| gh authentication | 初期調査では未ログイン。その後MiiGotoでlogin成功、HTTPS/keyring | ユーザーが対話認証を完了。raw tokenは表示/公開しない。`publication.md`参照 |
 | KiCad GUI | 10.0.6 (file metadata)、9.0系もinstalled | 10.0系を今回のprojectに使用 |
 | kicad-cli | 10.0.6、9.0.4 | PATH未登録。絶対パスで実行し既存PATHを変更しない |
 | KiCad installation | `C:/Program Files/KiCad/10.0/`、`C:/Program Files/KiCad/9.0/` | CLIは各 `bin/kicad-cli.exe` |
