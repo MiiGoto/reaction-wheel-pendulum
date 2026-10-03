@@ -1,6 +1,6 @@
 # Project context
 
-更新日: 2026-10-03 (Asia/Tokyo)。状態: Task 5電源/GND配線checkpoint。信号配線未完了（DRC未配線Error73）。
+更新日: 2026-10-03 (Asia/Tokyo)。状態: Task 5 CAN/IMU配線途中checkpoint。信号配線未完了（DRC Error47: 物理2＋未配線45）。
 
 ## 確定事項
 
@@ -69,3 +69,7 @@ Confirmed: user approved90x70mm/holes/connectors, authorized Task4 net class/che
 Assumptions: provisional4layer supplier stackup/1.6mm thickness, existing bench budget180mA, external3.3VABI/ESC contracts. U4 physicalrotation0 retained; native sensor axes not guessed.
 
 TBD/blocker: official IMU Fig1/page18 readable pixels not obtained after bounded attempts; final axes/silk unverified. All signal routing/fullreturnpath/CAN discharge/finalDRC/silkscreen review still outstanding. Task5 not complete, no fabrication outputs/orders/firmware/powered tests; do not enter Task6.
+
+## Task 5 resumed draft status
+
+Official LSM6DSL PDF graphical source verified. CAN connected; IMU routed draft still has2MOSI/GND physical errors. Current DRC47Errors/0Warnings,45unconnected items on26nets,0parity; ERC0Errors/1intentionalWarning.318tracks/108vias,90x70mm/4layers, existing placements preserved. Stop after3IMU checks per user limit. Task5 incomplete; see docs/task5_routing_checkpoint.md. Encoder/SWD/UART/ESC routing, full return-path/silk review remain outstanding. No manufacture or powered tests.

@@ -35,9 +35,9 @@ test/            Verification plan
 
 ## Current status
 
-Task 5は途中です。承認済み配置に電源・デカップリング・GND接続と内層planeを追加。DRC全体はError73／Warning0（37signal netの未配線73件）、物理違反0／回路図等価性問題0。ERCはError0／意図的Warning1。IMU公式軸図を確認できず、再試行上限でcheckpointを保存しました。SPI・Encoder・CAN・SWD・UART・ESC信号、最終silk／return-path／DRC reviewは未完了です。
+Task5は未完了です。電源/GNDとCANを配線し、IMUは途中のdraftです。現在のDRCはError47／Warning0（MOSI/GND物理違反2、26ネットの未配線45件）、回路図等価性問題0。ERCはError0／意図的Warning1。IMU資料は確認済みですが、3回の配線検証後も違反が残るため停止しました。SWD・Encoder・UART・ESC等と最終return-path／silk／DRC reviewは未完了です。
 
-[現在の配線checkpoint](docs/routing_progress.md)、[検証記録](docs/validation.md)。製造データ・注文・firmware・通電試験は未実施です。
+[現在の配線checkpoint](docs/task5_routing_checkpoint.md)、[検証記録](docs/validation.md)。製造データ・注文・firmware・通電試験は未実施です。
 
 ## Roadmap
 
@@ -52,3 +52,7 @@ Task 5は途中です。承認済み配置に電源・デカップリング・GN
 ## Publication and license
 
 公開ファイルは本プロジェクト用の文書・設計です。回路図内のKiCad標準symbolは[ライブラリの設計成果物例外](https://www.kicad.org/libraries/license/)を確認済みです。ベンダーのPDF、SDK、HAL、独立した第三者ライブラリ集、ツールの実行ファイルは含めません。プロジェクトのライセンス選択はTBDです。公開されていること自体は第三者コードの利用許諾を意味しません。
+
+### Task 5 resumed draft
+
+公式IMU図を確認し、CANの信号配線を追加しました。IMU配線はDRC違反が2件残り、3回の検証後に停止しています。現在はDRC Error47（物理2＋未配線45）／Warning0。SWD・Encoder・UART・ESC等は未配線で、Task5は未完了です。[停止時点の詳細](docs/task5_routing_checkpoint.md)と[表層配線draft](docs/images/task5-interfaces-draft.svg)を参照してください。製造可能なPCBではありません。

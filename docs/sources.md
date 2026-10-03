@@ -71,3 +71,7 @@ Reviewed package/pin/supply/decoupling/logic drawings against installed KiCad sy
 - Kingbright [APT2012SECK](https://www.kingbrightusa.com/images/catalog/SPEC/APT2012SECK.pdf):0805 geometry/polarity/LED ratings; Samtec [TSW family drawing](https://suddendocs.samtec.com/catalog_english/tsw_th.pdf):2.54pitch/0.64post family compatibility only; ordering/mating options TBD.
 
 No external encoder/ESC was selected, so no inferred module pinout/absolute ratings or guaranteed maximum RPM. Generic passive MPNs/DC bias and final connector ordering remain procurement review items. No manufacturer PDF, model library or tool executable is published.
+
+## Task 5 local source verification — 2026-10-03
+
+User-provided ST LSM6DSL datasheet, DocID028475 Rev7,114pages: rendered and visually inspected Figure1/page18 and Figure17/page110. This resolves the earlier graphical-source access blocker. Figure1 distinguishes top-view sensor axes from bottom-view pin numbering; Figure17 gives top pin1 indicator and3.00x2.50mm package orientation. File SHA256:`3449f752fff3bc69023ef9da18698e8e14379e3a920093d003c867bea195bcf2`. Vendor PDF and its rendered copies stay outside published source files.

@@ -72,3 +72,7 @@ Prerequisite: complete signal routing, full DRC/review and manufacturing/assembl
 18. Motor connection only after prior checks pass and a separate guarded/isolated low-energy motor test plan is approved.
 
 No acceptable fixed resistance threshold invented; compare measured behavior to approved BOM/circuit and investigate unexpected low resistance. Record all results/conditions/revision. Physical tests not performed.
+
+### Superseding Task5 draft gate
+
+Current interface draft has45unconnected items and2physicalMOSI/GND errors (DRC47Errors/0Warnings). Earlier73unconnected power-only checkpoint is historical. Do not assemble/power/manufacture this draft. Resolve errors and remaining routing, perform finalDRC/parity/return-path review, then seek later manufacturing approval. Existing18-step bring-up plan remains future work. Official IMU graphical source now verified; mechanical sign calibration remains mandatory.

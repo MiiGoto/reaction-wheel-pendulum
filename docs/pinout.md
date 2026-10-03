@@ -131,3 +131,7 @@ TP1–16 are bare1.5mm copper pads, excluded from BOM/position file, not purchas
 ## Task 5 checkpoint
 
 Electrical MCU/connector/test-point pin assignment unchanged. C1 orientation180degrees only, physical pad numbers/net mapping retained. Signal routing remains incomplete on37nets (73unconnected items); headers/test pads remain accessible in their approved locations. IMU U4 staysrotation0/pin1 upper-left; native die-axis arrows not yet added because official Fig1 pixels unavailable. Do not treat drawing-frame axes as die axes.
+
+### Resumed Task5 orientation review
+
+Official LSM6DSL Figure1 and package Figure17 visually reviewed. U4 rotation0/pin1 upper-left retained. Board top frame/native inferred axes:+Xright,+Yupper edge,+Zout; no electrical pin assignment/connector order changed. Mechanical transform and physical sign calibration remain TBD. Axis silkscreen not finalized. Current routing is an incomplete draft withMOSI/GND errors; see task5_routing_checkpoint.md.
