@@ -516,7 +516,7 @@
     ]
   ],
   "text_variables": {
-    "DESIGN_STATUS": "TASK5_PARTIAL_POWER_GROUND_NOT_ROUTING_COMPLETE"
+    "DESIGN_STATUS": "TASK5_PARTIAL_INTERFACES_DRC_FAILED"
   },
   "tuning_profiles": {
     "meta": {

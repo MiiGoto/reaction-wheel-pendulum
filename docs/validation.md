@@ -158,3 +158,13 @@ Task5 source SHA256:
 - `reaction_wheel_controller.kicad_pcb`: `bc91bb2bb896b2814d012d3cb9cb6b302b9ae27607493e950abc491588d2c8ff`
 - `reaction_wheel_controller.kicad_pro`: `f73c222c6cb4dbafcb44ea111dfe846ec9f0b3b416c2ca0ca39970168cc3976e`
 - `reaction_wheel_controller.kicad_dru`: `84937101d07bf79b12adb07b2f9045fad0bf693af1e4cb08060eb2edd6cb5bd2`
+
+## Task 5 resumed draft check — not acceptance
+
+Latest ignored native report:`outputs/task5/drc_can_3.json` under the KiCad project.3physical errors+64unconnected items=67Error/0Warning;34distinct unrouted signal nets,0schematic-parity issues, no ignored checks. Earlier power-stage0physical violations describes the saved power-only checkpoint, not the current uncommitted CAN draft. Three remaining CAN errors and routing stop are detailed in design_notes.md. Source-access blocker resolved by supplied official PDF; native Figure1 and Figure17 visually checked. No final DRC closure, fabrication outputs or powered tests.
+
+### Superseding stopped IMU draft result
+
+Final current native report:drc_imu_3.json (ignored output).47Errors/0Warnings =2MOSI/GND physical errors+45unconnected items on26nets;0parity/ignored checks. ERC0Errors/1intentionalWarning.318tracks/108vias/86footprints; two filled zones each one polygon.3IMU checks reached user stop limit. [Checkpoint details](task5_routing_checkpoint.md). This supersedes the earlier resumed67Error draft; no finalDRC acceptance.
+
+Current PCB SHA256:`ec1fa0a11d8462123dd8fb6c91baefdcab79b2eecd229529c21cc4a0844b724e`.
