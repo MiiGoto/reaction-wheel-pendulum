@@ -1,6 +1,6 @@
 # Project context
 
-更新日: 2026-10-02 (Asia/Tokyo)。状態: Task 3 CAN・IMU・Encoder/ESC接続・UART回路図、ERC検証済み（Error0 / 意図的Warning1）。
+更新日: 2026-10-03 (Asia/Tokyo)。状態: Task 5電源/GND配線checkpoint。信号配線未完了（DRC未配線Error73）。
 
 ## 確定事項
 
@@ -61,3 +61,11 @@ PID、状態フィードバック、LQR、swing-up、状態推定、パラメー
 仮定:90x70mm暫定外形、M3四点/端から5mm/頭部半径4mm、板厚1.6mm、generic2.54header。メーカーstackup/機構/ねじ/ケーブル/IMU姿勢の最終確定ではない。
 
 未決: 実機ESC/encoder/RPM、安全停止/正負トルク/回生、debughalt中出力保持への対策、IMU die-axis mappingと振子機構、0.15mmIMU内部pad間隔/assembly、供給熱/HSI CAN-FD精度、製造会社stackup。Task5へ自動移行しない。
+
+## Task 5 current checkpoint — incomplete
+
+Confirmed: user approved90x70mm/holes/connectors, authorized Task4 net class/check restoration and delegated IMU orientation. feature/pcb-routing retains Task4 751b09e and prior tasks. Manual power/ground/decoupling stage,147tracks/78vias, filled L2GND/L3+3V3,4mounting keepouts. PhysicalDRC0/parity0; overallDRC73Errors/0Warnings from37unrouted signal nets. ERC0Errors/1intentionalWarning. C1 rotated180degrees, other placements kept.
+
+Assumptions: provisional4layer supplier stackup/1.6mm thickness, existing bench budget180mA, external3.3VABI/ESC contracts. U4 physicalrotation0 retained; native sensor axes not guessed.
+
+TBD/blocker: official IMU Fig1/page18 readable pixels not obtained after bounded attempts; final axes/silk unverified. All signal routing/fullreturnpath/CAN discharge/finalDRC/silkscreen review still outstanding. Task5 not complete, no fabrication outputs/orders/firmware/powered tests; do not enter Task6.

@@ -47,3 +47,28 @@ Acceptance thresholds for latency/ripple/temperature/edge loss/CANbitrate are TB
 ## Task 4 review gates before routing / assembly
 
 Confirm preliminary90x70mm/fourM3holes against mounting and screw/spacer dimensions; check all header mating height/cable orientation. Map ST IMU Figure1 native axes and pin1 to board/mechanical frame. Qualify0.15mm IMU internal pad spacing/stencil/paste and actual supplier4layer stackup. Review capacitor return routing, TVS discharge GND and rail thermal budget when routing is authorized. No physical bring-up has been performed. A173unrouted baseline DRC is not a fabrication release.
+
+## Task 5 ordered bring-up checklist — future, not executable on current checkpoint
+
+Prerequisite: complete signal routing, full DRC/review and manufacturing/assembly approval in a later authorized task. Current PCB has73unconnected items and has not been manufactured or powered.
+
+1. Visual inspection: soldering, pin1, polarity, holes, cable pinout and shorts.
+2. VIN–GND resistance check, supply disconnected.
+3. 3V3–GND resistance check; account for capacitor charging.
+4. Current-limited logic-only power-on; motor/ESC unplugged.
+5. VIN and protectedVIN check against approved input range.
+6. 3.3V rail/ripple/current and regulator temperature check.
+7. VDDA/VREF check at capacitor pads/TP4 common rail, local scope return.
+8. SWD connection with verified customJ2 adapter and VTref sense.
+9. MCU identification, silicon revision/errata and normal boot/recovery.
+10. Power LED test.
+11. UART3.3V adapter loopback/log check, no adapter power backfeed.
+12. IMU WHO_AM_I0x6A, official/native-axis mapping, ODR/latency/calibration.
+13. Qualified3.3V ABI encoder signal/count/index/max-edge-rate checks.
+14. CAN loopback then two-node bus, correct120ohm ends, termination/default standby/bitrate.
+15. ESC interface checks with no motor and verified actual ESC pinout/polarity/timeout.
+16. PWM oscilloscope checks on dummy logic load.
+17. ENABLE/FAULT default/gating and fault-wire loss checks; SWD halt does not ensure stop.
+18. Motor connection only after prior checks pass and a separate guarded/isolated low-energy motor test plan is approved.
+
+No acceptable fixed resistance threshold invented; compare measured behavior to approved BOM/circuit and investigate unexpected low resistance. Record all results/conditions/revision. Physical tests not performed.

@@ -127,3 +127,7 @@ No electrical pin reassignment or connector signal-order change. Native board pa
 J1 left edge; J2/SWD, J5/ABI and J7/UART upper edge; J3/CAN,J4/termination,J6/ESC right edge. All generic2.54mm headers, square pad1, printed ordered legends. Unkeyed headers require cable continuity/polarity check; J2 is a custom6pin layout, not ARM10pin. ESC signals3.3V only; J6 has no supply pin. J5 has3.3V module supply; J7 has no adapter supply. Pin numbers/voltage/direction remain the tables above.
 
 TP1–16 are bare1.5mm copper pads, excluded from BOM/position file, not purchased pins. Existing probes coverGND/VIN/+3V3/BOOT0/NRST, CAN TX/RX/H/L, IMU CS/IRQ, ABI A/B and PWM/EN. SWD and UART signals are accessible at headers; FAULT accessible J6. H1–H4 are mechanical3.2mm NPTH only. Scope ground return at header GND or TP1; long probe ground leads distort measurements.
+
+## Task 5 checkpoint
+
+Electrical MCU/connector/test-point pin assignment unchanged. C1 orientation180degrees only, physical pad numbers/net mapping retained. Signal routing remains incomplete on37nets (73unconnected items); headers/test pads remain accessible in their approved locations. IMU U4 staysrotation0/pin1 upper-left; native die-axis arrows not yet added because official Fig1 pixels unavailable. Do not treat drawing-frame axes as die axes.

@@ -135,3 +135,26 @@ Task4 validated source SHA256:
 - `reaction_wheel_controller.kicad_pro`: `feecf14ada0ca7ed8340619ba5ac35b09e11ee880f10a083ac2d9518b4813c61`
 - `reaction_wheel_controller.kicad_dru`: `2597194a4bca9e2f34bac71cd7f5d681ede94ab4daf9add32734efa9e5c735cf`
 - `fp-lib-table`: `8190612078a59ec8c5b2027a1b021e0b729aa9685271197d779b9357b0d15179`
+
+## Task 5 power/ground checkpoint — not final routing acceptance
+
+Native KiCad10.0.6, absolute board/project paths, restored Task4 classes/checks plus narrowly justified U1/U4 neck rule. Final power-stage DRC: **73Errors /0Warnings overall**, all73Errors are unconnected items on37distinct signal nets; **0physical-rule violations /0schematic parity issues**. No exclusions/ignored checks. Final all-severity ERC:0Errors/1Warning, same official unused-SDX-to-ground type warning; no schematic electrical changes. Checks do not prove complete routing.
+
+Power5V/protected5V/3V3/GND/LED do not occur in the unconnected list.147tracks/78vias, two refilled copper zones (L2GND/L3+3V3), each one connected polygon;4all-copper rule-area keepouts. All86footprints retained, only C1 rotated180degrees. Physical repairs verified, no rule widening to conceal clearance failures. Straight-loop/plane review covers current power stage only; signal return paths and full mechanical/IMU axes/silkscreen review outstanding.
+
+Native power/ground SVGs visually inspected and original review copies published. Vendor PDF/temporary reports/images remain ignored; failed PDF retrieval not evidence of axis review. No Gerber/drill/PnP/finalBOM/order/firmware/hardware measurements. Earlier unfilled/invalid intermediate checks are not final results.
+
+Reproduce after creating ignored output folder:
+
+```powershell
+# Pass absolute paths to the project board and output report.
+kicad-cli pcb drc --refill-zones --save-board --schematic-parity --severity-all --exit-code-violations --format json --output <absolute-output>/drc.json <absolute-project>/reaction_wheel_controller.kicad_pcb
+kicad-cli sch erc --severity-all --exit-code-violations --output <absolute-output>/erc.rpt <absolute-project>/reaction_wheel_controller.kicad_sch
+```
+
+Both violation-checking commands return nonzero while their reported unconnected/intentional warning remains. Inspect the report and ensure project classes/checks survived native save. Task5 routing not complete; Task6 not entered.
+
+Task5 source SHA256:
+- `reaction_wheel_controller.kicad_pcb`: `bc91bb2bb896b2814d012d3cb9cb6b302b9ae27607493e950abc491588d2c8ff`
+- `reaction_wheel_controller.kicad_pro`: `f73c222c6cb4dbafcb44ea111dfe846ec9f0b3b416c2ca0ca39970168cc3976e`
+- `reaction_wheel_controller.kicad_dru`: `84937101d07bf79b12adb07b2f9045fad0bf693af1e4cb08060eb2edd6cb5bd2`

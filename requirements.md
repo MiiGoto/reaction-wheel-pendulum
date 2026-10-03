@@ -77,3 +77,7 @@ O-01/O-02/O-04 motor/sensor system requirements remain gates before powered oper
 - General track/clearance0.20mm; POWER0.50mm,CAN0.25mm; through-via0.60/0.30mm; copper-edge0.50mm. Only U4 internal pad clearance0.15mm for its native LGA geometry, supplier qualification required.
 - No motor current path on this controller. Reset low ESC gating does not ensure SWD halt stop or broken-fault-wire detection; independent motor power isolation/actual ESC timeout/arming qualification before motor tests.
 - IMU native axes/position relative to pivot, connector keying/mating height, exact passive/connector MPNs and assembly/stencil remain TBD. Unrouted baseline DRC is not manufacturing acceptance.
+
+## Task 5 checkpoint status
+
+User approved routing use of90x70mm outline/fourholes/connector placement; specific supplier stackup still TBD. Short0.20mm fine-pitch power escape permitted at U1/U4 courtyard,0.50mm rail branches retained; normal clearance0.20mm/U4 internal0.15mm preserved. Full routing acceptance **not met**:37signal nets/73unconnected items. Native IMU axes must be checked using readable official Fig1 before final silk/axis transform review. No fabrication/powered testing acceptance inferred from partial physicalDRC0.
