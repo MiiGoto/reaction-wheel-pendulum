@@ -77,3 +77,7 @@ J1 remains regulated4.8–5.25V; U2 remains AP2112K-3.3, motor power separate. P
 Upper conservative LDO dissipation ignoring diode loss: `(5.25-3.3)*0.18=0.351W`; using Task2 datasheet thetaJA184C/W gives64.6C rise, about89.6C junction at25C ambient. This is a preliminary estimate tied to datasheet PCB conditions; actual copper/ambient/cooling not yet specified. Recalculate and measure temperature before a board/load is approved; no600mA board rating. CAN bus-fault current can reach130mA and may trigger bench limit; fault operation is not guaranteed within normal budget.
 
 C14/C15 100nF at U3 VCC3/VIO5; C16/C17 100nF at U4 VDDIO5/VDD8; C18 100nF+C19 1uF at J5 supply; C20 100nF at U5 VCC5. All ceramic non-polarized, with short local ground returns. CAN/ESC are not isolated; logic GND and motor-current return wiring must be reviewed. NoPCB placement is performed. Shared VDDA/VREF+ means CAN/sensor rail noise may affect ADC; confirm ripple and ADC requirement before deciding to add filtering.
+
+## Task 5 power/ground routing checkpoint
+
+Current PCB power nets are routed/plane-connected. C1 same position rotated180degrees; input→D1→C1/U2→C2→3V3. Local MCU/IMU/CAN/buffer capacitors use short plane-access vias, analog rails remain common3V3. In1.Cu continuous GND and In2.Cu+3V3 filled; no analog split or BLDC return.147track segments/78local plane/return vias total,37signal nets still incomplete. Thermal/capacitor-effective-value/backfeed and supplier stackup tests remain TBD;600mA LDO rating is not board budget. This is not a complete/tested PCB.

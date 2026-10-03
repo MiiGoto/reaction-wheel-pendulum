@@ -7,3 +7,4 @@
 (rule "Power trace planning" (condition "A.NetClass == 'POWER'") (constraint track_width (min 0.50mm)))
 (rule "CAN trace planning" (condition "A.NetClass == 'CAN'") (constraint track_width (min 0.25mm)))
 (rule "LSM6DSL internal pad clearance" (condition "A.Reference == 'U4' && B.Reference == 'U4'") (constraint clearance (min 0.15mm)))
+(rule "Fine-pitch 3V3 pad escapes" (condition "A.Type == 'Track' && A.NetName == '+3V3' && (A.intersectsCourtyard('U1') || A.intersectsCourtyard('U4'))") (constraint track_width (min 0.20mm)))

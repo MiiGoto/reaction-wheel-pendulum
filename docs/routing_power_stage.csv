@@ -1,0 +1,188 @@
+Kind,Net,Layer,Width_mm,Start,End,Waypoints_mm,Purpose
+polyline,GND,F.Cu,0.2,U1.15,"[76.05, 85.25]","[[74.325, 85.25], [76.05, 85.25]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[76.05, 85.25]",local supply return
+polyline,GND,F.Cu,0.2,U1.27,"[81.25, 85.95]","[[81.25, 87.675], [81.25, 85.95]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[81.25, 85.95]",local supply return
+polyline,GND,F.Cu,0.2,U1.31,"[83.25, 85.95]","[[83.25, 87.675], [83.25, 85.95]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[83.25, 85.95]",local supply return
+polyline,GND,F.Cu,0.2,U1.47,"[83.95, 78.75]","[[85.675, 78.75], [83.95, 78.75]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[83.95, 78.75]",local supply return
+polyline,GND,F.Cu,0.2,U1.63,"[76.75, 78.05]","[[76.75, 76.325], [76.75, 78.05]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[76.75, 78.05]",local supply return
+polyline,GND,F.Cu,0.2,U2.2,"[55.3, 55.5]","[[56.8625, 55.0], [55.3, 55.5]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[55.3, 55.5]",local supply return
+polyline,GND,F.Cu,0.2,U3.2,"[111, 62.365]","[[112.525, 62.365], [111, 62.365]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[111, 62.365]",local supply return
+polyline,GND,F.Cu,0.2,U5.3,"[103.3, 89.95]","[[104.8625, 89.95], [103.3, 89.95]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[103.3, 89.95]",local supply return
+polyline,GND,F.Cu,0.2,D3.3,"[122.8, 57.7]","[[121.2375, 57.7], [122.8, 57.7]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[122.8, 57.7]",local supply return
+polyline,GND,F.Cu,0.2,U4.2,"[87.3, 92]","[[88.8375, 91.75], [87.8, 91.75], [87.55, 92], [87.3, 92]]",local signal
+polyline,GND,F.Cu,0.2,U4.3,"[87.3, 92]","[[88.8375, 92.25], [87.8, 92.25], [87.55, 92], [87.3, 92]]",local signal
+via,GND,F.Cu-B.Cu,0.6,,,"[87.3, 92]",local supply return
+polyline,GND,F.Cu,0.2,U4.6,"[91.6, 93.75]","[[90.0, 92.9125], [90, 93.35], [91.2, 93.35], [91.6, 93.75]]",local signal
+polyline,GND,F.Cu,0.2,U4.7,"[91.6, 93.75]","[[90.5, 92.9125], [90.5, 93.35], [91.2, 93.35], [91.6, 93.75]]",local signal
+via,GND,F.Cu-B.Cu,0.6,,,"[91.6, 93.75]",local supply return
+polyline,GND,F.Cu,0.2,C1.2,"[51.9, 58.0]","[[53.05, 58.0], [51.9, 58.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[51.9, 58.0]",local supply return
+polyline,GND,F.Cu,0.2,C14.2,"[108.05, 62.4]","[[108.05, 64.0], [108.05, 62.4]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[108.05, 62.4]",local supply return
+polyline,GND,F.Cu,0.2,C20.2,"[111.60000000000001, 86.0]","[[110.45, 86.0], [111.60000000000001, 86.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[111.60000000000001, 86.0]",local supply return
+polyline,GND,F.Cu,0.2,C6.2,"[74.65, 71.95]","[[76.25, 71.95], [74.65, 71.95]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[74.65, 71.95]",local supply return
+polyline,GND,F.Cu,0.2,C5.2,"[91.10000000000001, 78.25]","[[89.95, 78.25], [91.10000000000001, 78.25]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[91.10000000000001, 78.25]",local supply return
+polyline,GND,F.Cu,0.2,C12.2,"[79.75, 97.60000000000001]","[[79.75, 96.45], [79.75, 97.60000000000001]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[79.75, 97.60000000000001]",local supply return
+polyline,GND,F.Cu,0.2,R14.2,"[78.0625, 68.0]","[[76.9125, 68.0], [78.0625, 68.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[78.0625, 68.0]",local supply return
+polyline,GND,F.Cu,0.2,R15.2,"[82.0625, 68.0]","[[80.9125, 68.0], [82.0625, 68.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[82.0625, 68.0]",local supply return
+polyline,GND,F.Cu,0.2,R8.2,"[92.0625, 99.0]","[[90.9125, 99.0], [92.0625, 99.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[92.0625, 99.0]",local supply return
+polyline,GND,F.Cu,0.2,C4.2,"[85.3, 91.80000000000001]","[[85.3, 90.65], [85.3, 91.80000000000001]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[85.3, 91.80000000000001]",local supply return
+polyline,GND,F.Cu,0.2,C17.2,"[96.10000000000001, 92.75]","[[94.95, 92.75], [96.10000000000001, 92.75]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[96.10000000000001, 92.75]",local supply return
+polyline,GND,F.Cu,0.2,R9.2,"[96.0625, 99.0]","[[94.9125, 99.0], [96.0625, 99.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[96.0625, 99.0]",local supply return
+polyline,GND,F.Cu,0.2,R20.2,"[109.0625, 81.0]","[[107.9125, 81.0], [109.0625, 81.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[109.0625, 81.0]",local supply return
+polyline,GND,F.Cu,0.2,R1.2,"[79.0625, 70.0]","[[77.9125, 70.0], [79.0625, 70.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[79.0625, 70.0]",local supply return
+polyline,GND,F.Cu,0.2,C2.2,"[64.10000000000001, 55.0]","[[62.95, 55.0], [64.10000000000001, 55.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[64.10000000000001, 55.0]",local supply return
+polyline,GND,F.Cu,0.2,C11.2,"[79.75, 93.10000000000001]","[[79.75, 91.95], [79.75, 93.10000000000001]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[79.75, 93.10000000000001]",local supply return
+polyline,GND,F.Cu,0.2,C16.2,"[90.0, 97.4]","[[90.0, 96.25], [90.0, 97.4]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[90.0, 97.4]",local supply return
+polyline,GND,F.Cu,0.2,C19.2,"[69.5, 50]","[[67.95, 50.0], [69.5, 50]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[69.5, 50]",local supply return
+polyline,GND,F.Cu,0.2,C3.2,"[68.89999999999999, 86.4]","[[70.05, 86.4], [68.89999999999999, 86.4]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[68.89999999999999, 86.4]",local supply return
+polyline,GND,F.Cu,0.2,C7.2,"[92.10000000000001, 83.0]","[[90.95, 83.0], [92.10000000000001, 83.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[92.10000000000001, 83.0]",local supply return
+polyline,GND,F.Cu,0.2,R10.2,"[97.0625, 89.0]","[[95.9125, 89.0], [97.0625, 89.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[97.0625, 89.0]",local supply return
+polyline,GND,F.Cu,0.2,R16.2,"[74.0625, 68.0]","[[72.9125, 68.0], [74.0625, 68.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[74.0625, 68.0]",local supply return
+polyline,GND,F.Cu,0.2,R22.2,"[120.0625, 87.0]","[[118.9125, 87.0], [120.0625, 87.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[120.0625, 87.0]",local supply return
+polyline,GND,F.Cu,0.2,C15.2,"[118.0, 70.60000000000001]","[[118.0, 69.45], [118.0, 70.60000000000001]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[118.0, 70.60000000000001]",local supply return
+polyline,GND,F.Cu,0.2,C8.2,"[73.60000000000001, 77.0]","[[72.45, 77.0], [73.60000000000001, 77.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[73.60000000000001, 77.0]",local supply return
+polyline,GND,F.Cu,0.2,D2.1,"[47.9125, 71.0]","[[49.0625, 71.0], [47.9125, 71.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[47.9125, 71.0]",local supply return
+via,GND,F.Cu-B.Cu,0.6,,,"[66.8, 84]",local supply return
+polyline,GND,F.Cu,0.2,TP1.1,"[66.8, 84]","[[68.0, 84.0], [66.8, 84]]",local signal
+polyline,GND,F.Cu,0.2,C10.2,"[82.75, 97.60000000000001]","[[82.75, 96.45], [82.75, 97.60000000000001]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[82.75, 97.60000000000001]",local supply return
+polyline,GND,F.Cu,0.2,C13.2,"[71.95, 81.4]","[[71.95, 80.0], [71.95, 81.4]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[71.95, 81.4]",local supply return
+polyline,GND,F.Cu,0.2,R18.2,"[120.0625, 84.0]","[[118.9125, 84.0], [120.0625, 84.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[120.0625, 84.0]",local supply return
+polyline,GND,F.Cu,0.2,C18.2,"[63.95, 51.5]","[[63.95, 50.0], [63.95, 51.5]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[63.95, 51.5]",local supply return
+polyline,GND,F.Cu,0.2,R19.2,"[105.0625, 81.0]","[[103.9125, 81.0], [105.0625, 81.0]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[105.0625, 81.0]",local supply return
+polyline,GND,F.Cu,0.2,C9.2,"[82.75, 93.10000000000001]","[[82.75, 91.95], [82.75, 93.10000000000001]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[82.75, 93.10000000000001]",local supply return
+polyline,+3V3,F.Cu,0.2,U1.16,"[72.8, 85.75]","[[74.325, 85.75], [72.8, 85.75]]",local signal
+polyline,+3V3,F.Cu,0.5,C3.1,"[72.8, 85.75]","[[71.95, 86.4], [72.6, 86.4], [72.8, 85.75]]",VDD16 local capacitor feed
+polyline,+3V3,F.Cu,0.2,U1.32,"[83.75, 89.05]","[[83.75, 87.675], [83.75, 89.05]]",local signal
+polyline,+3V3,F.Cu,0.5,C4.1,"[83.75, 89.05]","[[85.3, 88.75], [84.15, 88.75], [83.75, 89.05]]",VDD32 local capacitor feed
+polyline,+3V3,F.Cu,0.2,U1.48,"[87.1, 78.25]","[[85.675, 78.25], [87.1, 78.25]]",local signal
+polyline,+3V3,F.Cu,0.5,C5.1,"[87.1, 78.25]","[[88.05, 78.25], [87.1, 78.25]]",VDD48 local capacitor feed
+polyline,+3V3,F.Cu,0.2,U1.64,"[76.25, 74.8]","[[76.25, 76.325], [76.25, 74.8]]",local signal
+polyline,+3V3,F.Cu,0.5,C6.1,"[76.25, 74.8]","[[76.25, 73.85], [76.25, 74.8]]",VDD64 local capacitor feed
+polyline,+3V3,F.Cu,0.2,U1.1,"[72.8, 78.25]","[[74.325, 78.25], [72.8, 78.25]]",local signal
+polyline,+3V3,F.Cu,0.5,C8.1,"[72.8, 78.25]","[[70.55, 77.0], [70.55, 78.4], [72.8, 78.4], [72.8, 78.25]]",VBAT local capacitor feed
+polyline,+3V3,F.Cu,0.2,U1.28,"[81.75, 89.05]","[[81.75, 87.675], [81.75, 89.05]]",local signal
+polyline,+3V3,F.Cu,0.5,C11.1,"[81.75, 89.05]","[[79.75, 90.05], [80.75, 89.05], [81.75, 89.05]]",VREF local capacitor feed
+polyline,+3V3,F.Cu,0.2,U1.29,"[82.25, 89.05]","[[82.25, 87.675], [82.25, 89.05]]",local signal
+polyline,+3V3,F.Cu,0.5,C9.1,"[82.25, 89.05]","[[82.75, 90.05], [82.75, 89.55], [82.25, 89.05]]",VDDA local capacitor feed
+polyline,+3V3,F.Cu,0.2,U4.5,"[89, 93.8]","[[89.5, 92.9125], [89.5, 93.3], [89, 93.8]]",IMU VDDIO pad escape
+polyline,+3V3,F.Cu,0.5,C16.1,"[89, 93.8]","[[90.0, 94.35], [89, 94.35], [89, 93.8]]",IMU VDDIO local capacitor
+polyline,+3V3,F.Cu,0.2,U4.8,"[92, 92.75]","[[91.1625, 92.75], [92, 92.75]]",local signal
+polyline,+3V3,F.Cu,0.5,C17.1,"[92, 92.75]","[[93.05, 92.75], [92, 92.75]]",IMU VDD local capacitor
+polyline,+3V3,F.Cu,0.5,U2.5,C2.1,"[[59.1375, 54.05], [60.05, 54.05], [61.05, 55], [61.05, 55.0]]",LDO output capacitor
+polyline,+3V3,F.Cu,0.5,U3.3,C14.1,"[[112.525, 63.635], [111.7, 63.635], [111.335, 64], [109.95, 64.0]]",CAN VCC capacitor
+polyline,+3V3,F.Cu,0.5,U3.5,C15.1,"[[117.475, 64.905], [118, 65.43], [118.0, 67.55]]",CAN VIO capacitor
+polyline,+3V3,F.Cu,0.5,U5.5,C20.1,"[[107.1375, 88.05], [107.5, 87.69], [107.5, 86], [108.55, 86.0]]",ESC buffer capacitor
+polyline,+3V3,F.Cu,0.5,C2.1,"[61.05, 56.6]","[[61.05, 55.0], [61.05, 56.6]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[61.05, 56.6]",local supply return
+polyline,+3V3,F.Cu,0.5,C3.1,"[71.95, 88.1]","[[71.95, 86.4], [71.95, 88.1]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[71.95, 88.1]",local supply return
+polyline,+3V3,F.Cu,0.5,C4.1,"[86.9, 88.75]","[[85.3, 88.75], [86.9, 88.75]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[86.9, 88.75]",local supply return
+polyline,+3V3,F.Cu,0.5,C5.1,"[88.05, 76.65]","[[88.05, 78.25], [88.05, 76.65]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[88.05, 76.65]",local supply return
+polyline,+3V3,F.Cu,0.5,C6.1,"[74.65, 73.85]","[[76.25, 73.85], [74.65, 73.85]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[74.65, 73.85]",local supply return
+polyline,+3V3,F.Cu,0.5,C7.1,"[88, 83]","[[89.05, 83.0], [88, 83]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[88, 83]",local supply return
+polyline,+3V3,F.Cu,0.5,C8.1,"[70.55, 75.4]","[[70.55, 77.0], [70.55, 75.4]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[70.55, 75.4]",local supply return
+polyline,+3V3,F.Cu,0.5,C9.1,"[82.75, 88.95]","[[82.75, 90.05], [82.75, 88.95]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[82.75, 88.95]",local supply return
+polyline,+3V3,F.Cu,0.5,C10.1,"[84.35, 94.55]","[[82.75, 94.55], [84.35, 94.55]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[84.35, 94.55]",local supply return
+polyline,+3V3,F.Cu,0.5,C11.1,"[78.15, 90.05]","[[79.75, 90.05], [78.15, 90.05]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[78.15, 90.05]",local supply return
+polyline,+3V3,F.Cu,0.5,C12.1,"[78.15, 94.55]","[[79.75, 94.55], [78.15, 94.55]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[78.15, 94.55]",local supply return
+polyline,+3V3,F.Cu,0.5,C14.1,"[109.95, 62.6]","[[109.95, 64.0], [109.95, 62.6]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[109.95, 62.6]",local supply return
+polyline,+3V3,F.Cu,0.5,C15.1,"[119.6, 67.55]","[[118.0, 67.55], [119.6, 67.55]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[119.6, 67.55]",local supply return
+polyline,+3V3,F.Cu,0.5,C16.1,"[88.5, 94.35]","[[90.0, 94.35], [88.5, 94.35]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[88.5, 94.35]",local supply return
+polyline,+3V3,F.Cu,0.5,C17.1,"[92.8, 94.3]","[[93.05, 92.75], [92.8, 94.3]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[92.8, 94.3]",local supply return
+polyline,+3V3,F.Cu,0.5,C18.1,"[61, 50]","[[62.05, 50.0], [61, 50]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[61, 50]",local supply return
+polyline,+3V3,F.Cu,0.5,C19.1,"[66.05, 48.5]","[[66.05, 50.0], [66.05, 48.5]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[66.05, 48.5]",local supply return
+polyline,+3V3,F.Cu,0.5,C20.1,"[108.55, 84.4]","[[108.55, 86.0], [108.55, 84.4]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[108.55, 84.4]",local supply return
+polyline,+3V3,F.Cu,0.5,R2.1,"[52.5, 69.3]","[[54.0875, 71.0], [52.5, 69.3]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[52.5, 69.3]",local supply return
+polyline,+3V3,F.Cu,0.5,R4.1,"[106.5, 68]","[[108.0875, 68.0], [106.5, 68]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[106.5, 68]",local supply return
+polyline,+3V3,F.Cu,0.5,R5.1,"[106.5, 72]","[[108.0875, 72.0], [106.5, 72]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[106.5, 72]",local supply return
+polyline,+3V3,F.Cu,0.5,R6.1,"[84.5, 96]","[[85.0875, 96.0], [84.5, 96]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[84.5, 96]",local supply return
+polyline,+3V3,F.Cu,0.5,R7.1,"[84.5, 99]","[[85.0875, 99.0], [84.5, 99]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[84.5, 99]",local supply return
+polyline,+3V3,F.Cu,0.5,R23.1,"[117.5, 91.5]","[[119.0875, 93.0], [117.5, 91.5]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[117.5, 91.5]",local supply return
+polyline,+3V3,F.Cu,0.5,R27.1,"[110.5, 56]","[[112.0875, 56.0], [110.5, 56]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[110.5, 56]",local supply return
+polyline,+3V3,F.Cu,0.5,R30.1,"[106.5, 99.4]","[[107.0875, 101.0], [106.5, 99.4]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[106.5, 99.4]",local supply return
+polyline,+3V3,F.Cu,0.5,R31.1,"[106.5, 104.1]","[[107.0875, 105.0], [106.5, 104.1]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[106.5, 104.1]",local supply return
+polyline,+3V3,F.Cu,0.5,TP4.1,"[67.3, 57]","[[66.0, 57.0], [67.3, 57]]",short plane access
+via,+3V3,F.Cu-B.Cu,0.6,,,"[67.3, 57]",local supply return
+polyline,/MCU POWER SWD/+5V_IN,F.Cu,0.5,J1.1,D1.2,"[[46.0, 54.0], [46, 51.5], [53.95, 51.5], [53.8, 54.0]]",5V input
+polyline,/MCU POWER SWD/+5V_IN,F.Cu,0.5,J1.1,TP2.1,"[[46.0, 54.0], [44.5, 54], [44.5, 59.5], [46, 61], [48.0, 61.0]]",VIN probe
+polyline,/MCU POWER SWD/+5V_PROTECTED,F.Cu,0.5,D1.1,C1.1,"[[49.8, 54.0], [49.65, 57], [52, 59.35], [53.6, 59.35], [54.95, 58.0]]",protected regulator supply
+polyline,/MCU POWER SWD/+5V_PROTECTED,F.Cu,0.5,U2.1,U2.3,"[[56.8625, 54.05], [58, 54.05], [58, 55.95], [56.8625, 55.95]]",LDO enable follows VIN
+polyline,/MCU POWER SWD/+5V_PROTECTED,F.Cu,0.5,U2.3,C1.1,"[[56.8625, 55.95], [56.8625, 57], [55.4125, 58.45], [54.95, 58.45], [54.95, 58.0]]",LDO input cap
+polyline,/MCU POWER SWD/+5V_PROTECTED,F.Cu,0.5,U2.3,TP3.1,"[[56.8625, 55.95], [57, 56.1], [57.0, 61.0]]",protected input probe
+polyline,/MCU POWER SWD/LED_A,F.Cu,0.2,R2.2,D2.2,"[[55.9125, 71.0], [55.9125, 72.7], [50.9375, 72.7], [50.9375, 71.0]]",power LED
+polyline,GND,F.Cu,0.5,J1.2,"[47.5, 56.54]","[[46.0, 56.54], [47.5, 56.54]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[47.5, 56.54]",local supply return
+polyline,GND,F.Cu,0.5,J2.3,"[91.08, 47]","[[91.08, 45.0], [91.08, 47]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[91.08, 47]",local supply return
+polyline,GND,F.Cu,0.5,J3.3,"[123, 59.08]","[[125.0, 59.08], [123, 59.08]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[123, 59.08]",local supply return
+polyline,GND,F.Cu,0.5,J5.2,"[67.54, 47]","[[67.54, 45.0], [67.54, 47]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[67.54, 47]",local supply return
+polyline,GND,F.Cu,0.5,J6.4,"[123, 90.62]","[[125.0, 90.62], [123, 90.62]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[123, 90.62]",local supply return
+polyline,GND,F.Cu,0.5,J7.3,"[111.08, 47]","[[111.08, 45.0], [111.08, 47]]",short plane access
+via,GND,F.Cu-B.Cu,0.6,,,"[111.08, 47]",local supply return
