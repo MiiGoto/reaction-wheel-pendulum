@@ -78,6 +78,8 @@ O-01/O-02/O-04 motor/sensor system requirements remain gates before powered oper
 - No motor current path on this controller. Reset low ESC gating does not ensure SWD halt stop or broken-fault-wire detection; independent motor power isolation/actual ESC timeout/arming qualification before motor tests.
 - IMU native axes/position relative to pivot, connector keying/mating height, exact passive/connector MPNs and assembly/stencil remain TBD. Unrouted baseline DRC is not manufacturing acceptance.
 
-## Task 5 checkpoint status
+## Task 5 routing acceptance
 
-User approved routing use of90x70mm outline/fourholes/connector placement; specific supplier stackup still TBD. Short0.20mm fine-pitch power escape permitted at U1/U4 courtyard,0.50mm rail branches retained; normal clearance0.20mm/U4 internal0.15mm preserved. Full routing acceptance **not met**:37signal nets/73unconnected items. Native IMU axes must be checked using readable official Fig1 before final silk/axis transform review. No fabrication/powered testing acceptance inferred from partial physicalDRC0.
+User approved90x70mm/fourholes/connector placement for routing. Prototype routing acceptance now met: DRC0Errors/0Warnings/0unrouted/0parity, ERC0Errors/1intentionalWarning; no rule relaxation. All electrical assignment unchanged. Official IMU figure verified and native axes shown; mechanical transform/sign calibration remains TBD.
+
+This does not satisfy manufacturing or powered-system acceptance: exact BOM/stackup/assembly, actual external device compatibility, thermal/EMI/timing and safety tests remain required. See docs/task5_routing_review.md and docs/bringup.md. Historical Task2–4 loading/check results above are not current PCB status.

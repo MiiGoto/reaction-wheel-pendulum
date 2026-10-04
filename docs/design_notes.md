@@ -218,3 +218,9 @@ CAN初期draftで交差・短絡を検出し修正。追加試行は自動承認
 ### Superseding resumed checkpoint
 
 User explicitly approved one extra CAN repair; CAN bus/protection/termination/probes then had0physical violations, and TX/RX/STB were connected in a separate bounded stage. IMU draft used short L3 trunks adjacent continuous L2GND and local top escapes, with low-rate IRQ/bottom bridges. After3IMU checks,2MOSI/GND errors remain; stop. Final current count47Errors/0Warnings (2physical+45unconnected),0parity.318tracks/108vias, L2GND/L3+3V3 each one polygon. Earlier67Error draft and pending CAN gate above are historical, not current. Full details/remaining nets/human decision in [task5_routing_checkpoint.md](task5_routing_checkpoint.md). No further retry, no complete routing claim.
+
+## Task 5 completed routing — supersedes stopped drafts
+
+2026-10-03: resumed at user request. KnownMOSI/GND errors resolved; all SWD/BOOT/reset, ABI, UART, ESC default pulls/gating/fault and optionalUART nets routed. NativeDRC0Error/0Warning/0unrouted/0parity; ERC0Error/1intentionalWarning. No components moved, no net/pin changes, no design-rule relaxation/exclusion. Native SaveBoard can normalize project settings; exact approved settings were preserved, only DESIGN_STATUS updated.
+
+Full routing strategy/layer/power/GND/IMU/CAN/via/connector/safety/visual review and outstanding release gates: [task5_routing_review.md](task5_routing_review.md).548segments/155through-vias; L2GND/L3+3V3 each one polygon. R0.5 silk axes added. No DRC warning remains. Task6/manufacturing/powered tests not started; DRC pass is not system qualification.

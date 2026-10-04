@@ -1,6 +1,6 @@
 # Bring-up plan (not executed)
 
-開始条件: 電源/部品/配線を公式資料で確認し、ERCをreview。PCB導入後はDRCと製造reviewも必要。Task4時点では実回路図と未配線の暫定PCB配置がある。製造・組立・通電試験は未実施。
+開始条件: 電源/部品/配線を公式資料で確認し、ERCをreview。PCB導入後はDRCと製造reviewも必要。Task5で全ネット配線済み、nativeDRC0Error/0Warning/0unrouted。製造・実機承認は別途必要。製造・組立・通電試験は未実施。
 
 1. ガード・治具・電源遮断手段を用意し、定格、limit、coast/brake/disable方針を確定。ホイール回転試験は最大rpm・energy確認後。
 2. モータを接続せず、外観・continuity・GND/電源short・connector polarityを確認。
@@ -48,9 +48,9 @@ Acceptance thresholds for latency/ripple/temperature/edge loss/CANbitrate are TB
 
 Confirm preliminary90x70mm/fourM3holes against mounting and screw/spacer dimensions; check all header mating height/cable orientation. Map ST IMU Figure1 native axes and pin1 to board/mechanical frame. Qualify0.15mm IMU internal pad spacing/stencil/paste and actual supplier4layer stackup. Review capacitor return routing, TVS discharge GND and rail thermal budget when routing is authorized. No physical bring-up has been performed. A173unrouted baseline DRC is not a fabrication release.
 
-## Task 5 ordered bring-up checklist — future, not executable on current checkpoint
+## Task 5 ordered bring-up checklist — future physical tests
 
-Prerequisite: complete signal routing, full DRC/review and manufacturing/assembly approval in a later authorized task. Current PCB has73unconnected items and has not been manufactured or powered.
+Prerequisite: complete signal routing, full DRC/review and manufacturing/assembly approval in a later authorized task. Current PCB has0unconnected items; finalDRC passes. It has not been manufactured or powered. Exact BOM/stackup/assembly/external device/safety approval still required.
 
 1. Visual inspection: soldering, pin1, polarity, holes, cable pinout and shorts.
 2. VIN–GND resistance check, supply disconnected.
@@ -76,3 +76,7 @@ No acceptable fixed resistance threshold invented; compare measured behavior to 
 ### Superseding Task5 draft gate
 
 Current interface draft has45unconnected items and2physicalMOSI/GND errors (DRC47Errors/0Warnings). Earlier73unconnected power-only checkpoint is historical. Do not assemble/power/manufacture this draft. Resolve errors and remaining routing, perform finalDRC/parity/return-path review, then seek later manufacturing approval. Existing18-step bring-up plan remains future work. Official IMU graphical source now verified; mechanical sign calibration remains mandatory.
+
+### Current gate — supersedes the draft gate above
+
+Routing now complete: DRC0Errors/0Warnings/0unrouted/0parity; ERC0Errors/1intentionalWarning. All18steps above remain planned, not executed. Confirm finalBOM, capacitor DC bias, supplierstackup/assembly, actual encoder/ESC, mechanical/sign mapping and independent motor isolation before manufacture/assembly/any powered tests. No Task6 or motor authorization implied.

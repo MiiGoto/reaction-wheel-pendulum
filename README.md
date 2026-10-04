@@ -10,7 +10,7 @@ BLDCでホイールを加減速し、その反作用で振子の姿勢を制御�
 
 制御基板MCUはSTM32G431RBT6（LQFP64、128 KB Flash / 32 KB RAM）を採用。NucleoとB-G431B-ESC1を評価候補とし、初期試作では外部ESCを優先します。Task 2では安定化5 V入力、AP2112K-3.3 LDO、MCU基本回路とSWDを実装。Task 3ではTCAN3413DR CAN FD、LSM6DSLTR SPI、外付け3.3 V ABI Encoder、外部ESC PWM/ENABLE/FAULT、UART接続を追加。Encoder/ESCの型番、最高RPM、モータ電源は未決です。
 
-KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開きます。rootは概念ブロックの概要、階層sheetはMCU/電源/SWD、CAN/IMU、Encoder/ESC、UARTに分割した実回路です。Task 4で90×70 mm・4層・4点M3固定穴の暫定PCB配置を追加しました。Task 5は電源/GND配線の途中で、信号配線は未完了です。ERCの合格は実回路の正しさを意味しません。
+KiCad 10.0.6で `hardware/kicad/reaction_wheel_controller.kicad_pro` を開きます。rootは概念ブロックの概要、階層sheetはMCU/電源/SWD、CAN/IMU、Encoder/ESC、UARTに分割した実回路です。Task 4で90×70 mm・4層・4点M3固定穴の暫定PCB配置を追加しました。Task 5で全ネットの配線とprototype範囲のPCBレビューを完了しました。DRC Error0／Warning0／未配線0。製造承認・実機検証は未実施です。ERCの合格は実回路の正しさを意味しません。
 
 ## Firmware
 
@@ -35,9 +35,9 @@ test/            Verification plan
 
 ## Current status
 
-Task5は未完了です。電源/GNDとCANを配線し、IMUは途中のdraftです。現在のDRCはError47／Warning0（MOSI/GND物理違反2、26ネットの未配線45件）、回路図等価性問題0。ERCはError0／意図的Warning1。IMU資料は確認済みですが、3回の配線検証後も違反が残るため停止しました。SWD・Encoder・UART・ESC等と最終return-path／silk／DRC reviewは未完了です。
+Task5の配線・prototype範囲のレビューを完了しました。KiCad10.0.6のDRC Error0／Warning0／未配線0／回路図等価性問題0、ERC Error0／意図的Warning1。90×70mm・4層、548配線segment・155via、全部品配置と電気pin assignmentを保持しています。
 
-[現在の配線checkpoint](docs/task5_routing_checkpoint.md)、[検証記録](docs/validation.md)。製造データ・注文・firmware・通電試験は未実施です。
+[最新routing review](docs/task5_routing_review.md)、[current checkpoint](docs/task5_routing_checkpoint.md)、[検証記録](docs/validation.md)。実際のESC／Encoder、最終BOM・製造stackup・実装・安全性・熱・EMIの確認は未完了です。製造データ・注文・firmware・通電試験・Task6は未実施です。
 
 ## Roadmap
 
@@ -52,7 +52,3 @@ Task5は未完了です。電源/GNDとCANを配線し、IMUは途中のdraftで
 ## Publication and license
 
 公開ファイルは本プロジェクト用の文書・設計です。回路図内のKiCad標準symbolは[ライブラリの設計成果物例外](https://www.kicad.org/libraries/license/)を確認済みです。ベンダーのPDF、SDK、HAL、独立した第三者ライブラリ集、ツールの実行ファイルは含めません。プロジェクトのライセンス選択はTBDです。公開されていること自体は第三者コードの利用許諾を意味しません。
-
-### Task 5 resumed draft
-
-公式IMU図を確認し、CANの信号配線を追加しました。IMU配線はDRC違反が2件残り、3回の検証後に停止しています。現在はDRC Error47（物理2＋未配線45）／Warning0。SWD・Encoder・UART・ESC等は未配線で、Task5は未完了です。[停止時点の詳細](docs/task5_routing_checkpoint.md)と[表層配線draft](docs/images/task5-interfaces-draft.svg)を参照してください。製造可能なPCBではありません。

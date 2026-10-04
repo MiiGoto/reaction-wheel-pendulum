@@ -81,3 +81,7 @@ C14/C15 100nF at U3 VCC3/VIO5; C16/C17 100nF at U4 VDDIO5/VDD8; C18 100nF+C19 1u
 ## Task 5 power/ground routing checkpoint
 
 Current PCB power nets are routed/plane-connected. C1 same position rotated180degrees; input→D1→C1/U2→C2→3V3. Local MCU/IMU/CAN/buffer capacitors use short plane-access vias, analog rails remain common3V3. In1.Cu continuous GND and In2.Cu+3V3 filled; no analog split or BLDC return.147track segments/78local plane/return vias total,37signal nets still incomplete. Thermal/capacitor-effective-value/backfeed and supplier stackup tests remain TBD;600mA LDO rating is not board budget. This is not a complete/tested PCB.
+
+## Current Task5 power routing review
+
+All intended nets connected;548segments/155vias total including signals. L2 commonGND has no signal tracks; L3+3V3 and L2GND each refill to one connected polygon. Initial power-stage counts above are historical. Local capacitor/MCU ground feeds and AP2112 input/output loops retained; no component displacement or analog ground split. FinalDRC0Errors/0Warnings/0unrouted. LDO thermal/ripple/effective-capacitance and actual loading remain unmeasured;180mA/220mA bench limits still apply. See task5_routing_review.md for bottom-plane-reference limits.

@@ -168,3 +168,20 @@ Latest ignored native report:`outputs/task5/drc_can_3.json` under the KiCad proj
 Final current native report:drc_imu_3.json (ignored output).47Errors/0Warnings =2MOSI/GND physical errors+45unconnected items on26nets;0parity/ignored checks. ERC0Errors/1intentionalWarning.318tracks/108vias/86footprints; two filled zones each one polygon.3IMU checks reached user stop limit. [Checkpoint details](task5_routing_checkpoint.md). This supersedes the earlier resumed67Error draft; no finalDRC acceptance.
 
 Current PCB SHA256:`ec1fa0a11d8462123dd8fb6c91baefdcab79b2eecd229529c21cc4a0844b724e`.
+
+## Task 5 final routing validation — supersedes all incomplete checkpoints
+
+2026-10-03, native KiCad10.0.6. Final saved/refilled PCB: **DRC Error0 / Warning0 / unconnected0 / schematic parity0**, native exit0, allseverities enabled, no exclusions/ignored checks. **ERC Error0 / Warning1**, existing ST-required U4 SDX/GND pin-type warning, no schematic modification. No intentionally retained DRC warning.
+
+All86 footprint position/rotation/value/library IDs match before-resume PCB. Independently checked248 PCB pad nets against the native schematic XML: all match.548segments(F349/In1zero/In2 82/B117),155through-vias0.60/0.30,4layers,90x70mm; each filledGND/3V3 zone one connectedpolygon,4mountingkeepouts. Four native layer plots visually inspected. Review details and limits: task5_routing_review.md.
+
+Reports local ignored: hardware/kicad/outputs/task5/final_routing_drc.json and final_routing_erc.json. These are checks of design data, not powered/thermal/EMI/assembly/actual ESC performance tests. No manufacturing files/orders/firmware/physical tests.
+
+Reproduce with installed CLI and absolute project/output paths; ensure output directory exists:
+
+```text
+kicad-cli pcb drc --schematic-parity --severity-all --exit-code-violations --format json --output <report.json> <reaction_wheel_controller.kicad_pcb>
+kicad-cli sch erc --severity-all --exit-code-violations --format json --output <erc.json> <reaction_wheel_controller.kicad_sch>
+```
+
+Final PCB SHA256:21372443c4a0d7bf95e8a19b6ec4bc9fdee7f6b76de9a4a800c15c605e5a833c. Earlier hashes refer to historical checkpoints.

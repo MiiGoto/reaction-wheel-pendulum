@@ -135,3 +135,7 @@ Electrical MCU/connector/test-point pin assignment unchanged. C1 orientation180d
 ### Resumed Task5 orientation review
 
 Official LSM6DSL Figure1 and package Figure17 visually reviewed. U4 rotation0/pin1 upper-left retained. Board top frame/native inferred axes:+Xright,+Yupper edge,+Zout; no electrical pin assignment/connector order changed. Mechanical transform and physical sign calibration remain TBD. Axis silkscreen not finalized. Current routing is an incomplete draft withMOSI/GND errors; see task5_routing_checkpoint.md.
+
+## Current Task5 routed status
+
+All tabled used nets are now PCB-connected; no MCU pin, AF, connector order or signal-voltage contract changed. SWD/reset/BOOT, ABI, debugUART and ESC PWM/EN/FAULT/optionalUART completed. NativeDRC0unrouted/0parity. Reserved/free MCU pins remain intentional NC; used does not mean firmware/performance verified. U4 native-axis silk added; mechanical transform and physical sign calibration stillTBD. Prior37net/73item notes are historical.

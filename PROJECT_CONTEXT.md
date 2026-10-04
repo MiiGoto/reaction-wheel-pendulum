@@ -1,6 +1,6 @@
 # Project context
 
-更新日: 2026-10-03 (Asia/Tokyo)。状態: Task 5 CAN/IMU配線途中checkpoint。信号配線未完了（DRC Error47: 物理2＋未配線45）。
+更新日: 2026-10-03 (Asia/Tokyo)。状態: Task5配線・prototypeレビュー完了。DRC Error0／Warning0／未配線0。製造未承認・実機未検証。
 
 ## 確定事項
 
@@ -10,7 +10,7 @@
 - STM32系とBLDCを使用。Git/GitHub、KiCad、firmware、simulation、mechanical、docs、testを一つのrepositoryにまとめる。
 - IMU、振子角度、リアクションホイール回転角/回転速度を取得する。
 - CAN/FDCAN、UART、SWDを使用可能にする。USBの必要性を検討する。
-- Task 2のMCU・電源・SWDを保持し、Task 3でTCAN3413DR、LSM6DSLTR SPI、外付け3.3V ABI接続、外部ESC論理接続、UARTを追加。PCB・firmware・製造・motor通電は未実施。
+- Task 2のMCU・電源・SWDを保持し、Task 3でTCAN3413DR、LSM6DSLTR SPI、外付け3.3V ABI接続、外部ESC論理接続、UARTを追加。PCBはTask5配線済み。firmware・製造・motor通電は未実施。
 - 既存ファイル・ユーザー変更を保存する。資料未確認の回路設計、履歴改変、force push、未検証の完成扱いは禁止。
 
 ## 仮定・候補 (設計を固定する根拠ではない)
@@ -54,7 +54,7 @@ PID、状態フィードバック、LQR、swing-up、状態推定、パラメー
 
 未決: actual encoder/ESC/magnet/RPM/PPR、正負torque/停止/回生、CANbitrate/clock、sensor制御周期/axis mapping、電源熱/EMC/配線/connectorkey、PCB/firmware。ERConewarningはST指定SDX接地によるpin-type warningで抑制なし。Task4への自動移行なし。
 
-## Task 4 current state — 2026-10-03
+## Historical Task4 snapshot — 2026-10-03
 
 確定（設計）: Task3 cc09087からfeature/pcb-placement、Task2/3依存保持、main未変更。回路の電気接続とMCU35used/12reserved/17freeを保持。全86footprints配置、4層、配線/via/zoneなし。ERC0error/1intentional warning、baselineDRC0配置違反/0parity/173未配線。
 
@@ -62,7 +62,7 @@ PID、状態フィードバック、LQR、swing-up、状態推定、パラメー
 
 未決: 実機ESC/encoder/RPM、安全停止/正負トルク/回生、debughalt中出力保持への対策、IMU die-axis mappingと振子機構、0.15mmIMU内部pad間隔/assembly、供給熱/HSI CAN-FD精度、製造会社stackup。Task5へ自動移行しない。
 
-## Task 5 current checkpoint — incomplete
+## Historical Task5 power checkpoint — superseded
 
 Confirmed: user approved90x70mm/holes/connectors, authorized Task4 net class/check restoration and delegated IMU orientation. feature/pcb-routing retains Task4 751b09e and prior tasks. Manual power/ground/decoupling stage,147tracks/78vias, filled L2GND/L3+3V3,4mounting keepouts. PhysicalDRC0/parity0; overallDRC73Errors/0Warnings from37unrouted signal nets. ERC0Errors/1intentionalWarning. C1 rotated180degrees, other placements kept.
 
@@ -70,6 +70,12 @@ Assumptions: provisional4layer supplier stackup/1.6mm thickness, existing bench 
 
 TBD/blocker: official IMU Fig1/page18 readable pixels not obtained after bounded attempts; final axes/silk unverified. All signal routing/fullreturnpath/CAN discharge/finalDRC/silkscreen review still outstanding. Task5 not complete, no fabrication outputs/orders/firmware/powered tests; do not enter Task6.
 
-## Task 5 resumed draft status
+## Historical Task5 stopped draft — superseded
 
 Official LSM6DSL PDF graphical source verified. CAN connected; IMU routed draft still has2MOSI/GND physical errors. Current DRC47Errors/0Warnings,45unconnected items on26nets,0parity; ERC0Errors/1intentionalWarning.318tracks/108vias,90x70mm/4layers, existing placements preserved. Stop after3IMU checks per user limit. Task5 incomplete; see docs/task5_routing_checkpoint.md. Encoder/SWD/UART/ESC routing, full return-path/silk review remain outstanding. No manufacture or powered tests.
+
+## Current Task5 accepted routing scope — supersedes historical checkpoints above
+
+Confirmed: all intended nets connected; nativeDRC0Error/0Warning/0unrouted/0parity, ERC0Error/1intentionalWarning.548segments/155vias,90x70mm/4layers,86footprints unchanged. R0.5 silk/nativeIMUaxes, no manufacturing output or powered verification. See docs/task5_routing_review.md.
+
+Assumptions: supplier-independent4layer concept/1.6mm nominal, bench180mA/220mA limits, external3.3V ABI/ESC contracts. TBD: actual parts/mechanics/encoderRPM/ESC/safe-state, assembly/stackup/thermal/EMI/control performance. Task6 is not authorized by this completion.
