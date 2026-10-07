@@ -1,0 +1,274 @@
+{
+  "status": "CAD_STUDY_WITH_ASSUMED_MASS_NOT_FABRICATION",
+  "assembly": "M2_candidate_review",
+  "interferences": [],
+  "occurrences": [
+    {
+      "part": "M2_arm_light_clearance",
+      "mass_kg": 0.05708029551216111,
+      "com_mm": [
+        5.906287448174462E-12,
+        112.91509668093232,
+        2.220446049250313E-15
+      ],
+      "centroid_iz_kg_m2": 0.0003288929973392621
+    },
+    {
+      "part": "M2_motor_envelope",
+      "mass_kg": 0.137,
+      "com_mm": [
+        -3.288530568378793E-09,
+        69.99999999999999,
+        23.5
+      ],
+      "centroid_iz_kg_m2": 6.58589782472407E-05
+    },
+    {
+      "part": "M2_wheel_blank",
+      "mass_kg": 0.09,
+      "com_mm": [
+        -9.432915248910976E-09,
+        219.99999999999997,
+        56.42097064144
+      ],
+      "centroid_iz_kg_m2": 0.0003262499789328256
+    },
+    {
+      "part": "M2_wheel_shaft",
+      "mass_kg": 0.03156672298327024,
+      "com_mm": [
+        8.365433079066892E-10,
+        220.0,
+        39.99999999999999
+      ],
+      "centroid_iz_kg_m2": 2.5253376755918E-07
+    },
+    {
+      "part": "M2_pivot_shaft",
+      "mass_kg": 0.03945840372908781,
+      "com_mm": [
+        8.365433079066893E-10,
+        0.0,
+        0.0
+      ],
+      "centroid_iz_kg_m2": 3.156672094489059E-07
+    },
+    {
+      "part": "M2_bearing_holder_fixed",
+      "mass_kg": 0.022450384297030404,
+      "com_mm": [
+        -0.7308817030587899,
+        220.0,
+        14.526244698580257
+      ],
+      "centroid_iz_kg_m2": 1.077583776036845E-05
+    },
+    {
+      "part": "M2_bearing_retainer",
+      "mass_kg": 0.007948511471776144,
+      "com_mm": [
+        1.646402512475311E-10,
+        220.0,
+        8.5
+      ],
+      "centroid_iz_kg_m2": 3.7743986068701816E-06
+    },
+    {
+      "part": "M2_bearing_holder_floating",
+      "mass_kg": 0.023012100357779758,
+      "com_mm": [
+        2.305843155956478E-10,
+        220.0,
+        34.5
+      ],
+      "centroid_iz_kg_m2": 1.123018041862415E-05
+    },
+    {
+      "part": "M2_bearing_retainer",
+      "mass_kg": 0.007948511471776144,
+      "com_mm": [
+        1.646402512475311E-10,
+        220.0,
+        28.5
+      ],
+      "centroid_iz_kg_m2": 3.7743986068701816E-06
+    },
+    {
+      "part": "M2_bearing_retainer",
+      "mass_kg": 0.007948511471776144,
+      "com_mm": [
+        1.646402512475311E-10,
+        220.0,
+        40.5
+      ],
+      "centroid_iz_kg_m2": 3.7743986068701816E-06
+    },
+    {
+      "part": "M2_bearing_reference",
+      "mass_kg": 0.013,
+      "com_mm": [
+        -1.2617825372499122E-09,
+        220.0,
+        13.5
+      ],
+      "centroid_iz_kg_m2": 8.904999424970811E-07
+    },
+    {
+      "part": "M2_bearing_reference",
+      "mass_kg": 0.013,
+      "com_mm": [
+        -1.2617825372499122E-09,
+        220.0,
+        34.5
+      ],
+      "centroid_iz_kg_m2": 8.904999424970811E-07
+    },
+    {
+      "part": "M2_hub_reference",
+      "mass_kg": 0.0067,
+      "com_mm": [
+        -1.4281992911989925E-09,
+        220.0,
+        65.44194128288308
+      ],
+      "centroid_iz_kg_m2": 5.939214616482786E-07
+    },
+    {
+      "part": "M2_pulley_reference",
+      "mass_kg": 0.01,
+      "com_mm": [
+        -1.1829709076162952E-09,
+        220.0,
+        46.0
+      ],
+      "centroid_iz_kg_m2": 5.986710863416192E-07
+    },
+    {
+      "part": "M2_pulley_reference",
+      "mass_kg": 0.01,
+      "com_mm": [
+        -1.1829709076162952E-09,
+        70.0,
+        46.0
+      ],
+      "centroid_iz_kg_m2": 5.986710863415795E-07
+    },
+    {
+      "part": "M2_pcb_carrier",
+      "mass_kg": 0.029024865370004906,
+      "com_mm": [
+        -2.3435803280494554E-11,
+        49.99999999999999,
+        -41.65399107588496
+      ],
+      "centroid_iz_kg_m2": 5.088723680165095E-05
+    },
+    {
+      "part": "M2_PCB_reference_only",
+      "mass_kg": 0.03355277707003263,
+      "com_mm": [
+        8.643961756005326E-13,
+        50.0,
+        -31.200000000000003
+      ],
+      "centroid_iz_kg_m2": 3.610465570171489E-05
+    },
+    {
+      "part": "M2_Micro_envelope",
+      "mass_kg": 0.0081,
+      "com_mm": [
+        2.4781763942525813E-15,
+        70.0,
+        -52.5
+      ],
+      "centroid_iz_kg_m2": 1.3824000000000012E-06
+    },
+    {
+      "part": "M2_joint_plate_light",
+      "mass_kg": 0.005487858272793907,
+      "com_mm": [
+        1.0386048566126772E-11,
+        50.0,
+        -7.5
+      ],
+      "centroid_iz_kg_m2": 1.473160312130068E-06
+    },
+    {
+      "part": "M2_joint_plate_light",
+      "mass_kg": 0.005487858272793907,
+      "com_mm": [
+        1.0386048566126772E-11,
+        50.0,
+        7.5
+      ],
+      "centroid_iz_kg_m2": 1.473160312130068E-06
+    },
+    {
+      "part": "M2_joint_crush_spacer",
+      "mass_kg": 0.0002618321127226357,
+      "com_mm": [
+        -8.000000000502974,
+        35.0,
+        1.1102230246251565E-15
+      ],
+      "centroid_iz_kg_m2": 2.757419259053462E-09
+    },
+    {
+      "part": "M2_joint_crush_spacer",
+      "mass_kg": 0.0002618321127226357,
+      "com_mm": [
+        -8.000000000502974,
+        65.0,
+        1.1102230246251565E-15
+      ],
+      "centroid_iz_kg_m2": 2.7574192590535062E-09
+    },
+    {
+      "part": "M2_joint_crush_spacer",
+      "mass_kg": 0.0002618321127226357,
+      "com_mm": [
+        7.999999999497027,
+        35.0,
+        1.1102230246251565E-15
+      ],
+      "centroid_iz_kg_m2": 2.757419259053462E-09
+    },
+    {
+      "part": "M2_joint_crush_spacer",
+      "mass_kg": 0.0002618321127226357,
+      "com_mm": [
+        7.999999999497027,
+        65.0,
+        1.1102230246251565E-15
+      ],
+      "centroid_iz_kg_m2": 2.7574192590535062E-09
+    }
+  ],
+  "parts_refined": [
+    {
+      "part": "M2_arm_light_clearance",
+      "mass_kg": 0.05708029551216111,
+      "volume_cm3": 44.94511457650481,
+      "centroid_iz_kg_m2": 0.0003288929973392621,
+      "mass_override_PETG_solid_assumption": true,
+      "feature_health": "up_to_date"
+    },
+    {
+      "part": "M2_joint_plate_light",
+      "mass_kg": 0.005487858272793907,
+      "volume_cm3": 4.321148246294415,
+      "centroid_iz_kg_m2": 1.4731603121300689E-06,
+      "mass_override_PETG_solid_assumption": true,
+      "feature_health": "up_to_date"
+    }
+  ],
+  "native_mass_kg": 0.559814128731174,
+  "native_com_mm": [
+    -0.029310757919120405,
+    129.36205249775588,
+    18.930329710096704
+  ],
+  "native_locked_pivot_iz_kg_m2": 0.013829390620029556,
+  "all_occurrences_grounded": true,
+  "missing": "motor adapter/mount, encoder, belt, supports/frame/guard, fasteners/cables and actual PCB component geometry; PETG strength and motor mass distribution unverified"
+}

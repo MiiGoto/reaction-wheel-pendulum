@@ -1,0 +1,544 @@
+{
+  "status": "CONDITIONAL_CAD_PROXY_SCREENING_NOT_FABRICATION",
+  "native_mass_override_values": {
+    "mass_kg": 0.5598141287311736,
+    "com_y_m": 0.12936205249775595,
+    "locked_pivot_iz_kg_m2": 0.013829390620029556,
+    "modelled_spin_iz_kg_m2": 0.00032829377633471625
+  },
+  "missing_parts_reserve": {
+    "mass_kg": 0.03,
+    "y_m": 0.12,
+    "own_iz_kg_m2": 5e-05
+  },
+  "screening_plant": {
+    "name": "M2_native_proxy_with_reserve",
+    "mass_kg": 0.5898141287311737,
+    "com_m": 0.12888586591413362,
+    "I_body_kg_m2": 0.01398309684369484,
+    "mgl_Nm": 0.7454888305434153
+  },
+  "budgets": {
+    "mass_kg": 0.59,
+    "com_m": 0.13,
+    "I_body_kg_m2": 0.0157,
+    "mgl_Nm": 0.7667,
+    "min_Jw_kg_m2": 0.00032625
+  },
+  "mass_margin_g": 0.18587126882629867,
+  "all_budgets_nominally_met": true,
+  "gains": [
+    -1.6124408348524955,
+    -0.22233590468716644,
+    -0.00029373383959708924
+  ],
+  "upper_budget_plant": {
+    "name": "M2_native_proxy_with_reserve",
+    "mass_kg": 0.5898141287311737,
+    "com_m": 0.12888586591413362,
+    "I_body_kg_m2": 0.0157,
+    "mgl_Nm": 0.7667
+  },
+  "cases": [
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.0580806398233495,
+      "max_wheel_rpm": 210.60101155475837,
+      "max_torque_Nm": 0.04139817659307371,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.002616800578040743,
+        -8.828652748276862e-06,
+        -14.337273302009864
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.049543966232671,
+      "max_wheel_rpm": 165.5316354536596,
+      "max_torque_Nm": 0.041284059810377936,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.002611439645027168,
+        3.0675325728955665e-06,
+        14.325825483086692
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.0661891656053921,
+      "max_wheel_rpm": 188.2431555986398,
+      "max_torque_Nm": 0.03832220301777725,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.0026155591497391624,
+        -7.494553377059386e-06,
+        -14.33462233684824
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.0552613421235686,
+      "max_wheel_rpm": 164.5384973205097,
+      "max_torque_Nm": 0.03820808623508148,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.002612681042015459,
+        4.401598394757761e-06,
+        14.328476381288125
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943825348710833,
+      "max_wheel_rpm": 188.24803276860592,
+      "max_torque_Nm": 0.018840201528747033,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.0026155597167244415,
+        -7.495162687091098e-06,
+        -14.334623547597351
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943533392182189,
+      "max_wheel_rpm": 164.53418553765172,
+      "max_torque_Nm": 0.018726084746041583,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.0026126804906425405,
+        4.401005862513049e-06,
+        14.32847520387791
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943825348710833,
+      "max_wheel_rpm": 177.74751543076786,
+      "max_torque_Nm": 0.015764227953450574,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.002614318328061863,
+        -6.161105883289042e-06,
+        -14.331972667109596
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": -1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943533392182189,
+      "max_wheel_rpm": 174.4775716051099,
+      "max_torque_Nm": 0.015650111170745124,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.002613921864732981,
+        5.7350470466917124e-06,
+        14.331126053211005
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943533392182189,
+      "max_wheel_rpm": 174.4775716051099,
+      "max_torque_Nm": 0.015650111170745124,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.002613921864732981,
+        -5.7350470466917124e-06,
+        -14.331126053211005
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943825348710833,
+      "max_wheel_rpm": 177.74751543076786,
+      "max_torque_Nm": 0.015764227953450574,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.002614318328061863,
+        6.161105883289042e-06,
+        14.331972667109596
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943533392182189,
+      "max_wheel_rpm": 164.53418553765172,
+      "max_torque_Nm": 0.018726084746041583,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.0026126804906425405,
+        -4.401005862513049e-06,
+        -14.32847520387791
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": -0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.9943825348710833,
+      "max_wheel_rpm": 188.24803276860592,
+      "max_torque_Nm": 0.018840201528747033,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.0026155597167244415,
+        7.495162687091098e-06,
+        14.334623547597351
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.0552613421235686,
+      "max_wheel_rpm": 164.5384973205097,
+      "max_torque_Nm": 0.03820808623508148,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.002612681042015459,
+        -4.401598394757761e-06,
+        -14.328476381288125
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": -50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.0661891656053921,
+      "max_wheel_rpm": 188.2431555986398,
+      "max_torque_Nm": 0.03832220301777725,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.0026155591497391624,
+        7.494553377059386e-06,
+        14.33462233684824
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": -0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": -0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.049543966232671,
+      "max_wheel_rpm": 165.5316354536596,
+      "max_torque_Nm": 0.041284059810377936,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        0.002611439645027168,
+        -3.0675325728955665e-06,
+        -14.325825483086692
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 1,
+      "rate0_rad_s": 0.05,
+      "wheel0_rpm": 50,
+      "pulse_Nm": 0.02,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 8,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 1.0580806398233495,
+      "max_wheel_rpm": 210.60101155475837,
+      "max_torque_Nm": 0.04139817659307371,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.002616800578040743,
+        8.828652748276862e-06,
+        14.337273302009864
+      ],
+      "within_band_from_3s": true
+    },
+    {
+      "theta0_deg": 0,
+      "rate0_rad_s": 0,
+      "wheel0_rpm": 0,
+      "pulse_Nm": 0,
+      "pulse_seconds": 0.05,
+      "bias_Nm": 0.002,
+      "phase_R_assumption_ohm": 15.6,
+      "horizon_s": 60,
+      "usable_phase_peak_V": 6,
+      "wheel_spin_J_kg_m2": 0.00032625,
+      "gains": [
+        -1.6124408348524955,
+        -0.22233590468716644,
+        -0.00029373383959708924
+      ],
+      "completed": true,
+      "settled_last_1s": true,
+      "max_angle_deg": 0.14946092211657627,
+      "max_wheel_rpm": 136.74334922053575,
+      "max_torque_Nm": 0.003547093079914347,
+      "clipping_seconds": 0.0,
+      "final_state": [
+        -0.002608585194001068,
+        -4.8728464476480464e-17,
+        14.319730044616621
+      ],
+      "within_band_from_3s": true
+    }
+  ],
+  "caveats": [
+    "Mass overrides/homogeneous envelopes are assumed, not real assembled mass/inertia.",
+    "All occurrences are grounded; model omits encoder, belt, mounting supports, bolts/cables and fixed frame/guard.",
+    "Thirty-gram reserve and its location/inertia are an assumption; tiny mass margin is not a robust manufacturing budget.",
+    "Motor rotor/stator and bearing inner/outer inertias are not partitioned; motor pulley is assumed1:1.",
+    "Motor voltage/torque/thermal envelope, magnet/attachment and print strength remain unverified."
+  ]
+}
