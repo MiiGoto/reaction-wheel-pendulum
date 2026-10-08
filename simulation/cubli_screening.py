@@ -143,10 +143,12 @@ def composite_edge_screen(model):
     # Edge parallel body Z at(-90,-90,0)mm, initial face normal +Y.
     # Same component distribution used by point model, reserve included.
     rx,ry,_=model['com_from_corner_m'];m=model['mass_kg']
-    I=float(model['body_inertia_corner_kg_m2'][2][2])
+    # After ideal brake engagement the stopped-relative rotor rotates with body:
+    # use locked inertia here, unlike the independently spinning control model.
+    I=float(model['locked_inertia_corner_kg_m2'][2][2])
     barrier=m*G*(math.hypot(rx,ry)-ry)
     H=math.sqrt(2*I*barrier)
-    return dict(status='COMPOSITE_ASSUMED_NATIVE_GEOMETRY_PLUS_RESERVE',edge_axis='body Z at(-90,-90,0)mm',initial_support_face_normal='body +Y',barrier_J=barrier,edge_nonspin_inertia_kg_m2=I,required_impulse_Nms=H,one_annulus_required_rpm=H/J*60/(2*math.pi),no_contact_or_loss_validation=True)
+    return dict(status='COMPOSITE_ASSUMED_NATIVE_GEOMETRY_PLUS_RESERVE',edge_axis='body Z at(-90,-90,0)mm',initial_support_face_normal='body +Y',barrier_J=barrier,edge_locked_after_brake_inertia_kg_m2=I,required_impulse_Nms=H,one_annulus_required_rpm=H/J*60/(2*math.pi),no_contact_or_loss_validation=True)
 
 def checks(model):
     # Only major wheel/motor/driver/controller/battery boxes; not full collisions.

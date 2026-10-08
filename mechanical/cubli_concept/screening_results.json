@@ -208,9 +208,9 @@
     "edge_axis": "body Z at(-90,-90,0)mm",
     "initial_support_face_normal": "body +Y",
     "barrier_J": 0.4992324795615156,
-    "edge_nonspin_inertia_kg_m2": 0.029992872822936372,
-    "required_impulse_Nms": 0.17305153144984137,
-    "one_annulus_required_rpm": 5065.196623423419,
+    "edge_locked_after_brake_inertia_kg_m2": 0.030319122822936372,
+    "required_impulse_Nms": 0.17399017710793138,
+    "one_annulus_required_rpm": 5092.670664121676,
     "no_contact_or_loss_validation": true
   }
 }
