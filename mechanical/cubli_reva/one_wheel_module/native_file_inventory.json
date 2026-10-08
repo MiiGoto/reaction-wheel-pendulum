@@ -1,0 +1,359 @@
+[
+  {
+    "file": "01_Wheel_Rim.ipt",
+    "bytes": 100864,
+    "sha256": "dd9e8ea87ff5b6a7ae6a2628c55f221195e9a6f058680991f342c0e81e23c975",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "02_Wheel_Hub.ipt",
+    "bytes": 151040,
+    "sha256": "3e0e92b177cf38e7bdbd2b04059a10769d4e1e02593e215e94ec0c81e5cf5c77",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "03_Wheel_Spokes.ipt",
+    "bytes": 143872,
+    "sha256": "993de9853162d5f4b31fa2cc4610dbd74b735ba760181dcf18b03e23457c8fcb",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "04_Wheel_Shaft.ipt",
+    "bytes": 136192,
+    "sha256": "0b8f0d51dc98a6531242c8c65539ad43d313dfa003bbc83f9d4f961f8f3e885a",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "05_Bearing_Housing.ipt",
+    "bytes": 179712,
+    "sha256": "0a3632f2df0a19cd8b8484e707663565463460b93ee04f07956676871fbfedb4",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "06_Motor_Mount.ipt",
+    "bytes": 134656,
+    "sha256": "bbf317fbedb852586aa1bdf6aa9244749d9b17d2670e0c29fe5e2058213934d8",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "07_Brake_Drum.ipt",
+    "bytes": 143360,
+    "sha256": "f8345fb83ebfc24899a42efb77601fcf31ec7d15f553821ed5c18d5da60b810f",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "08_Brake_Mechanism.ipt",
+    "bytes": 73216,
+    "sha256": "33956731104bf0aaa820d7d704a66d788abcf4f6de8c590baef1ad72fac95fd5",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "08B_Brake_Pad.ipt",
+    "bytes": 73216,
+    "sha256": "6740631644dc52c8996765e8be633bce68a734787ef65f55cef5a4f21e9830ab",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "09_Brake_Actuator_Bracket.ipt",
+    "bytes": 131584,
+    "sha256": "8c46e280233ae074319fe32d9d2fdcc9debeed7048ca29c9e7917f482eee63c2",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "10_Encoder_Mount.ipt",
+    "bytes": 105472,
+    "sha256": "14b119c5befffdfdeaf517e255cc24a1faafac05f9f1eac2baca52f6febbdeff",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "11_Module_Frame.ipt",
+    "bytes": 145408,
+    "sha256": "60e4cf6e3421ee3e84b11fcd5a63141cfb7e385f179701480372a6abe63a048e",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "12_Wheel_Guard.ipt",
+    "bytes": 148992,
+    "sha256": "1b6a977a693c88eb4d331722a1ab233949211988e2d24e763f5869c698257743",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "13_Torsional_Coupling.ipt",
+    "bytes": 118272,
+    "sha256": "8a2799950cb84899cfc1e0b7c71824d7d392f45c2369c552fe95d04f09622437",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "14_Bearing_6000_2Z.ipt",
+    "bytes": 103424,
+    "sha256": "232a1eb5d4b1b1550a321f0650c52628db65963d8719b062e06b2859065f3540",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "14B_Bearing_6000_2Z.ipt",
+    "bytes": 103424,
+    "sha256": "fe988f80015014fc62d57c5b914ccd87b8177fa2c64a4a252beebf744ff93a77",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "15_Motor_4221G024BXTH.ipt",
+    "bytes": 134656,
+    "sha256": "f179e6954ad814430009d42f44613f88b382591ad7773ec3f104a31f306759cd",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "16_Motor_Rotor_Shaft.ipt",
+    "bytes": 115712,
+    "sha256": "9b8cb4b6eb7ae0472f445847f39e84edb09152fbf6c4bea5d48a52d0f27f95f7",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "17_Bearing_Retainer_Rear.ipt",
+    "bytes": 105472,
+    "sha256": "626892bdbc8583888756c0d9e01e2f04aebaf59e92486425c6648832aecaccc9",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "17B_Bearing_Retainer_Front.ipt",
+    "bytes": 105472,
+    "sha256": "4b5faf7b9fd6e0b5016037f82032d5eb59f7cbfd3acdffcf9e151628ea6d71d7",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "18_Encoder_Magnet.ipt",
+    "bytes": 92160,
+    "sha256": "dc224ba8738d2211f855bbeb2bcc7d46b03454aeac86634789d98d9e09510530",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "19_Encoder_PCB_Interface.ipt",
+    "bytes": 90624,
+    "sha256": "6a07d79afef9a16d23a343ac94330daa50efdb11559e5fd896d734c99994d163",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "20_Retaining_Washer.ipt",
+    "bytes": 87552,
+    "sha256": "04dc636b83ebf4ce084ee41f99554fc6cc1f548e98e678e6f686e91ef6a7085a",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "21_Retaining_Clip.ipt",
+    "bytes": 96256,
+    "sha256": "7b2a15c31590e5316fb1a4197f505b48cd0b858d15dfd16c481a88d8a1f35d05",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "22_Spacer_-22_-22.ipt",
+    "bytes": 100352,
+    "sha256": "9393945feed2d61850cb3769b9dc3f0a1baaff878095b8a38fa9f4f021c221bd",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "22_Spacer_-22_22.ipt",
+    "bytes": 100352,
+    "sha256": "2bf8a11b55c239a6fdd750877aa4955996b076478ad049775cd4794fd2650903",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "22_Spacer_22_-22.ipt",
+    "bytes": 100352,
+    "sha256": "615d6abd1fd89f9316af9470e016b48f92cf321a65b65f73fe7d57044000a763",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "22_Spacer_22_22.ipt",
+    "bytes": 100352,
+    "sha256": "9db6e3b10b08b775377f15b76fd838c908a97cffbe8fb4ff5d7c4305ef2f332c",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "23_Brake_Guide_-32.ipt",
+    "bytes": 113664,
+    "sha256": "1b729539bf5a8a74071e58fb59ccc860905765cc3b26b671ec65fa3554c27433",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "23_Brake_Guide_32.ipt",
+    "bytes": 113664,
+    "sha256": "f87e84d41dfca23df36bdb92469db622be2895d62b4d5af7842b73f0f8b59f18",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "24_Lower_Pad_Carrier.ipt",
+    "bytes": 86528,
+    "sha256": "582d364fdb69dfe626e915d1dce32060692902b473a6f2ec9c25bcf29896847d",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "24B_Upper_Pad_Carrier.ipt",
+    "bytes": 86016,
+    "sha256": "3e2841e1599832114625addd6324531c12a9d2920b04900028ee2a642078d187",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "25_Shaft_Key.ipt",
+    "bytes": 84992,
+    "sha256": "c2e013b86a23efc4419f97ea7aebec49ff69245a165ee63354ee0de7a349a5ad",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "26_Inner_Race_Spacer.ipt",
+    "bytes": 102912,
+    "sha256": "47d58c727262c2b060cf84239ce7f261211a6829e20a1162c94cd7e4271453a4",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "27_Front_Hub_Shim.ipt",
+    "bytes": 90112,
+    "sha256": "fc2e69626dde07bd4a477740b183515c993195896007b72efab9aa37048f65b8",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "28_Clip_Stack_Shim.ipt",
+    "bytes": 83968,
+    "sha256": "afda0a408d19b91894b9c60d858975d8393bd38a42024bb2eada4b78aab0f4a2",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "Cubli_OneWheel_Module_RevA.iam",
+    "bytes": 488960,
+    "sha256": "f066a3169ca1df435254f44aa6f4f16a532624cadb8694406f6dd238d43177ff",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/01_Wheel_Rim.idw",
+    "bytes": 211968,
+    "sha256": "f5aac1e28dd74108bc87912ac065ca4a5e9718d5dfdc7943d06e203e569e306b",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/02_Wheel_Hub.idw",
+    "bytes": 208896,
+    "sha256": "1eebaaca47f68033a27f3b06bad16b33c1d39fa615ee3cddf4edd47b34db7fb9",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/03_Wheel_Spokes.idw",
+    "bytes": 214016,
+    "sha256": "08d8a8e9e67908cf73a414b466383a7e344a97b14dee20a810bb676e3086a16e",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/04_Wheel_Shaft.idw",
+    "bytes": 214016,
+    "sha256": "f98023b0d08befe042145a7a07b340f0d12340f1c341bb876d93b90972071b6f",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/05_Bearing_Housing.idw",
+    "bytes": 212480,
+    "sha256": "9962a6165d15a20cd99319cb3bddb2ff7c173f8ceac1a827a18dbe83eb46e9ab",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/06_Motor_Mount.idw",
+    "bytes": 210432,
+    "sha256": "a4c603aab00ae22b4f110cc30c60cfd743d47f445ec825a3c1642d6441bf0d2e",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/07_Brake_Drum.idw",
+    "bytes": 214528,
+    "sha256": "332f508d88c25f115223f83d427893f57df17e5bea217cf2c127e70b1d7d1c06",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/08_Brake_Mechanism.idw",
+    "bytes": 206336,
+    "sha256": "49b62f1fd01ee13b8bb95e7debcc7c8436dc700cb999a8ebc4fa5e550d4d7be4",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/08B_Brake_Pad.idw",
+    "bytes": 205824,
+    "sha256": "da6c347c2ea28beed4c1700fcf01cf5ff386844946c713841a6314e68ce2e411",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/09_Brake_Actuator_Bracket.idw",
+    "bytes": 208896,
+    "sha256": "8711c00a856e9b25af235fcdbd8623485f4b5734da796e6f9806ac6948686e16",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/10_Encoder_Mount.idw",
+    "bytes": 207872,
+    "sha256": "02d13327c3c2051d90a0761aed7f36d95946547dfb31159c2d35c5550a858a94",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/11_Module_Frame.idw",
+    "bytes": 212992,
+    "sha256": "a2e3a0768c7078faea7f19ce9e86ec66b0d128e71e1dd300e6e1eddde6238c10",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/12_Wheel_Guard.idw",
+    "bytes": 210944,
+    "sha256": "d81c7cf786ba9d20ce4705c841b73c8cd27abbe4b480e6228149d92f47164ad8",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  },
+  {
+    "file": "drawings/Cubli_OneWheel_Module_RevA.idw",
+    "bytes": 238592,
+    "sha256": "0dec3d5d4f7583ea36a243f39df6159f65add1dd5311f5e9d9b2e6293a5b7aa6",
+    "public_git": false,
+    "reason": "native reference metadata stays local"
+  }
+]

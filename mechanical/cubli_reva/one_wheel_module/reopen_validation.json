@@ -1,0 +1,200 @@
+{
+  "Inventor": "2026.2",
+  "assembly_bytes": 488960,
+  "reopened_occurrences": 36,
+  "reopened_constraints": 104,
+  "bounds_min_mm": [
+    -90.0,
+    -90.0,
+    -46.00000000000001
+  ],
+  "bounds_max_mm": [
+    90.0,
+    90.0,
+    67.50000000000001
+  ],
+  "references": [
+    {
+      "part": "01_Wheel_Rim",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "02_Wheel_Hub",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "03_Wheel_Spokes",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "04_Wheel_Shaft",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "05_Bearing_Housing",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "06_Motor_Mount",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "07_Brake_Drum",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "08_Brake_Mechanism",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "08B_Brake_Pad",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "09_Brake_Actuator_Bracket",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "10_Encoder_Mount",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "11_Module_Frame",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "12_Wheel_Guard",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "13_Torsional_Coupling",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "14_Bearing_6000_2Z",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "14B_Bearing_6000_2Z",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "15_Motor_4221G024BXTH",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "16_Motor_Rotor_Shaft",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "17_Bearing_Retainer_Rear",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "17B_Bearing_Retainer_Front",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "18_Encoder_Magnet",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "19_Encoder_PCB_Interface",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "20_Retaining_Washer",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "21_Retaining_Clip",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "22_Spacer_-22_-22",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "22_Spacer_-22_22",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "22_Spacer_22_-22",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "22_Spacer_22_22",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "23_Brake_Guide_-32",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "23_Brake_Guide_32",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "24_Lower_Pad_Carrier",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "24B_Upper_Pad_Carrier",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "25_Shaft_Key",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "26_Inner_Race_Spacer",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "27_Front_Hub_Shim",
+      "file_exists": true,
+      "solid_bodies": 1
+    },
+    {
+      "part": "28_Clip_Stack_Shim",
+      "file_exists": true,
+      "solid_bodies": 1
+    }
+  ],
+  "viewport_source": "Inventor ActiveView.SaveAsBitmap; not full GUI screenshots",
+  "computer_use": "unavailable; node kernel failed before UI operation"
+}

@@ -1,0 +1,54 @@
+Part ID,Part name,Quantity,Material,Mass g each,Manufacturing method,Manufacturer/MPN,Type,Notes
+01_Wheel_Rim,01_Wheel_Rim,1,アルミニウム 6061,58.5235,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+02_Wheel_Hub,02_Wheel_Hub,1,アルミニウム 6061,21.7463,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+03_Wheel_Spokes,03_Wheel_Spokes,1,アルミニウム 6061,19.1869,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+04_Wheel_Shaft,04_Wheel_Shaft,1,鋼、合金鋼,43.3113,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+05_Bearing_Housing,05_Bearing_Housing,1,アルミニウム 6061,90.92,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+06_Motor_Mount,06_Motor_Mount,1,アルミニウム 6061,19.4136,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+07_Brake_Drum,07_Brake_Drum,1,ステンレス鋼,52.3902,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+08_Brake_Mechanism,08_Brake_Mechanism,1,PET プラスチック,0.4315,FDM or friction/PCB interface prototype - HOLD,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+08B_Brake_Pad,08B_Brake_Pad,1,PET プラスチック,0.4315,FDM or friction/PCB interface prototype - HOLD,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+09_Brake_Actuator_Bracket,09_Brake_Actuator_Bracket,1,アルミニウム 6061,125.9567,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+10_Encoder_Mount,10_Encoder_Mount,1,PET プラスチック,7.7693,FDM or friction/PCB interface prototype - HOLD,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+11_Module_Frame,11_Module_Frame,1,PET プラスチック,71.7062,FDM or friction/PCB interface prototype - HOLD,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+12_Wheel_Guard,12_Wheel_Guard,1,PET プラスチック,127.8887,FDM or friction/PCB interface prototype - HOLD,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+13_Torsional_Coupling,13_Torsional_Coupling,1,アルミニウム 6061,8.9882,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+14_Bearing_6000_2Z,14_Bearing_6000_2Z,1,鋼、合金鋼,27.9758,catalogue bearing simplified envelope; CAD mass proxy,SKF 6000-2Z,purchased,HOLD: dimensions/material qualification per assembly instructions
+14B_Bearing_6000_2Z,14B_Bearing_6000_2Z,1,鋼、合金鋼,27.9758,catalogue bearing simplified envelope; CAD mass proxy,SKF 6000-2Z,purchased,HOLD: dimensions/material qualification per assembly instructions
+15_Motor_4221G024BXTH,15_Motor_4221G024BXTH,1,鋼、合金鋼,140.0,manufacturer external geometry; 140g body mass override,"FAULHABER 4221 G 024 BXT H, non-SC",purchased,HOLD: dimensions/material qualification per assembly instructions
+16_Motor_Rotor_Shaft,16_Motor_Rotor_Shaft,1,鋼、合金鋼,1.9731,motor shaft envelope,included in FAULHABER motor,included,HOLD: dimensions/material qualification per assembly instructions
+17_Bearing_Retainer_Rear,17_Bearing_Retainer_Rear,1,アルミニウム 6061,9.8184,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+17B_Bearing_Retainer_Front,17B_Bearing_Retainer_Front,1,アルミニウム 6061,9.8184,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+18_Encoder_Magnet,18_Encoder_Magnet,1,鋼、合金鋼,0.3036,machining,diametrical magnet 5x2 prototype size; MPN HOLD,fabricated,HOLD: dimensions/material qualification per assembly instructions
+19_Encoder_PCB_Interface,19_Encoder_PCB_Interface,1,PET プラスチック,0.9487,FDM or friction/PCB interface prototype - HOLD,AS5047P SPI IC candidate; sensor PCB MPN/geometry HOLD,fabricated,HOLD: dimensions/material qualification per assembly instructions
+20_Retaining_Washer,20_Retaining_Washer,1,鋼、合金鋼,1.3599,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+21_Retaining_Clip,21_Retaining_Clip,1,鋼、合金鋼,0.3275,machining,custom external retaining clip; qualified standard MPN HOLD,fabricated,HOLD: dimensions/material qualification per assembly instructions
+22_Spacer_-22_-22,22_Spacer_-22_-22,1,アルミニウム 6061,2.0645,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+22_Spacer_-22_22,22_Spacer_-22_22,1,アルミニウム 6061,2.0645,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+22_Spacer_22_-22,22_Spacer_22_-22,1,アルミニウム 6061,2.0645,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+22_Spacer_22_22,22_Spacer_22_22,1,アルミニウム 6061,2.0645,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+23_Brake_Guide_-32,23_Brake_Guide_-32,1,鋼、合金鋼,0.601,machining,ground guide pin dia3 x11; MPN HOLD,fabricated,HOLD: dimensions/material qualification per assembly instructions
+23_Brake_Guide_32,23_Brake_Guide_32,1,鋼、合金鋼,0.601,machining,ground guide pin dia3 x11; MPN HOLD,fabricated,HOLD: dimensions/material qualification per assembly instructions
+24_Lower_Pad_Carrier,24_Lower_Pad_Carrier,1,アルミニウム 6061,5.0605,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+24B_Upper_Pad_Carrier,24B_Upper_Pad_Carrier,1,アルミニウム 6061,5.0605,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+25_Shaft_Key,25_Shaft_Key,1,鋼、合金鋼,0.8348,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+26_Inner_Race_Spacer,26_Inner_Race_Spacer,1,鋼、合金鋼,0.6678,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+27_Front_Hub_Shim,27_Front_Hub_Shim,1,鋼、合金鋼,2.0399,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+28_Clip_Stack_Shim,28_Clip_Stack_Shim,1,鋼、合金鋼,0.68,machining,own parametric part,fabricated,HOLD: dimensions/material qualification per assembly instructions
+F01,F01,6,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M3x6,purchased,motor;0.5 washer+3 plate ->2.5 insertion <=3mm; verify actual stack
+F02,F02,6,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M3x16 + M3 nuts,purchased,"rim/spokes, washers; actual fastener clearance not modeled"
+F03,F03,8,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M3x5,purchased,4 rear disc/4 front spider;3mm engagement after washer
+F04,F04,8,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M3x6,purchased,bearing retainer screws; holes outside seats
+F05,F05,4,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M4x40 + M4 nuts,purchased,"housing through frame, exact clamping stack HOLD"
+F06,F06,4,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M4x30 + M4 nuts,purchased,"motor spacers, approximate measured clamping stack HOLD"
+F07,F07,2,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M3x10,purchased,caliper base into M3 tap holes
+F08,F08,4,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 4762 M2x8 + M2 nuts,purchased,"encoder PCB/bracket interface, board MPN HOLD"
+F09,F09,4,purchased / certified material HOLD,TBD,purchased; not modeled,M4 module interface screws; length HOLD,purchased,"168mm square interface, host-frame thickness TBD"
+F10,F10,32,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 7089 M3 washers,purchased,provisional count; reconcile stack drawing
+F11,F11,16,purchased / certified material HOLD,TBD,purchased; not modeled,ISO 7089 M4 washers,purchased,provisional count
+A01,A01,1,purchased / certified material HOLD,TBD,purchased; not modeled,bidirectional clamp actuator NOT SELECTED,purchased,">=350N each pad, >=1.2mm closing travel, <20ms engagement goal; response/duty/mass HOLD"
+A02,A02,2,purchased / certified material HOLD,TBD,purchased; not modeled,return spring NOT SELECTED,purchased,fail-release behavior/retained spring travel HOLD
+D01,D01,1,purchased / certified material HOLD,TBD,purchased; not modeled,ODrive Micro,purchased,"off-module electronics integration, regen sink required; NOT in CAD mass"
+E01,E01,1,purchased / certified material HOLD,TBD,purchased; not modeled,AS5047P sensor PCB NOT SELECTED,purchased,sensor die/magnet alignment gap and MOSI high strap verify
+P01,P01,1,purchased / certified material HOLD,TBD,purchased; not modeled,24V regenerative-compatible source NOT SELECTED,purchased,no bench supply assumption of regen absorption
+C01,C01,1,purchased / certified material HOLD,TBD,purchased; not modeled,5-to10mm flexible coupling; current OWN proxy,purchased,clamp screw/positive locking and torsional compliance HOLD

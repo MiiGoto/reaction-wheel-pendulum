@@ -53,3 +53,7 @@ Desktop.ini
 # Native study embeds local workstation metadata; keep locally, publish own STEP.
 mechanical/cubli_concept/local_native*/
 **/OldVersions/
+
+# One-wheel native CAD retains local absolute references; publish own neutral exports.
+mechanical/cubli_reva/one_wheel_module/local_*
+mechanical/cubli_reva/one_wheel_module/views/*.bmp

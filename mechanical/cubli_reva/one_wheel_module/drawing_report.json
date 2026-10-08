@@ -1,0 +1,100 @@
+[
+  {
+    "drawing": "01_Wheel_Rim",
+    "native_bytes": 211968,
+    "pdf_bytes": 80689,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "02_Wheel_Hub",
+    "native_bytes": 208896,
+    "pdf_bytes": 78539,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "03_Wheel_Spokes",
+    "native_bytes": 214016,
+    "pdf_bytes": 77659,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "04_Wheel_Shaft",
+    "native_bytes": 214016,
+    "pdf_bytes": 76390,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "05_Bearing_Housing",
+    "native_bytes": 212480,
+    "pdf_bytes": 75752,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "06_Motor_Mount",
+    "native_bytes": 210432,
+    "pdf_bytes": 75162,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "07_Brake_Drum",
+    "native_bytes": 214528,
+    "pdf_bytes": 76358,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "08_Brake_Mechanism",
+    "native_bytes": 206336,
+    "pdf_bytes": 72644,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "08B_Brake_Pad",
+    "native_bytes": 205824,
+    "pdf_bytes": 72607,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "09_Brake_Actuator_Bracket",
+    "native_bytes": 208896,
+    "pdf_bytes": 73793,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "10_Encoder_Mount",
+    "native_bytes": 207872,
+    "pdf_bytes": 73450,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "11_Module_Frame",
+    "native_bytes": 212992,
+    "pdf_bytes": 74108,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "12_Wheel_Guard",
+    "native_bytes": 210944,
+    "pdf_bytes": 74262,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "Cubli_OneWheel_Module_RevA",
+    "native_bytes": 238592,
+    "pdf_bytes": 78380,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  }
+]

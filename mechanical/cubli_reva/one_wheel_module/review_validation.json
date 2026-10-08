@@ -1,0 +1,16 @@
+{
+  "status": "PASS within native geometry/file scope; manufacturing HOLD",
+  "native_parts": 36,
+  "constraints": 104,
+  "healthy_constraints": 104,
+  "reopen_missing_references": 0,
+  "discrete_poses": 7,
+  "interference_pairs_all_poses": 0,
+  "PDF_drawings": 14,
+  "PDF_native_dimensions_each": 2,
+  "STEP_files": 37,
+  "STL_units_verified": "mm",
+  "public_text_scan_findings": 0,
+  "full_GUI_dialog_evidence": "NOT STARTED due Computer Use kernel failure",
+  "full_manufacturing_drawings": "PARTIAL"
+}

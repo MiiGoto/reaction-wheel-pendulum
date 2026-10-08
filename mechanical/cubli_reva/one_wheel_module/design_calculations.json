@@ -1,0 +1,68 @@
+{
+  "classification": "CALCULATED FROM CAD + EXPLICIT ASSUMPTIONS, NOT TESTED",
+  "wheel_J_kg_m2": 0.00047409235121682685,
+  "rotating_J_with_catalogue_motor_rotor_kg_m2": 0.00048229287413103296,
+  "target_rpm": 3330,
+  "wheel_H_Nms": 0.16532396029535437,
+  "total_rotating_H_Nms": 0.16818362027761236,
+  "stop_energy_J": 29.324225638464668,
+  "acceleration_assumed_command_Nm": 0.04,
+  "drag_assumption_Nm": 0.005,
+  "spinup_seconds_constant_net_torque": 4.805246293646067,
+  "catalogue_DCeq_Kt_Nm_A": 0.0377,
+  "sinusoidal_phase_RMS_per_DCeq_assumed_from_FA_application_note": 0.78,
+  "derived_phase_peak_Kt_Nm_A": 0.034176827757349794,
+  "phase_peak_Iq_for_40mNm_A": 1.1703836378260097,
+  "catalogue_DCeq_nominal_A": 2.87,
+  "corresponding_phase_peak_nominal_A": 3.1658584807284114,
+  "copper_loss_W_at_command": 0.7602378121284185,
+  "speed_voltage_heuristic_rpm_NOT_curve": 4711.2,
+  "brake": [
+    {
+      "mu_assumption": 0.15,
+      "pad_normal_force_N_each": 272.108843537415,
+      "bidirectional_torque_Nm": 4
+    },
+    {
+      "mu_assumption": 0.25,
+      "pad_normal_force_N_each": 163.26530612244898,
+      "bidirectional_torque_Nm": 4
+    },
+    {
+      "mu_assumption": 0.35,
+      "pad_normal_force_N_each": 116.61807580174928,
+      "bidirectional_torque_Nm": 4
+    }
+  ],
+  "brake_nominal_stop_seconds": 0.04204590506940309,
+  "brake_tangential_force_N": 81.63265306122449,
+  "bearing_reactions_nominal_N": [
+    115.3061224489796,
+    -33.6734693877551
+  ],
+  "shock_factor_assumption": 3,
+  "bearing_reactions_shock_N": [
+    345.9183673469388,
+    -101.02040816326532
+  ],
+  "shaft_bending_MPa": 6.8599028532669974,
+  "shaft_torsion_MPa": 20.3718327157626,
+  "shaft_vonMises_3x_shock_MPa": 107.83708427892401,
+  "shaft_vonMises_3x_shock_Kf2_MPa": 215.67416855784802,
+  "shaft_tip_deflection_mm_shock": 0.0015226534368948004,
+  "pad_axial_imbalance_10pct_N": 27.210884353741502,
+  "caliper_plate_deflection_mm_each_assumption": 0.12835708625908765,
+  "actuator_required_force_N_each_pad": 350,
+  "actuator_required_closing_stroke_mm_minimum": 1.2,
+  "actuator_engagement_requirement_ms_unverified": 20,
+  "uniform_disc_single_stop_temp_rise_K_assumed_cp500": 1.119454062566213,
+  "rim_thin_ring_hoop_MPa_3330": 1.8468515741046712,
+  "rim_thin_ring_hoop_MPa_5000": 4.1637393567095735,
+  "old_1p4kg_cube_face_edge_Hreq_Nms_80pct": 0.25757867674483426,
+  "old_cube_required_rpm_with_actual_wheel_J": 5188.219493580572,
+  "three_independent_module_mass_kg_NO_shared_frame": 2.678906025996235,
+  "bearing_speed_2Z_status": "specific supplier speed rating must be frozen before operation",
+  "simulation_status": "no multibody self-righting simulation completed",
+  "FEA": "NOT STARTED",
+  "self_righting": "BLOCKED for former 1.40kg/3330rpm claim: actual J smaller and module mass greater"
+}

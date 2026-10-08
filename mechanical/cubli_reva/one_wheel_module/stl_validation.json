@@ -1,0 +1,65 @@
+[
+  {
+    "file": "10_Encoder_Mount.stl",
+    "units": "mm, verified numeric extents against native model",
+    "triangles": 1168,
+    "bounds_min_mm": [
+      -83.0,
+      -14.993157386779785,
+      4.0
+    ],
+    "bounds_max_mm": [
+      15.0,
+      14.993157386779785,
+      65.0
+    ],
+    "extent_mm": [
+      98.0,
+      29.98631477355957,
+      61.0
+    ],
+    "passed": true
+  },
+  {
+    "file": "11_Module_Frame.stl",
+    "units": "mm, verified numeric extents against native model",
+    "triangles": 1280,
+    "bounds_min_mm": [
+      -90.0,
+      -90.0,
+      0.0
+    ],
+    "bounds_max_mm": [
+      90.0,
+      90.0,
+      4.0
+    ],
+    "extent_mm": [
+      180.0,
+      180.0,
+      4.0
+    ],
+    "passed": true
+  },
+  {
+    "file": "12_Wheel_Guard.stl",
+    "units": "mm, verified numeric extents against native model",
+    "triangles": 1704,
+    "bounds_min_mm": [
+      -90.0,
+      -90.0,
+      4.0
+    ],
+    "bounds_max_mm": [
+      90.0,
+      90.0,
+      67.5
+    ],
+    "extent_mm": [
+      180.0,
+      180.0,
+      63.5
+    ],
+    "passed": true
+  }
+]

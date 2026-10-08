@@ -1,0 +1,16 @@
+{
+  "Inventor_version": "2026.2",
+  "visible_GUI": true,
+  "Computer_Use": false,
+  "COM_API": true,
+  "write_test_passed": true,
+  "write_test_filename": "Write_Test_10x10x2mm.ipt",
+  "write_test_bytes": 142848,
+  "write_test_volume_mm3": 200.0,
+  "reopened_solid_bodies": 1,
+  "native_parts_saved": 36,
+  "native_assembly_saved": true,
+  "native_drawings_saved": 14,
+  "interop_note": "2025 interop enum definitions only; connected server independently verified2026.2",
+  "evidence_limit": "native viewport captures; full UI browser and dialog screenshots unavailable"
+}

@@ -1,0 +1,1465 @@
+{
+  "Inventor": "2026.2",
+  "parts": [
+    {
+      "part": "01_Wheel_Rim",
+      "group": "rotor",
+      "bytes": 100864,
+      "solid_bodies": 1,
+      "mass_kg": 0.058523460340280366,
+      "volume_mm3": 21675.35568158532,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        3.336133369027959E-08,
+        1.1801208184599783E-13,
+        54.50000000000003
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.0001502282615530251,
+        0.00015022817957380716,
+        0.00029997849953405334,
+        6.139089239271359E-19,
+        5.0263793127669694E-20,
+        4.8729020870096683E-20
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "02_Wheel_Hub",
+      "group": "rotor",
+      "bytes": 151040,
+      "solid_bodies": 1,
+      "mass_kg": 0.02174630857514365,
+      "volume_mm3": 8054.188361164314,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -1.9186829752386027E-09,
+        -0.05992223902126198,
+        43.508293044951515
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.903146847059304E-06,
+        1.9109031084621336E-06,
+        3.1722362718842358E-06,
+        2.502130267400593E-18,
+        -6.623503133503906E-10,
+        6.040621950708836E-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "03_Wheel_Spokes",
+      "group": "rotor",
+      "bytes": 143872,
+      "solid_bodies": 1,
+      "mass_kg": 0.019186931009651555,
+      "volume_mm3": 7106.27074431539,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        1.1518632782890023E-11,
+        0.0,
+        50.249999999999986
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.2210294449850954E-05,
+        3.22102944492837E-05,
+        6.441339380000607E-05,
+        -1.5347723092418165E-20,
+        5.995204332975845E-22,
+        -3.2613911571415484E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "04_Wheel_Shaft",
+      "group": "rotor",
+      "bytes": 136192,
+      "solid_bodies": 1,
+      "mass_kg": 0.04331126699364792,
+      "volume_mm3": 5603.009960368424,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        1.1054060641129224E-09,
+        -0.02871224594243267,
+        22.906216816568445
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5183669240108475E-05,
+        1.5189082146251418E-05,
+        5.979075164111461E-07,
+        -1.3746429103609902E-18,
+        2.4987900367273995E-08,
+        -2.682811458561186E-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "05_Bearing_Housing",
+      "group": "fixed",
+      "bytes": 179712,
+      "solid_bodies": 1,
+      "mass_kg": 0.09091998028937037,
+      "volume_mm3": 33674.06677384088,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        5.110141311475271E-10,
+        8.440236702411877E-15,
+        20.000000000000007
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.1827872701562104E-05,
+        3.182787235368564E-05,
+        5.2296686819555394E-05,
+        3.8369307731437553E-20,
+        1.151079231931363E-20,
+        2.685851541209575E-20
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "06_Motor_Mount",
+      "group": "fixed",
+      "bytes": 134656,
+      "solid_bodies": 1,
+      "mass_kg": 0.019413629514427887,
+      "volume_mm3": 7190.23315349181,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        7.994581830086629E-11,
+        0.0,
+        -22.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.681533956024502E-06,
+        4.681533948931668E-06,
+        9.33394746068453E-06,
+        3.836930773104541E-21,
+        1.5587531265737199E-21,
+        1.438849039904897E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "07_Brake_Drum",
+      "group": "rotor",
+      "bytes": 143360,
+      "solid_bodies": 1,
+      "mass_kg": 0.052390225948606456,
+      "volume_mm3": 6548.778243575807,
+      "material": "ステンレス鋼",
+      "centroid_mm": [
+        -1.0850004524998619E-14,
+        -1.0850004524998619E-14,
+        38.25
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.327389493084669E-05,
+        5.3273894930846554E-05,
+        0.0001065281435269625,
+        -9.094947017729281E-20,
+        9.521272659185348E-21,
+        9.876544027065397E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "08_Brake_Mechanism",
+      "group": "pad",
+      "bytes": 73216,
+      "solid_bodies": 1,
+      "mass_kg": 0.00043148000000000036,
+      "volume_mm3": 280.0000000000002,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        49.0,
+        0.0,
+        36.150000000000006
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.191333333333194E-09,
+        3.739493333332966E-09,
+        1.0643173333333424E-08,
+        2.1385671011842076E-24,
+        4.277134202368415E-24,
+        8.881784197001253E-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "08B_Brake_Pad",
+      "group": "pad",
+      "bytes": 73216,
+      "solid_bodies": 1,
+      "mass_kg": 0.00043148000000000036,
+      "volume_mm3": 280.0000000000002,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        49.0,
+        0.0,
+        40.35000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.1913333333331065E-09,
+        3.739493333333144E-09,
+        1.0643173333333424E-08,
+        2.1385671011842076E-24,
+        -1.2831402607105245E-23,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "09_Brake_Actuator_Bracket",
+      "group": "fixed",
+      "bytes": 131584,
+      "solid_bodies": 1,
+      "mass_kg": 0.1259566565328288,
+      "volume_mm3": 46650.613530677336,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        61.38774889880107,
+        0.0,
+        28.328160523976006
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.36040548016007E-05,
+        2.902591688801595E-05,
+        7.588143315411189E-05,
+        1.0773199793156891E-08,
+        0.0,
+        4.663884406754733E-06
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "10_Encoder_Mount",
+      "group": "fixed",
+      "bytes": 105472,
+      "solid_bodies": 1,
+      "mass_kg": 0.007769281909408797,
+      "volume_mm3": 5041.714412335365,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        -55.995584649657374,
+        -1.761659521068972E-15,
+        47.52961751969971
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.185108445360658E-06,
+        1.1197158203667732E-05,
+        8.355244133437924E-06,
+        -2.5184370505016137E-21,
+        3.729255654524468E-21,
+        -3.0716780731756985E-06
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "11_Module_Frame",
+      "group": "fixed",
+      "bytes": 145408,
+      "solid_bodies": 1,
+      "mass_kg": 0.07170623217286744,
+      "volume_mm3": 46532.27266247076,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        1.3065945650615505,
+        0.0,
+        2.0000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.00022433780699836157,
+        0.0002302358367094921,
+        0.0004543824270887261,
+        0.0,
+        2.1898927116126285E-21,
+        6.59472476627343E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "12_Wheel_Guard",
+      "group": "fixed",
+      "bytes": 148992,
+      "solid_bodies": 1,
+      "mass_kg": 0.12788874001750894,
+      "volume_mm3": 82990.74628001878,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        1.649327891991511E-11,
+        2.739747328889553E-14,
+        55.780282125894836
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.0006046242052569736,
+        0.0006113853427461962,
+        0.001149391375077983,
+        3.083368937950639E-18,
+        6.85980500647938E-19,
+        7.91770545018693E-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "13_Torsional_Coupling",
+      "group": "rotor",
+      "bytes": 118272,
+      "solid_bodies": 1,
+      "mass_kg": 0.008988167280898685,
+      "volume_mm3": 3328.9508447772905,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -1.0508100930264913E-09,
+        1.334021529776516E-15,
+        -12.567032412104599
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.9668496515914133E-07,
+        3.988376985516581E-07,
+        4.229912095677211E-07,
+        -1.1990408667211656E-22,
+        4.488365789581898E-22,
+        2.2994486080893827E-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "14_Bearing_6000_2Z",
+      "group": "fixed",
+      "bytes": 103424,
+      "solid_bodies": 1,
+      "mass_kg": 0.027975756916512176,
+      "volume_mm3": 3619.114736935598,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.5046207820533591E-09,
+        -4.90826339732003E-15,
+        10.000000000000002
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5060279844933621E-06,
+        1.5060283349540873E-06,
+        2.7136482456713216E-06,
+        -1.3731238366497907E-21,
+        -1.0298428776422955E-21,
+        -5.149214389336441E-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "14B_Bearing_6000_2Z",
+      "group": "fixed",
+      "bytes": 103424,
+      "solid_bodies": 1,
+      "mass_kg": 0.027975756916512176,
+      "volume_mm3": 3619.114736935598,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.5046158737899618E-09,
+        0.0,
+        30.000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5060279844933547E-06,
+        1.5060283349540811E-06,
+        2.713648245671319E-06,
+        -6.865619184281969E-22,
+        3.4328095921409847E-22,
+        1.544764316304624E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "15_Motor_4221G024BXTH",
+      "group": "fixed",
+      "bytes": 134656,
+      "solid_bodies": 1,
+      "mass_kg": 0.14,
+      "volume_mm3": 30661.111776984504,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.1905150165656356E-09,
+        -9.269627806431504E-15,
+        -34.92400741413575
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.1086925230755605E-05,
+        2.108692919953944E-05,
+        3.068182575787006E-05,
+        -1.2977478926161371E-20,
+        -1.3076098147185506E-20,
+        -1.0749095203848974E-17
+      ],
+      "mass_override": true,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "16_Motor_Rotor_Shaft",
+      "group": "rotor",
+      "bytes": 115712,
+      "solid_bodies": 1,
+      "mass_kg": 0.001973116535995155,
+      "volume_mm3": 255.25440310415976,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        5.228396948677499E-10,
+        0.0,
+        -17.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.087105266850427E-08,
+        3.087105187218295E-08,
+        6.165988776824199E-09,
+        0.0,
+        -1.0727529975440577E-23,
+        -5.3637649932003595E-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "17_Bearing_Retainer_Rear",
+      "group": "fixed",
+      "bytes": 105472,
+      "solid_bodies": 1,
+      "mass_kg": 0.00981843208663522,
+      "volume_mm3": 3636.4563283834145,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -2.7810710930251475E-09,
+        4.884856791859039E-15,
+        5.000000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.609892350161853E-06,
+        1.6098927766303199E-06,
+        3.2132395054010833E-06,
+        2.877698079695022E-21,
+        -2.997602166487918E-23,
+        8.992806496982226E-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "17B_Bearing_Retainer_Front",
+      "group": "fixed",
+      "bytes": 105472,
+      "solid_bodies": 1,
+      "mass_kg": 0.009818432086635227,
+      "volume_mm3": 3636.4563283834173,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -2.780968511032516E-09,
+        1.0746684942089876E-13,
+        35.000000000000014
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.609892350161836E-06,
+        1.6098927766303048E-06,
+        3.2132395054010507E-06,
+        2.685851540879744E-20,
+        3.297362383136796E-22,
+        8.992806459759099E-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "18_Encoder_Magnet",
+      "group": "rotor",
+      "bytes": 92160,
+      "solid_bodies": 1,
+      "mass_kg": 0.00030355639015312706,
+      "volume_mm3": 39.269908169874135,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.614203911184132E-10,
+        0.0,
+        58.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.754922311155042E-10,
+        5.754923536267498E-10,
+        9.486136579730095E-10,
+        -3.3523531173251804E-25,
+        -2.5142648379938848E-24,
+        -5.83309442432159E-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "19_Encoder_PCB_Interface",
+      "group": "fixed",
+      "bytes": 90624,
+      "solid_bodies": 1,
+      "mass_kg": 0.000948749791502015,
+      "volume_mm3": 615.6715064906003,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        4.542441496069896E-12,
+        -1.803271733255219E-15,
+        61.30000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.0956901608301736E-08,
+        3.0956901605372875E-08,
+        6.150900330263335E-08,
+        -1.7108536809481433E-23,
+        2.878511318193942E-23,
+        -6.928957407865706E-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "20_Retaining_Washer",
+      "group": "rotor",
+      "bytes": 87552,
+      "solid_bodies": 1,
+      "mass_kg": 0.0013599326278860033,
+      "volume_mm3": 175.92918860103535,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1277637925217676E-09,
+        8.046046069178223E-14,
+        53.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.615153537660661E-08,
+        3.6151544685091615E-08,
+        7.207642462371404E-08,
+        9.440226377153698E-22,
+        1.3918970143134207E-22,
+        1.4884447840427489E-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "21_Retaining_Clip",
+      "group": "rotor",
+      "bytes": 96256,
+      "solid_bodies": 1,
+      "mass_kg": 0.00032745757173632253,
+      "volume_mm3": 42.36191096200809,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.4570045636504624E-15,
+        -0.525472045026946,
+        54.5
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.181786470635807E-09,
+        5.152175870812137E-09,
+        9.279386079491368E-09,
+        -7.622871198009236E-24,
+        8.326672684688675E-24,
+        -5.9671885488388224E-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_-22_-22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -21.999999999012267,
+        -22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381E-08,
+        8.640477872888841E-08,
+        2.1068292952988088E-08,
+        -3.5527136788005012E-22,
+        8.881784197001253E-23,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_-22_22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -21.999999999012267,
+        22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381E-08,
+        8.64047787288886E-08,
+        2.1068292952988445E-08,
+        0.0,
+        -2.664535259100376E-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_22_-22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        22.00000000098774,
+        -22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381E-08,
+        8.640477872888877E-08,
+        2.1068292952989156E-08,
+        -3.5527136788005012E-22,
+        8.881784197001253E-23,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_22_22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        22.00000000098774,
+        22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381E-08,
+        8.640477872888877E-08,
+        2.1068292952989156E-08,
+        -1.7763568394002506E-22,
+        -2.664535259100376E-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "23_Brake_Guide_-32",
+      "group": "fixed",
+      "bytes": 113664,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006010416525031425,
+      "volume_mm3": 77.75441817634444,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        49.000000000313705,
+        -32.00000000000001,
+        37.500000000000014
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.398589280770573E-09,
+        6.398589193445404E-09,
+        6.761718154031372E-10,
+        -3.5527136788005012E-22,
+        -1.7763568394002506E-22,
+        -1.7763568394002506E-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "23_Brake_Guide_32",
+      "group": "fixed",
+      "bytes": 113664,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006010416525031425,
+      "volume_mm3": 77.75441817634444,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        49.000000000313705,
+        32.00000000000001,
+        37.500000000000014
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.398589280770573E-09,
+        6.398589193445404E-09,
+        6.761718154031372E-10,
+        3.5527136788005012E-22,
+        8.881784197001253E-23,
+        -1.7763568394002506E-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "24_Lower_Pad_Carrier",
+      "group": "pad",
+      "bytes": 86528,
+      "solid_bodies": 1,
+      "mass_kg": 0.005060501528208678,
+      "volume_mm3": 1874.2598252624734,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        49.000000000002366,
+        -4.738822268549366E-15,
+        34.325
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.1448170847568357E-06,
+        1.1058831985930625E-07,
+        2.253109202047719E-06,
+        -6.954437026252549E-22,
+        -1.3027579015556514E-21,
+        -1.4210854715202005E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "24B_Upper_Pad_Carrier",
+      "group": "pad",
+      "bytes": 86016,
+      "solid_bodies": 1,
+      "mass_kg": 0.005060501528208678,
+      "volume_mm3": 1874.2598252624734,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        49.000000000002366,
+        -4.738822268549366E-15,
+        42.17500000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.144817084756835E-06,
+        1.1058831985930625E-07,
+        2.253109202047719E-06,
+        -6.954437026252549E-22,
+        -5.317746243349578E-22,
+        1.4210854715202005E-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "25_Shaft_Key",
+      "group": "rotor",
+      "bytes": 84992,
+      "solid_bodies": 1,
+      "mass_kg": 0.00083484,
+      "volume_mm3": 108.0,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        0.0,
+        5.499999999999999,
+        43.00000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0644209999999887E-08,
+        1.0644209999999887E-08,
+        1.2522600000000051E-09,
+        3.3523531173251804E-25,
+        2.2204460492503133E-23,
+        4.022823740790216E-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "26_Inner_Race_Spacer",
+      "group": "rotor",
+      "bytes": 102912,
+      "solid_bodies": 1,
+      "mass_kg": 0.000667824058336879,
+      "volume_mm3": 86.39379797372301,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -8.650602736244708E-10,
+        -8.031703741069142E-16,
+        35.25
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0532139947103581E-08,
+        1.0532142577660332E-08,
+        2.0368632463996394E-08,
+        1.340941246976472E-23,
+        1.8773177457021014E-24,
+        1.0459341723428263E-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "27_Front_Hub_Shim",
+      "group": "rotor",
+      "bytes": 90112,
+      "solid_bodies": 1,
+      "mass_kg": 0.0020398989418290176,
+      "volume_mm3": 263.89378290155463,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1278421494409965E-09,
+        -1.0517707279971468E-15,
+        51.75000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.44397925380153E-08,
+        5.443980650074423E-08,
+        1.0811463693557373E-07,
+        -4.291011989934251E-23,
+        7.13380743366798E-23,
+        9.976602874893259E-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "28_Clip_Stack_Shim",
+      "group": "rotor",
+      "bytes": 83968,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006799663139430016,
+      "volume_mm3": 87.96459430051767,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1278410976702752E-09,
+        0.0,
+        53.75
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.8033269793681227E-08,
+        1.803327444792444E-08,
+        3.603821231185767E-08,
+        -0.0,
+        -1.67617655866259E-24,
+        -1.7432236211745296E-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    }
+  ],
+  "occurrences": 36,
+  "constraints": 104,
+  "constraint_health": [
+    {
+      "name": "メイト:1",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:1",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:2",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:3",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:4",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:5",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:6",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:7",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:8",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:9",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:10",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:11",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:12",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:13",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:14",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:15",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:16",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:17",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:18",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:19",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:20",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:21",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "Brake_actuation_08_Brake_Mechanism",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:23",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:24",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "Brake_actuation_08B_Brake_Pad",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:26",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:27",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:28",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:29",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:30",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:31",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:32",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:33",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:34",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:35",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:36",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:37",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:38",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:39",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:40",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:41",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:42",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:43",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:44",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:45",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:46",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:47",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:48",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:49",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:50",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:51",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:52",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:53",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:54",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:55",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:56",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:57",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:58",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:59",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:60",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:61",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:62",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:63",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:64",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:65",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:66",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:67",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:68",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:69",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:70",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:71",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:72",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:73",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:74",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:75",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:76",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:77",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:78",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:79",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:80",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:81",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:82",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:83",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:84",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:85",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:86",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:87",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "Brake_actuation_24_Lower_Pad_Carrier",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:89",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:90",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "Brake_actuation_24B_Upper_Pad_Carrier",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:92",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:93",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:94",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:95",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:96",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:97",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:98",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:99",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:100",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:101",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:102",
+      "health": "11778",
+      "suppressed": false
+    },
+    {
+      "name": "フラッシュ:103",
+      "health": "11778",
+      "suppressed": false
+    }
+  ],
+  "grounded": 1,
+  "wheel_mass_kg": 0.15184692587368204,
+  "wheel_Jz_kg_m2": 0.00047409235121682685,
+  "mass_kg": 0.8929686753320782,
+  "COM_mm": [
+    8.945394824829783,
+    0.0020973848261408882,
+    20.0595771402087
+  ],
+  "assembly_centroid_tensor_terms_kg_m2": [
+    0.002060456746496054,
+    0.002478182681569094,
+    0.00273841731825293,
+    2.7527020370316636E-08,
+    -4.0986291184299286E-08,
+    -5.951698241437137E-05
+  ],
+  "term_order": "Ixx Iyy Izz Ixy Iyz Ixz",
+  "poses": [
+    {
+      "pose": "released",
+      "shaft_rotation_matrix11": 1.0,
+      "lower_pad_translation_z_mm": 0.0,
+      "upper_pad_translation_z_mm": 0.0,
+      "pairs": []
+    },
+    {
+      "pose": "pad_contact",
+      "shaft_rotation_matrix11": 1.0,
+      "lower_pad_translation_z_mm": 0.35,
+      "upper_pad_translation_z_mm": -0.35,
+      "pairs": []
+    },
+    {
+      "pose": "wheel_0",
+      "shaft_rotation_matrix11": 1.0,
+      "lower_pad_translation_z_mm": 0.0,
+      "upper_pad_translation_z_mm": 0.0,
+      "pairs": []
+    },
+    {
+      "pose": "wheel_45",
+      "shaft_rotation_matrix11": 0.7071067811865475,
+      "lower_pad_translation_z_mm": 0.0,
+      "upper_pad_translation_z_mm": 0.0,
+      "pairs": []
+    },
+    {
+      "pose": "wheel_90",
+      "shaft_rotation_matrix11": -2.220446049250313E-16,
+      "lower_pad_translation_z_mm": 0.0,
+      "upper_pad_translation_z_mm": 0.0,
+      "pairs": []
+    },
+    {
+      "pose": "wheel_180",
+      "shaft_rotation_matrix11": -1.0,
+      "lower_pad_translation_z_mm": 0.0,
+      "upper_pad_translation_z_mm": 0.0,
+      "pairs": []
+    },
+    {
+      "pose": "wheel_270",
+      "shaft_rotation_matrix11": -2.220446049250313E-16,
+      "lower_pad_translation_z_mm": 0.0,
+      "upper_pad_translation_z_mm": 0.0,
+      "pairs": []
+    }
+  ],
+  "wheel_rotation": "axis mate + axial flush, no angle lock",
+  "brake_actuation": "opposed driven offsets,0 to0.35mm",
+  "status": "PARTIAL_PROTOTYPE_NATIVE; material proxies and procurement interfaces HOLD"
+}
