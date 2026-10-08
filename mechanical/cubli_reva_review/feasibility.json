@@ -1,0 +1,259 @@
+{
+  "status": "DETAIL_CAD_GATE_NOT_PASSED",
+  "coordinate_system": "right-handed body XYZ; wheel axes +X,+Y,+Z",
+  "allocation_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "allocation_rank": 3,
+  "allocation_condition_2": 1.0,
+  "size_options": [
+    {
+      "side_m": 0.16,
+      "wheel_diameter_m": 0.11,
+      "total_assumed_mass_kg": 1.22,
+      "each_wheel_mass_kg": 0.09,
+      "wheel_inertia_kg_m2": 0.00022725,
+      "edge_locked_inertia_kg_m2": 0.020821333333333334,
+      "face_edge_barrier_J": 0.3964558293091405,
+      "ideal_required_H_Nms": 0.12848921335262908,
+      "ideal_required_rpm": 5399.258993811243,
+      "required_rpm_at_80pct_impulse_transfer": 6749.073742264053,
+      "edge_point_symmetric_barrier_J": 0.3042112573704837,
+      "initial_gravity_torque_Nm": 0.95712904,
+      "status": "ASSUMED_CENTERED_UNIFORM_BODY_NOT_NATIVE_CAD"
+    },
+    {
+      "side_m": 0.18,
+      "wheel_diameter_m": 0.13,
+      "total_assumed_mass_kg": 1.31,
+      "each_wheel_mass_kg": 0.12,
+      "wheel_inertia_kg_m2": 0.000435,
+      "edge_locked_inertia_kg_m2": 0.028296,
+      "face_edge_barrier_J": 0.4789153921674965,
+      "ideal_required_H_Nms": 0.16462921937961975,
+      "ideal_required_rpm": 3614.007454017453,
+      "required_rpm_at_80pct_impulse_transfer": 4517.509317521815,
+      "edge_point_symmetric_barrier_J": 0.36748470536864786,
+      "initial_gravity_torque_Nm": 1.156204035,
+      "status": "ASSUMED_CENTERED_UNIFORM_BODY_NOT_NATIVE_CAD"
+    },
+    {
+      "side_m": 0.2,
+      "wheel_diameter_m": 0.15,
+      "total_assumed_mass_kg": 1.4,
+      "each_wheel_mass_kg": 0.15,
+      "wheel_inertia_kg_m2": 0.00073875,
+      "edge_locked_inertia_kg_m2": 0.03733333333333333,
+      "face_edge_barrier_J": 0.5686866404024555,
+      "ideal_required_H_Nms": 0.20606294139586737,
+      "ideal_required_rpm": 2663.629296341753,
+      "required_rpm_at_80pct_impulse_transfer": 3329.5366204271913,
+      "edge_point_symmetric_barrier_J": 0.4363686068838905,
+      "initial_gravity_torque_Nm": 1.372931,
+      "status": "ASSUMED_CENTERED_UNIFORM_BODY_NOT_NATIVE_CAD"
+    }
+  ],
+  "band_sensitivity": [
+    {
+      "stop_s": 0.02,
+      "mu_assumed": 0.15,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 12.87893383724171,
+      "slack_N": 227.87065321795663,
+      "tight_N": 462.0330866223514,
+      "conservative_band_load_bound_N": 689.903739840308,
+      "slack_actuator_torque_at_10mm_lever_Nm": 2.2787065321795663,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.02,
+      "mu_assumed": 0.25,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 12.87893383724171,
+      "slack_N": 104.15608160464265,
+      "tight_N": 338.31851500903736,
+      "conservative_band_load_bound_N": 442.47459661368,
+      "slack_actuator_torque_at_10mm_lever_Nm": 1.0415608160464265,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.02,
+      "mu_assumed": 0.35,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 12.87893383724171,
+      "slack_N": 55.70621638617757,
+      "tight_N": 289.8686497905723,
+      "conservative_band_load_bound_N": 345.5748661767499,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.5570621638617758,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.05,
+      "mu_assumed": 0.15,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 5.151573534896683,
+      "slack_N": 91.14826128718263,
+      "tight_N": 184.81323464894052,
+      "conservative_band_load_bound_N": 275.96149593612313,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.9114826128718264,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.05,
+      "mu_assumed": 0.25,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 5.151573534896683,
+      "slack_N": 41.66243264185705,
+      "tight_N": 135.32740600361493,
+      "conservative_band_load_bound_N": 176.989838645472,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.4166243264185705,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.05,
+      "mu_assumed": 0.35,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 5.151573534896683,
+      "slack_N": 22.282486554471024,
+      "tight_N": 115.9474599162289,
+      "conservative_band_load_bound_N": 138.22994647069993,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.22282486554471026,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.1,
+      "mu_assumed": 0.15,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 2.5757867674483417,
+      "slack_N": 45.57413064359132,
+      "tight_N": 92.40661732447026,
+      "conservative_band_load_bound_N": 137.98074796806156,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.4557413064359132,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.1,
+      "mu_assumed": 0.25,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 2.5757867674483417,
+      "slack_N": 20.831216320928526,
+      "tight_N": 67.66370300180746,
+      "conservative_band_load_bound_N": 88.494919322736,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.20831216320928525,
+      "band_energy_per_stop_J": 44.90475445930272
+    },
+    {
+      "stop_s": 0.1,
+      "mu_assumed": 0.35,
+      "wrap_rad": 4.71238898038469,
+      "drum_radius_m": 0.055,
+      "stationary_brake_torque_Nm": 2.5757867674483417,
+      "slack_N": 11.141243277235512,
+      "tight_N": 57.97372995811445,
+      "conservative_band_load_bound_N": 69.11497323534996,
+      "slack_actuator_torque_at_10mm_lever_Nm": 0.11141243277235513,
+      "band_energy_per_stop_J": 44.90475445930272
+    }
+  ],
+  "fixed_edge_screen": [
+    {
+      "rpm": 3329.5366204271913,
+      "brake_Nm": 2.0,
+      "crossed_edge_barrier": false,
+      "final_angle_deg": 14.353743074086983,
+      "lock_time_s": 0.1279,
+      "max_required_contact_mu": 0.46266978871007175,
+      "minimum_normal_N": 9.138635595283363,
+      "scope": "FIXED_EDGE_ONLY; no catch, slip, impact, edge-to-point"
+    },
+    {
+      "rpm": 3329.5366204271913,
+      "brake_Nm": 4.0,
+      "crossed_edge_barrier": true,
+      "crossing_s": 0.35038,
+      "lock_time_s": 0.06354000000000001,
+      "max_required_contact_mu": 0.7692502468234788,
+      "minimum_normal_N": 6.587349004567901,
+      "scope": "FIXED_EDGE_ONLY; no catch, slip, impact, edge-to-point"
+    },
+    {
+      "rpm": 3329.5366204271913,
+      "brake_Nm": 8.0,
+      "crossed_edge_barrier": true,
+      "crossing_s": 0.20890000000000003,
+      "lock_time_s": 0.03168,
+      "max_required_contact_mu": 1.008099666811766,
+      "minimum_normal_N": 4.447480535598883,
+      "scope": "FIXED_EDGE_ONLY; no catch, slip, impact, edge-to-point"
+    }
+  ],
+  "timestep_check": {
+    "coarse": {
+      "rpm": 3329.5366204271913,
+      "brake_Nm": 4.0,
+      "crossed_edge_barrier": true,
+      "crossing_s": 0.35036,
+      "lock_time_s": 0.06356,
+      "max_required_contact_mu": 0.7692986514505492,
+      "minimum_normal_N": 6.58929341231922,
+      "scope": "FIXED_EDGE_ONLY; no catch, slip, impact, edge-to-point"
+    },
+    "fine": {
+      "rpm": 3329.5366204271913,
+      "brake_Nm": 4.0,
+      "crossed_edge_barrier": true,
+      "crossing_s": 0.35038,
+      "lock_time_s": 0.06354000000000001,
+      "max_required_contact_mu": 0.7692502468234788,
+      "minimum_normal_N": 6.587349004567901,
+      "scope": "FIXED_EDGE_ONLY; no catch, slip, impact, edge-to-point"
+    }
+  },
+  "power": {
+    "three_wheel_energy_J": 134.71426337790817,
+    "ideal_capacitance_24_to_30V_F": 0.8315695270241245,
+    "all_electrical_stop_average_current_50ms_24V_A": 112.26188614825679
+  },
+  "ring_stress": {
+    "al_density_assumed_kg_m3": 2700,
+    "thin_ring_hoop_stress_at_required_speed_Pa": 1846337.619900264,
+    "exclusions": [
+      "spokes",
+      "hub",
+      "holes",
+      "fasteners",
+      "fatigue",
+      "guard",
+      "material certification"
+    ]
+  },
+  "blockers": [
+    "GB54 momentum deficit and unqualified mounting/thermal limits",
+    "band force exceeds unsupported cantilever motor shaft allowance",
+    "qualified brake actuator, separate wheel bearings, positive retention undefined",
+    "alternative motor/ODrive current convention and loaded speed require qualification",
+    "hybrid face-edge-point model, contact/catch and power absorber unfinished"
+  ]
+}
