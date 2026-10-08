@@ -104,3 +104,10 @@ This does not satisfy manufacturing or powered-system acceptance: exact BOM/stac
 ## One-wheel native prototype acceptance — 2026-10-08
 
 Passed nativewrite/reopen:36solids/IAM,104healthyconstraints,shaftrotation and parametricopposedpadstroke,7discretegeometryposes/0interference. Independentbearing loadpath is designed; real coupling, clip/groove, bearingfloat, brakeactuator/lining, fullfasteners, strength/thermal andcomplete manufacturingdrawings remain HOLD. Requiredactuator>=350Neachpad/>=1.2mmclosingstroke/<20msengagement target, unverified.4Nm/3330rpm are calculationpoints only. No3axis/self-righting acceptance is asserted.
+
+## Rev B review update — 2026-10-08
+
+Native one-wheel Rev B and three-axis packing IAM created. See docs/cubli_revb_review.md.
+Old1.40kg/3330rpm and1.2mm brake travel are historical, not current qualified requirements.
+Current modeled shared assembly2.691kg plus150g reserve; self-righting and manufacture HOLD.
+No purchase, energized testing or manufacturing release. Existing one-axis and Rev A CAD retained.

@@ -99,3 +99,10 @@ Assumptions: supplier-independent4layer concept/1.6mm nominal, bench180mA/220mA 
 ## Current one-wheel Inventor CAD — 2026-10-08
 
 Actual2026.2COM native module now exists:36IPTs,104constraints,1groundedframe,7discreteposes/0interference. Wheel151.85g/Jz0.00047409,module892.97g with material proxies and excluded actuator/hardware. PreferredqualificationmotorFAULHABER4221G024BXTH(non-SC),Micro,independent6000bearings and opposeddisc pads. Former3330rpm/1.40kgget-up claim invalidated by actual inertia/mass. Manufacture/powered-test HOLD; see docs/one_wheel_module_review.md. Nativefiles stay local, neutralexports public. Existing1axisCAD preserved.
+
+## Rev B review update — 2026-10-08
+
+Native one-wheel Rev B and three-axis packing IAM created. See docs/cubli_revb_review.md.
+Old1.40kg/3330rpm and1.2mm brake travel are historical, not current qualified requirements.
+Current modeled shared assembly2.691kg plus150g reserve; self-righting and manufacture HOLD.
+No purchase, energized testing or manufacturing release. Existing one-axis and Rev A CAD retained.

@@ -70,3 +70,7 @@ pending a qualified actuator/brake/support/power module.
 ## Current one-wheel native CAD milestone
 
 Inventor2026.2で36部品・104拘束の1輪モジュールを作成、保存後に再読込しました。7姿勢のネイティブ干渉検査は0件。STEP37件／STL3件／保留付き図面14件を生成。ブレーキアクチュエータ・継手・保持公差・強度と3軸起き上がりは未検証です。製造承認済みではありません。詳細は[検証報告](docs/one_wheel_module_review.md)と[モジュール成果](mechanical/cubli_reva/one_wheel_module/README.md)を参照してください。
+
+Rev B: actual lightened Inventor one-wheel module and orthogonal three-axis packing study.
+See [review](docs/cubli_revb_review.md) and [manufacturing holds](docs/manufacturing_holds.md).
+Self-righting, high-speed safety and fabrication remain unqualified. Native CAD is local; own STEP/PDF/scripts published.
