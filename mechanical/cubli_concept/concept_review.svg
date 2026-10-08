@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="white"/>
+<style>text{font-family:sans-serif;fill:#17324a} .frame{stroke:#738494;fill:none} .wheel{stroke:#2872b3;fill:none;stroke-width:3}</style>
+<text x="30" y="32" font-size="22">Independent 3-axis clearance concept — NOT FOR FABRICATION</text>
+<text x="75" y="75" font-size="18">XY / Z wheel</text>
+<rect class="frame" x="54.5" y="124.5" width="261.0" height="261.0"/>
+<circle class="wheel" cx="185" cy="255" r="94.25"/><circle class="wheel" cx="185" cy="255" r="79.75"/>
+<rect x="240.825" y="231.8" width="10.15" height="46.4" fill="none" stroke="#de8b35"/>
+<rect x="161.8" y="189.025" width="46.4" height="10.15" fill="none" stroke="#de8b35"/>
+<rect x="161.8" y="231.8" width="46.4" height="46.4" fill="none" stroke="#de8b35"/>
+<rect x="119.75" y="204.25" width="130.5" height="101.5" fill="none" stroke="#de8b35"/>
+<rect x="148.75" y="233.25" width="72.5" height="43.5" fill="none" stroke="#de8b35"/>
+<text x="85" y="415">180 mm provisional envelope</text>
+<text x="435" y="75" font-size="18">XZ / Y wheel</text>
+<rect class="frame" x="414.5" y="124.5" width="261.0" height="261.0"/>
+<circle class="wheel" cx="545" cy="255" r="94.25"/><circle class="wheel" cx="545" cy="255" r="79.75"/>
+<rect x="600.825" y="231.8" width="10.15" height="46.4" fill="none" stroke="#de8b35"/>
+<rect x="521.8" y="231.8" width="46.4" height="46.4" fill="none" stroke="#de8b35"/>
+<rect x="521.8" y="189.025" width="46.4" height="10.15" fill="none" stroke="#de8b35"/>
+<rect x="479.75" y="328.95" width="130.5" height="11.6" fill="none" stroke="#de8b35"/>
+<rect x="508.75" y="240.5" width="72.5" height="29.0" fill="none" stroke="#de8b35"/>
+<text x="445" y="415">180 mm provisional envelope</text>
+<text x="795" y="75" font-size="18">YZ / X wheel</text>
+<rect class="frame" x="774.5" y="124.5" width="261.0" height="261.0"/>
+<circle class="wheel" cx="905" cy="255" r="94.25"/><circle class="wheel" cx="905" cy="255" r="79.75"/>
+<rect x="881.8" y="231.8" width="46.4" height="46.4" fill="none" stroke="#de8b35"/>
+<rect x="960.825" y="231.8" width="10.15" height="46.4" fill="none" stroke="#de8b35"/>
+<rect x="881.8" y="189.025" width="46.4" height="10.15" fill="none" stroke="#de8b35"/>
+<rect x="854.25" y="328.95" width="101.5" height="11.6" fill="none" stroke="#de8b35"/>
+<rect x="883.25" y="240.5" width="43.5" height="29.0" fill="none" stroke="#de8b35"/>
+<text x="805" y="415">180 mm provisional envelope</text>
+<text x="30" y="465">Wheel: OD130 / ID110 / thickness8.842 mm; 90g assumed. No spokes or hub retention.</text>
+<text x="30" y="495">Axes orthogonal; wheel plane centers +80mm. Native31 solids; guards/brakes/fasteners absent.</text>
+<text x="30" y="525">Orange: projected PCB/battery/driver clearance boxes. Projection overlap is not 3D collision.</text>
+<text x="30" y="555">No manufacturing tolerances, screw depths, safe RPM or material allowables are specified.</text>
+</svg>

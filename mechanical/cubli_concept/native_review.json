@@ -1,0 +1,179 @@
+{
+  "status": "NATIVE_CLEARANCE_STUDY_WITH_ASSUMED_MASS",
+  "Inventor_version": "2025",
+  "occurrences": 31,
+  "mass_kg": 1.0104609600000007,
+  "com_from_cube_center_mm": [
+    15.597039986020324,
+    15.597039988561246,
+    13.41981584452678
+  ],
+  "centroid_inertia_native_terms_kg_m2": [
+    0.004576908647243509,
+    0.004600908747889903,
+    0.004436358281477875,
+    0.0002458124696816816,
+    0.00021149898167291138,
+    0.00021149898163845597
+  ],
+  "product_of_inertia_sign_requires_explicit_conversion": true,
+  "unplaced_reserve_excluded_kg": 0.18,
+  "interference_pairs": [],
+  "parts": [
+    {
+      "part": "wheel_0",
+      "mass_kg": 0.09,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "GB54_envelope_0",
+      "mass_kg": 0.137,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "Micro_envelope_0",
+      "mass_kg": 0.0081,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "wheel_1",
+      "mass_kg": 0.09,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "GB54_envelope_1",
+      "mass_kg": 0.137,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "Micro_envelope_1",
+      "mass_kg": 0.0081,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "wheel_2",
+      "mass_kg": 0.09,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "GB54_envelope_2",
+      "mass_kg": 0.137,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "Micro_envelope_2",
+      "mass_kg": 0.0081,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_9",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_10",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_11",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_12",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_13",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_14",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_15",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_16",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_17",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_18",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_19",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "frame_20",
+      "mass_kg": 0.01332992,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_21",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_22",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_23",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_24",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_25",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_26",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_27",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "corner_28",
+      "mass_kg": 0.0006502400000000001,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "controller_clearance",
+      "mass_kg": 0.04,
+      "mass_override_assumed": true
+    },
+    {
+      "part": "battery_clearance",
+      "mass_kg": 0.1,
+      "mass_override_assumed": true
+    }
+  ]
+}

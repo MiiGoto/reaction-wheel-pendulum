@@ -1,0 +1,33 @@
+Part,Quantity,Mass_kg,Material_or_method,Status
+wheel_0,1,0.09,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+GB54_envelope_0,1,0.137,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+Micro_envelope_0,1,0.0081,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+wheel_1,1,0.09,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+GB54_envelope_1,1,0.137,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+Micro_envelope_1,1,0.0081,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+wheel_2,1,0.09,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+GB54_envelope_2,1,0.137,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+Micro_envelope_2,1,0.0081,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+frame_9,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_10,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_11,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_12,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_13,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_14,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_15,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_16,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_17,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_18,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_19,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+frame_20,1,0.01332992,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_21,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_22,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_23,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_24,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_25,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_26,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_27,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+corner_28,1,0.0006502400000000001,PETG assumed /3D print,REVIEW ONLY; not purchase or fabrication BOM
+controller_clearance,1,0.04,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+battery_clearance,1,0.1,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM
+unplaced_guard_mount_wire_reserve,1,0.18,Envelope or unplaced reserve; material/part selection TBD,REVIEW ONLY; not purchase or fabrication BOM

@@ -50,3 +50,6 @@ test/results/
 Thumbs.db
 Desktop.ini
 .DS_Store
+# Native study embeds local workstation metadata; keep locally, publish own STEP.
+mechanical/cubli_concept/local_native*/
+**/OldVersions/

@@ -1,0 +1,12 @@
+{
+  "status": "STEP_NATIVE_REIMPORT",
+  "document_type": "12291",
+  "display_name": "Cubli_clearance_concept.iam",
+  "not_manufacturing_validation": true,
+  "occurrences": 31,
+  "bounds_mm": [
+    180.0,
+    180.0,
+    180.0
+  ]
+}
