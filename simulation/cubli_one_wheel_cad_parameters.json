@@ -1,0 +1,33 @@
+{
+  "status": "PARTIAL - one module only, not three-axis self-righting parameters",
+  "coordinate_system": "right-handed frame XYZ in mm, wheel +Z; SI inertia kg*m2",
+  "module_mass_kg": 0.8929686753320782,
+  "module_COM_m": [
+    0.008945394824829783,
+    2.097384826140888e-06,
+    0.020059577140208697
+  ],
+  "native_centroid_partial_inertia_terms_kg_m2": [
+    0.002060456746496054,
+    0.002478182681569094,
+    0.00273841731825293,
+    2.7527020370316636e-08,
+    -4.0986291184299286e-08,
+    -5.951698241437137e-05
+  ],
+  "term_order": "Ixx Iyy Izz Ixy Iyz Ixz",
+  "off_diagonal_sign_convention": "HOLD: validate before solver tensor import",
+  "wheel_J_axis_kg_m2": 0.00047409235121682685,
+  "wheel_mass_kg": 0.15184692587368204,
+  "wheel_axis": [
+    0,
+    0,
+    1
+  ],
+  "torque_command_screen_Nm": 0.04,
+  "candidate_rpm_NOT_certified_safe": 3330,
+  "candidate_bidirectional_brake_torque_Nm_NOT_measured": 4,
+  "actuator_state": "unselected, >=350N each pad / >=1.2mm travel / <20ms goal",
+  "material_mass_uncertainty": "library densities, bearing envelopes, motor override; excludes actuator/full hardware/driver/cables/battery",
+  "simulation_not_performed": true
+}

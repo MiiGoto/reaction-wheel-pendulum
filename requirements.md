@@ -100,3 +100,7 @@ O-01/O-02/O-04 motor/sensor system requirements remain gates before powered oper
 User approved90x70mm/fourholes/connector placement for routing. Prototype routing acceptance now met: DRC0Errors/0Warnings/0unrouted/0parity, ERC0Errors/1intentionalWarning; no rule relaxation. All electrical assignment unchanged. Official IMU figure verified and native axes shown; mechanical transform/sign calibration remains TBD.
 
 This does not satisfy manufacturing or powered-system acceptance: exact BOM/stackup/assembly, actual external device compatibility, thermal/EMI/timing and safety tests remain required. See docs/task5_routing_review.md and docs/bringup.md. Historical Task2–4 loading/check results above are not current PCB status.
+
+## One-wheel native prototype acceptance — 2026-10-08
+
+Passed nativewrite/reopen:36solids/IAM,104healthyconstraints,shaftrotation and parametricopposedpadstroke,7discretegeometryposes/0interference. Independentbearing loadpath is designed; real coupling, clip/groove, bearingfloat, brakeactuator/lining, fullfasteners, strength/thermal andcomplete manufacturingdrawings remain HOLD. Requiredactuator>=350Neachpad/>=1.2mmclosingstroke/<20msengagement target, unverified.4Nm/3330rpm are calculationpoints only. No3axis/self-righting acceptance is asserted.

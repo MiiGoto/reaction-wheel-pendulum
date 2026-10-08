@@ -95,3 +95,7 @@ Official LSM6DSL PDF graphical source verified. CAN connected; IMU routed draft 
 Confirmed: all intended nets connected; nativeDRC0Error/0Warning/0unrouted/0parity, ERC0Error/1intentionalWarning.548segments/155vias,90x70mm/4layers,86footprints unchanged. R0.5 silk/nativeIMUaxes, no manufacturing output or powered verification. See docs/task5_routing_review.md.
 
 Assumptions: supplier-independent4layer concept/1.6mm nominal, bench180mA/220mA limits, external3.3V ABI/ESC contracts. TBD: actual parts/mechanics/encoderRPM/ESC/safe-state, assembly/stackup/thermal/EMI/control performance. Task6 is not authorized by this completion.
+
+## Current one-wheel Inventor CAD — 2026-10-08
+
+Actual2026.2COM native module now exists:36IPTs,104constraints,1groundedframe,7discreteposes/0interference. Wheel151.85g/Jz0.00047409,module892.97g with material proxies and excluded actuator/hardware. PreferredqualificationmotorFAULHABER4221G024BXTH(non-SC),Micro,independent6000bearings and opposeddisc pads. Former3330rpm/1.40kgget-up claim invalidated by actual inertia/mass. Manufacture/powered-test HOLD; see docs/one_wheel_module_review.md. Nativefiles stay local, neutralexports public. Existing1axisCAD preserved.

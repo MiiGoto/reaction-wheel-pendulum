@@ -1,6 +1,12 @@
 # Cubli Rev A detailed-design gate — 2026-10-08
 
-Status: **STOPPED BEFORE DETAILED CAD; NOT MANUFACTURABLE**. The user explicitly
+Historical whole-cube gate: **STOPPED BEFORE WHOLE-CUBE DETAILED CAD; NOT MANUFACTURABLE**.
+
+Current2026-10-08 one-wheel task supersedes the CAD-access stop: actual36part
+Inventor2026.2module/104constraints/7poses now exists, but manufacturing and
+self-righting remain HOLD. See [one-wheel review](one_wheel_module_review.md).
+
+Historical reasoning follows. The user explicitly
 requires stopping when motor capability or important mounting information is not
 established. GB54-1 does not pass the current self-righting screen, and its
 mounting/thermal limits remain unresolved. Alternatives are shortlisted below,
