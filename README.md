@@ -56,3 +56,13 @@ Task5の配線・prototype範囲のレビューを完了しました。KiCad10.0
 ## Publication and license
 
 公開ファイルは本プロジェクト用の文書・設計です。回路図内のKiCad標準symbolは[ライブラリの設計成果物例外](https://www.kicad.org/libraries/license/)を確認済みです。ベンダーのPDF、SDK、HAL、独立した第三者ライブラリ集、ツールの実行ファイルは含めません。プロジェクトのライセンス選択はTBDです。公開されていること自体は第三者コードの利用許諾を意味しません。
+
+## Detailed Cubli Rev A status (2026-10-08)
+
+Detailed fabrication CAD has **not** been completed. The three-axis clearance
+study is preserved. A new motor/brake/contact gate identifies insufficient GB54
+momentum and an unsafe direct cantilever brake-loaded motor shaft. Three named
+motor alternatives and three size options are compared in
+[the Rev A gate report](docs/cubli_reva_design_gate.md). No new manufacturing
+files or physical actions are released. Requested detailed CAD remains blocked
+pending a qualified actuator/brake/support/power module.

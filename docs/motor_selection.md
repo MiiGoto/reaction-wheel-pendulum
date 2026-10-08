@@ -1,5 +1,10 @@
 # Motor, momentum and braking screening
 
+Detailed Rev A reassessment supersedes the shortlist below: see
+[Cubli Rev A design gate](cubli_reva_design_gate.md). Three actual alternatives
+(MN4006 EVO KV380, FAULHABER 4221 G 024 BXT H, maxon651614) are now compared.
+GB54 remains rejected for the screened get-up case; no replacement is frozen.
+
 GB54-1 KV33 is **not frozen**. [Manufacturer catalogue](https://www.ligpower.com/product/gb54-1-gimbal-type.html) provides137g,12N14P (7pole pairs),3–6S,15.6ohm resistance and0.33Nm listed torque. Maximum/continuous torque, phase-vs-line resistance, torque-speed curve, thermal conditions, screw depth and rotating/fixed face remain unverified. No procurement is performed.
 
 The original130/110mm90g annulus has J=3.2625e-4kgm². H=J*omega, torque=J*alpha, energy=J*omega²/2. Screening assumes uniform180mm cube1.2kg, I_edge=2ma²/3=0.02592kgm²; face-to-edge barrier=mg*a*(1/sqrt(2)-1/2)=0.4387J. An ideal instantaneous transfer requires H=sqrt(2 I_edge DeltaU)=0.15081Nms, or4414rpm for one annulus. It ignores losses; finite-duration gravity, contacts and geometry need a hybrid model.

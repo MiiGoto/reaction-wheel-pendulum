@@ -1,6 +1,19 @@
 # Initial requirements
 
-## Provisional expansion — 2026-10-08
+## Requested detailed Cubli Rev A — superseding provisional target identity
+
+2026-10-08: confirmed user target is three independently driven wheels, edge
+and point balancing, self-righting, momentum saturation handling and future yaw
+rotation. Retain one-axis assets. The requested output is constrained Inventor
+parts/assembly, qualified interfaces, native mass/inertia, interference and
+motion review, drawings/BOM/manufacturing exports. The present31solid envelope
+assembly does not meet that requirement. Safe maximum RPM, capture/disturbance
+criteria, brake duty/contact conditions and power source remain TBD. Stop
+before detailed manufacture dimensions when actuator/retention/mounting/power
+gates fail; do not buy, order or energize. Current gate is failed/open, with
+motor alternatives and force/energy calculations in docs/cubli_reva_design_gate.md.
+
+## Historical provisional expansion — superseded target identity
 
 従来1軸のF-01等は中間試作で保持。3軸要求は追加候補で、参考Xの機体同一性/性能を未確認のため確定しない。候補:3独立reaction wheelsで辺/点倒立、段階的self-righting、正負torqueとmomentum/thermal/regen監視、guard/impact安全性。3軸のcapture域・外乱・保持時間・安全RPM・self-righting成功基準はTBD。1軸の過去受入値を無条件に3軸へ流用しない。180mmcube/90gannulus/24V/1.2kgはscreening仮定で購入/製造仕様ではない。docs/design_direction.md、motor_selection.md、validation_plan.mdを参照。
 

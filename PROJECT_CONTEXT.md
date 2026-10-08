@@ -1,5 +1,17 @@
 # Project context
 
+2026-10-08 detailed Rev A request: SHISEIGYO-3 N1-style three-wheel cube with
+self-righting / edge / point balance is now the explicit target. On
+feature/cubli-3axis-mechanical-reva, feasibility was reassessed before CAD.
+STOP: GB54 does not pass self-righting momentum screening; replacement motor,
+brake-loaded separately supported shaft, retention and energy path are not yet
+qualified. Candidate 200mm/150g rims and FAULHABER 4221 G 024 BXT H + Micro
+are screening options only. Existing Inventor31occurrences are all grounded,
+zero assembly constraints, confirmed by native read-only inspection; no
+manufacturable Rev A or new drawings/exports are claimed. See
+docs/cubli_reva_design_gate.md and mechanical/cubli_reva_review/feasibility.json.
+All original one-axis CAD and three user-modified files are preserved.
+
 2026-10-08追記: 1軸資産を保持し、独立3軸Cubli系へ発展する案Bを暫定第一候補とする。参考N1は3モータ/ブレーキ付きと確認、指定X投稿は同一性未確認。180mm直交3軸のnative概念31部品を新規保存、STEP再読込成功。仮定mass1.010461kg、未配置reserve180g込み解析1.190461kg。GB54直結によるself-rightingは仮定180mm/1.2kgの角運動量screenで不足。±1degree固定支点モデル収束は実機合格でない。motor/brake/encoder/source/guard/strength/contactモデルをfreezeせず、購入/製造/通電なし。現行判断はdocs/design_direction.md〜validation_plan.mdを優先。過去の1自由度確定事項は中間試作に引き続き適用し、3軸要求の自動確定ではない。
 
 公開branchは安全な32a3428を基準にfeature/cubli-concept-redesign。旧private native metadataを含むancestorとユーザーの未コミット3filesは元branch27380daで保持。公開nativeファイルは除外し、独自generator/neutral STEP/reportを共有。

@@ -1,0 +1,18 @@
+{
+  "status": "EXISTING_CONCEPT_REOPENED_NOT_EDITED",
+  "checked_date": "2026-10-08",
+  "Inventor_version": "2025",
+  "existing_assembly": "Cubli_clearance_concept.iam",
+  "occurrences": 31,
+  "grounded_occurrences": 31,
+  "assembly_constraints": 0,
+  "mass_kg": 1.0104609600000007,
+  "com_from_cube_center_mm": [15.597039986020325, 15.597039988561245, 13.419815844526782],
+  "mass_override_status": "ASSUMED_NOT_PHYSICAL_OR_FINISHED_MECHANISM",
+  "new_CAD_parts_created_this_gate": 0,
+  "new_manufacturing_exports_created_this_gate": 0,
+  "original_three_user_modified_file_hashes_unchanged": true,
+  "native_file_saved": false,
+  "existing_interference_result": "prior_31_envelope_static_check_only; not re-run or mechanism motion qualification",
+  "completion": "NOT_DETAILED_REV_A"
+}
