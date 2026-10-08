@@ -1,0 +1,7 @@
+{
+  "text_scan_hits": [],
+  "public_candidate_bytes": 11726077,
+  "native_policy": "Local native files excluded: absolute references; own neutral CAD only",
+  "third_party_assets": "Manufacturer PDFs and vendor CAD not included",
+  "license": "Own geometry and own scripts; official source URLs in docs; no copied third-party CAD/code"
+}

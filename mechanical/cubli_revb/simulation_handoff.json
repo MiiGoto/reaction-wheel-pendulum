@@ -1,0 +1,74 @@
+{
+  "classification": "CAD_HANDOFF_WITH_DENSITY_AND_ENVELOPE_ASSUMPTIONS",
+  "body_mass_excluding_complete_rotor_groups_kg": 1.9512593717197515,
+  "body_COM_m": [
+    0.01151604714864279,
+    -0.003544936793525452,
+    -0.007049753533490823
+  ],
+  "body_inertia_kg_m2": [
+    [
+      0.025757096465552447,
+      -0.0002640006626901392,
+      0.0001281485355946814
+    ],
+    [
+      -0.0002640006626901392,
+      0.023361209240976726,
+      0.002586731596157692
+    ],
+    [
+      0.0001281485355946814,
+      0.002586731596157692,
+      0.02242085632819247
+    ]
+  ],
+  "body_frame": "Cube center X/Y/Z; SI units; positive products in Inventor treated as negative tensor off-diagonal",
+  "wheel_axes": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "module_origins_m": [
+    [
+      -0.035,
+      0.035,
+      0.072
+    ],
+    [
+      0.072,
+      -0.035,
+      0.035
+    ],
+    [
+      0.035,
+      0.072,
+      -0.035
+    ]
+  ],
+  "wheel_only_inertia_kg_m2": [
+    0.0006373215926189465,
+    0.0006373215926189465,
+    0.0006373215926189465
+  ],
+  "complete_rotor_inertia_per_axis_kg_m2": 0.0006411044079198508,
+  "assumed_contact_cube_side_m": 0.28,
+  "motor_torque_continuous_Nm": 0.112,
+  "motor_speed_limit_rad_s": "HOLD: use conditional motor_analysis, not validated",
+  "brake_limit_Nm": "HOLD:4Nm force target with slowPQ12, not validated impulse actuator",
+  "missing_mass_reserve_kg": 0.15,
+  "contact_transition_simulation": "NOT STARTED in Rev B; no success claim",
+  "models_with_grounded_driver_envelopes": "Mechanical packing study, not rigid-body physical solver validation"
+}

@@ -1,0 +1,59 @@
+﻿Part ID,Part name,Quantity,Material,Mass kg,Manufacturing method,Manufacturer/MPN,Notes
+01_Wheel_Rim,01_Wheel_Rim,1,ステンレス鋼,0.09870525976013705,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+02_Wheel_Hub,02_Wheel_Hub,1,アルミニウム 6061,0.016472438447745805,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+03_Wheel_Spokes,03_Wheel_Spokes,1,アルミニウム 6061,0.01688403389910917,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+04_Wheel_Shaft,04_Wheel_Shaft,1,鋼、合金鋼,0.04794518885414668,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+05_Bearing_Housing,05_Bearing_Housing,1,アルミニウム 6061,0.06029311541231601,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+06_Motor_Mount,06_Motor_Mount,1,アルミニウム 6061,0.007106357718722724,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+07_Brake_Drum,07_Brake_Drum,1,ステンレス鋼,0.027169808470290928,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+08_Brake_Mechanism,08_Brake_Mechanism,1,PET プラスチック,0.00013807360000000005,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+08B_Brake_Pad,08B_Brake_Pad,1,PET プラスチック,0.00013807360000000005,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+09_Brake_Actuator_Bracket,09_Brake_Actuator_Bracket,1,アルミニウム 6061,0.02976372784444555,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+10_Encoder_Mount,10_Encoder_Mount,1,PET プラスチック,0.008025312242637576,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+11_Module_Frame,11_Module_Frame,1,PET プラスチック,0.043212981207321144,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+12_Wheel_Guard,12_Wheel_Guard,1,PET プラスチック,0.04629663371028916,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+13_Torsional_Coupling,13_Torsional_Coupling,1,アルミニウム 6061,0.032,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+13B_Coupling_Sleeve_5_6,13B_Coupling_Sleeve_5_6,1,鋼、合金鋼,0.0007021588806124255,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+14_Bearing_6000_2Z,14_Bearing_6000_2Z,1,鋼、合金鋼,0.019,purchased,SKF 6000-2Z,Catalogue19g mass override
+14B_Bearing_6000_2Z,14B_Bearing_6000_2Z,1,鋼、合金鋼,0.019,purchased,SKF 6000-2Z,Catalogue19g mass override
+15_Motor_4221G024BXTH,15_Motor_4221G024BXTH,1,鋼、合金鋼,0.14,purchased,FAULHABER 4221 G 024 BXT H,140g stator envelope plus separately modeled rotor shaft;142g nominal total
+16_Motor_Rotor_Shaft,16_Motor_Rotor_Shaft,1,鋼、合金鋼,0.0019731165359951545,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+17_Bearing_Retainer_Rear,17_Bearing_Retainer_Rear,1,アルミニウム 6061,0.007855556880769212,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+17B_Bearing_Retainer_Front,17B_Bearing_Retainer_Front,1,アルミニウム 6061,0.00785555688076922,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+18_Encoder_Magnet,18_Encoder_Magnet,1,鋼、合金鋼,0.00030355639015312706,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+19_Encoder_PCB_Interface,19_Encoder_PCB_Interface,1,PET プラスチック,0.000948749791502015,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+20_Retaining_Washer,20_Retaining_Washer,1,鋼、合金鋼,0.0013599326278860033,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+21_Retaining_Clip,21_Retaining_Clip,1,鋼、合金鋼,0.0003,purchased envelope,Rotor Clip DSH-10,Groove9.54..9.60x1.1; installed lugs simplified
+22_Spacer_-15_-15,22_Spacer_-15_-15,1,アルミニウム 6061,0.004708287317015959,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+22_Spacer_-15_15,22_Spacer_-15_15,1,アルミニウム 6061,0.004708287317015959,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+22_Spacer_15_-15,22_Spacer_15_-15,1,アルミニウム 6061,0.004708287317015959,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+22_Spacer_15_15,22_Spacer_15_15,1,アルミニウム 6061,0.004708287317015959,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+23_Brake_Guide_-10,23_Brake_Guide_-10,1,鋼、合金鋼,0.000710321952958259,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+23_Brake_Guide_10,23_Brake_Guide_10,1,鋼、合金鋼,0.0007103219529582592,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+24_Lower_Pad_Carrier,24_Lower_Pad_Carrier,1,アルミニウム 6061,0.0024231415282086758,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+24B_Upper_Pad_Carrier,24B_Upper_Pad_Carrier,1,アルミニウム 6061,0.002423141528208673,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+25_Shaft_Key,25_Shaft_Key,1,鋼、合金鋼,0.00083484,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+26_Inner_Race_Spacer,26_Inner_Race_Spacer,1,鋼、合金鋼,0.000667824058336879,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+27_Front_Hub_Shim,27_Front_Hub_Shim,1,鋼、合金鋼,0.0006799663139430016,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+28_Clip_Stack_Shim,28_Clip_Stack_Shim,1,鋼、合金鋼,0.0006799663139430016,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+29_Frame_Shim_-15_-15,29_Frame_Shim_-15_-15,1,アルミニウム 6061,0.00011400211421347125,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+29_Frame_Shim_-15_15,29_Frame_Shim_-15_15,1,アルミニウム 6061,0.00011400211421347125,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+29_Frame_Shim_15_-15,29_Frame_Shim_15_-15,1,アルミニウム 6061,0.00011400211421347121,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+29_Frame_Shim_15_15,29_Frame_Shim_15_15,1,アルミニウム 6061,0.00011400211421347121,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+30_Dual_Wedge_Slider,30_Dual_Wedge_Slider,1,アルミニウム 6061,0.0012257964899999956,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+31_Actuator_PQ12_Body_Envelope,31_Actuator_PQ12_Body_Envelope,1,PET プラスチック,0.0182,purchased envelope,Actuonix PQ12-100-12-P,P+rod aggregate19g; mount coordinates provisional; slow proof only
+32_Actuator_PQ12_Rod_Envelope,32_Actuator_PQ12_Rod_Envelope,1,アルミニウム 6061,0.0008,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+33_Actuator_Clevis,33_Actuator_Clevis,1,アルミニウム 6061,8.649903036931816e-05,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+34_Actuator_Mount,34_Actuator_Mount,1,アルミニウム 6061,0.01197077744838965,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+35_Slider_Stops,35_Slider_Stops,1,アルミニウム 6061,0.000874800000000001,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+36_Spring_Seat_-10,36_Spring_Seat_-10,1,鋼、合金鋼,6.556818027307519e-05,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+36_Spring_Seat_10,36_Spring_Seat_10,1,鋼、合金鋼,6.556818027307519e-05,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+37_Return_Lower_-10,37_Return_Lower_-10,1,鋼、合金鋼,0.0002,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+37_Return_Lower_10,37_Return_Lower_10,1,鋼、合金鋼,0.0002,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+38_Return_Upper_-10,38_Return_Upper_-10,1,鋼、合金鋼,0.0002,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+38_Return_Upper_10,38_Return_Upper_10,1,鋼、合金鋼,0.0002,fabricated prototype HOLD,,Material proxy; final tolerances and fasteners HOLD
+Coupling hub motor,Coupling hub motor,1,TBD,included aggregate/TBD,purchased,Ruland MJC25-6-A,within coupling aggregate mass assumption
+Coupling hub wheel,Coupling hub wheel,1,TBD,included aggregate/TBD,purchased,Ruland MJC25-10-A,within coupling aggregate mass assumption
+Coupling spider,Coupling spider,1,TBD,included aggregate/TBD,purchased,JD16/25-92Y,torque/misalignment rating HOLD
+Return springs,Return springs,4,TBD,included aggregate/TBD,purchased,TBD,wire geometry/rate/solid height not frozen
+Fasteners and wiring,Fasteners and wiring,1,TBD,included aggregate/TBD,purchased,TBD,Included only in150g system reserve; exact lengths/quantities HOLD

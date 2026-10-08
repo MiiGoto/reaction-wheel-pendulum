@@ -1,0 +1,110 @@
+[
+  {
+    "part": "40_Shared_Module_Dock",
+    "group": "fixed",
+    "bytes": 139776,
+    "solids": 1,
+    "mass_kg": 0.02254085620857553,
+    "volume_mm3": 14627.421290444861,
+    "material": "PET プラスチック",
+    "centroid_inertia_kg_m2": [
+      3.540277880333805e-05,
+      3.722001003162441e-05,
+      7.258897755064959e-05,
+      6.374478564288662e-06,
+      3.9968028886505634e-22,
+      0.0
+    ],
+    "mass_override": false
+  },
+  {
+    "part": "41_Common_Cube_Frame",
+    "group": "fixed",
+    "bytes": 134144,
+    "solids": 1,
+    "mass_kg": 0.2911380480000019,
+    "volume_mm3": 188928.00000000125,
+    "material": "PET プラスチック",
+    "centroid_inertia_kg_m2": [
+      0.008459543820288124,
+      0.008459543820287926,
+      0.008129161310208298,
+      7.512207957915923e-17,
+      2.1303276298567116e-17,
+      2.0069928723387434e-16
+    ],
+    "mass_override": false
+  },
+  {
+    "part": "42_ODrive_Micro_Envelope",
+    "group": "fixed",
+    "bytes": 96768,
+    "solids": 1,
+    "mass_kg": 0.0081,
+    "volume_mm3": 6942.810638590675,
+    "material": "PET プラスチック",
+    "centroid_inertia_kg_m2": [
+      7.021257265061011e-07,
+      7.021257264626701e-07,
+      1.338101452968771e-06,
+      0.0,
+      5.1810754851808674e-23,
+      1.450701135851014e-22
+    ],
+    "mass_override": true
+  },
+  {
+    "part": "43_Battery_Envelope_ASSUMPTION",
+    "group": "fixed",
+    "bytes": 75776,
+    "solids": 1,
+    "mass_kg": 0.3,
+    "volume_mm3": 148500.0,
+    "material": "PET プラスチック",
+    "centroid_inertia_kg_m2": [
+      7.312500000000002e-05,
+      0.00032500000000000004,
+      0.0003531250000000001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mass_override": true
+  },
+  {
+    "part": "44_Controller_PCB_Envelope",
+    "group": "fixed",
+    "bytes": 83456,
+    "solids": 1,
+    "mass_kg": 0.05,
+    "volume_mm3": 10028.528145963584,
+    "material": "PET プラスチック",
+    "centroid_inertia_kg_m2": [
+      2.0300994071416635e-05,
+      3.3523122301835974e-05,
+      5.380278303991928e-05,
+      2.8340858216410913e-20,
+      0.0,
+      3.542607277051857e-23
+    ],
+    "mass_override": true
+  },
+  {
+    "part": "45_Rim_B_Aluminium",
+    "group": "fixed",
+    "bytes": 102912,
+    "solids": 1,
+    "mass_kg": 0.10917437066323074,
+    "volume_mm3": 40434.95209749287,
+    "material": "アルミニウム 6061",
+    "centroid_inertia_kg_m2": [
+      0.000281189588726307,
+      0.00028118958872618184,
+      0.0005593040993454749,
+      6.139089236967574e-19,
+      1.6422063708887526e-19,
+      2.939088972198165e-19
+    ],
+    "mass_override": false
+  }
+]

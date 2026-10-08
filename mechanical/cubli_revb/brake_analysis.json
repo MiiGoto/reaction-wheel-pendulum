@@ -1,0 +1,91 @@
+{
+  "status": "MECHANISM_CAD_COMPLETE_FOR_REVIEW_IMPULSE_BRAKE_HOLD",
+  "type": "Opposed pads, dual wedge slider, PQ12 slow proof actuator",
+  "effective_radius_m": 0.05195395207147896,
+  "pad_area_each_mm2": 44.8,
+  "input_mm": 10,
+  "lower_pad_mm": 0.65,
+  "upper_pad_mm": 0.35,
+  "total_closing_mm": 1.0,
+  "PQ12": {
+    "MPN": "PQ12-100-12-P",
+    "stroke_mm": 20,
+    "mass_g": 19,
+    "max_lift_N": 50,
+    "peak_power_point_N": 40,
+    "peak_power_point_mm_s": 6,
+    "no_load_mm_s": 10,
+    "duty_percent": 20,
+    "backlash_mm": 0.25,
+    "stall_current_A_12V": 0.21,
+    "catalogue_stall_is_not_continuous_rating": true
+  },
+  "efficiency_assumption": 0.7,
+  "sensitivity": [
+    {
+      "mu_assumed": 0.1,
+      "each_pad_normal_N": 384.95627767611836,
+      "actuator_input_N": 54.9937539537312,
+      "PQ12_50N_lift_limit_pass": false,
+      "PQ12_40N_6mm_s_power_point_pass": false,
+      "closure_s_at_6mm_s": 1.6666666666666667,
+      "friction_torque_both_directions_Nm": 4
+    },
+    {
+      "mu_assumed": 0.15,
+      "each_pad_normal_N": 256.6375184507456,
+      "actuator_input_N": 36.6625026358208,
+      "PQ12_50N_lift_limit_pass": true,
+      "PQ12_40N_6mm_s_power_point_pass": true,
+      "closure_s_at_6mm_s": 1.6666666666666667,
+      "friction_torque_both_directions_Nm": 4
+    },
+    {
+      "mu_assumed": 0.25,
+      "each_pad_normal_N": 153.98251107044734,
+      "actuator_input_N": 21.997501581492482,
+      "PQ12_50N_lift_limit_pass": true,
+      "PQ12_40N_6mm_s_power_point_pass": true,
+      "closure_s_at_6mm_s": 1.6666666666666667,
+      "friction_torque_both_directions_Nm": 4
+    },
+    {
+      "mu_assumed": 0.35,
+      "each_pad_normal_N": 109.9875079074624,
+      "actuator_input_N": 15.712501129637488,
+      "PQ12_50N_lift_limit_pass": true,
+      "PQ12_40N_6mm_s_power_point_pass": true,
+      "closure_s_at_6mm_s": 1.6666666666666667,
+      "friction_torque_both_directions_Nm": 4
+    }
+  ],
+  "stop_heat_screen": [
+    {
+      "rpm": 3000,
+      "energy_J": 31.637234429817735,
+      "ideal_full_force_stop_s": 0.05035222245262593,
+      "brake_disc_adiabatic_bulk_delta_K": 2.3288522231882314
+    },
+    {
+      "rpm": 4000,
+      "energy_J": 56.243972319675954,
+      "ideal_full_force_stop_s": 0.06713629660350123,
+      "brake_disc_adiabatic_bulk_delta_K": 4.14018173011241
+    },
+    {
+      "rpm": 5000,
+      "energy_J": 87.8812067494937,
+      "ideal_full_force_stop_s": 0.08392037075437654,
+      "brake_disc_adiabatic_bulk_delta_K": 6.4690339533006425
+    },
+    {
+      "rpm": 6000,
+      "energy_J": 126.54893771927094,
+      "ideal_full_force_stop_s": 0.10070444490525186,
+      "brake_disc_adiabatic_bulk_delta_K": 9.315408892752925
+    }
+  ],
+  "release": "Reverse actuator required; wedge friction, self-lock, backdrive and springs are unqualified. Power-loss release is NOT guaranteed.",
+  "friction_coefficient": "Assumed, not lining certification; wear/temperature/dust must be measured.",
+  "spring_collision_classification": "Four fixed-length spring solid envelopes overlap carriers at compressed states; intended envelope deformation, not verified actual spring clearance."
+}

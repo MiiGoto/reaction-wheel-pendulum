@@ -1,0 +1,81 @@
+{
+  "classification": "CALCULATED_CONDITIONAL_SCREEN_NOT_VALIDATED_TORQUE_SPEED_CURVE",
+  "motor": "FAULHABER 4221 G 024 BXT H",
+  "driver": "ODrive Micro",
+  "bus_V": 24,
+  "modulation_assumption": 0.78,
+  "warning": "DC-equivalent waveform model, current conversion AN190 and assumed Micro utilization. Manufacturer catalogue and Micro drive conventions are not a measured loaded curve. Do not set commissioning limits from this alone.",
+  "rotating_inertia_including_motor_kg_m2": 0.0006480044079198508,
+  "continuous_motor_torque_Nm": 0.112,
+  "Micro_free_air_phase_peak_limit_assumption_A": 3.5,
+  "conditional_no_load_ceiling_rpm": 4741.719683841296,
+  "results": [
+    {
+      "rpm": 3000,
+      "conditional_reachable": true,
+      "catalogue_no_load_does_not_validate": true,
+      "torque_at_target_Nm": 0.112,
+      "voltage_required_zero_load_equiv_V": 15.184364492350667,
+      "energy_J": 31.977735781655316,
+      "angular_momentum_Nms": 0.20140888981050373,
+      "actual_current_rms_or_temperature_measured": false,
+      "acceleration_time_s": 1.9025849415086575,
+      "mean_copper_loss_W": 5.960264447088142,
+      "DC_equiv_current_A": 2.9708222811671092,
+      "phase_RMS_A": 2.317241379310345,
+      "phase_peak_A": 3.2770741859128276,
+      "short_winding_increment_K": 5.659128900181972,
+      "continuous_ambient_to_winding_screen_K": 104.30462782404248
+    },
+    {
+      "rpm": 4000,
+      "conditional_reachable": true,
+      "catalogue_no_load_does_not_validate": true,
+      "torque_at_target_Nm": 0.112,
+      "voltage_required_zero_load_equiv_V": 20.24581932313422,
+      "energy_J": 56.8493080562761,
+      "angular_momentum_Nms": 0.26854518641400493,
+      "actual_current_rms_or_temperature_measured": false,
+      "acceleration_time_s": 2.536779922012375,
+      "mean_copper_loss_W": 5.9602644470862,
+      "DC_equiv_current_A": 2.9708222811671092,
+      "phase_RMS_A": 2.317241379310345,
+      "phase_peak_A": 3.2770741859128276,
+      "short_winding_increment_K": 7.1150287422675245,
+      "continuous_ambient_to_winding_screen_K": 104.30462782400849
+    },
+    {
+      "rpm": 5000,
+      "conditional_reachable": false,
+      "catalogue_no_load_does_not_validate": true,
+      "torque_at_target_Nm": 0,
+      "voltage_required_zero_load_equiv_V": 25.307274153917774,
+      "energy_J": 88.82704383793143,
+      "angular_momentum_Nms": 0.33568148301750617,
+      "actual_current_rms_or_temperature_measured": false,
+      "reason": "Conditional voltage/drag ceiling reached before target; no field-weakening claim"
+    },
+    {
+      "rpm": 6000,
+      "conditional_reachable": false,
+      "catalogue_no_load_does_not_validate": true,
+      "torque_at_target_Nm": 0,
+      "voltage_required_zero_load_equiv_V": 30.368728984701335,
+      "energy_J": 127.91094312662126,
+      "angular_momentum_Nms": 0.40281777962100745,
+      "actual_current_rms_or_temperature_measured": false,
+      "reason": "Conditional voltage/drag ceiling reached before target; no field-weakening claim"
+    }
+  ],
+  "thermal": "Housing heat sink and duty cycle unknown; 125C winding maximum is a limit, not a verified operating temperature.",
+  "alternative_screen": [
+    {
+      "driver": "ODrive S1",
+      "finding": "Higher current cannot remove a back-EMF voltage ceiling; larger/heavier. Loaded speed needs waveform and bus-voltage qualification."
+    },
+    {
+      "motor": "FAULHABER 4221 G 024 BXT H retained",
+      "finding": "Lower mass/lightweight motor comparison cannot be frozen without official torque-speed, flange and thermal data. No replacement geometry fabricated."
+    }
+  ]
+}

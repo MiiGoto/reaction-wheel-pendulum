@@ -1,0 +1,55 @@
+{
+  "status": "CALCULATED_PRIMARY_SCREEN_NO_FEA",
+  "shaft": {
+    "diameter_mm": 10,
+    "torque_Nm": 4,
+    "bending_Nm": 0.6467265464958788,
+    "von_mises_MPa": 35.89470565283274,
+    "shock_times_notch_screen_MPa": 215.36823391699642,
+    "required_certified_fatigue_allowable_MPa": 215.36823391699642,
+    "groove_mm": 9.6,
+    "groove_and_key_Kf_assumption": 2,
+    "positive_axial_retention": "DSH-10 external ring plus shoulder/shims; front bearing/retainer stack requires tolerance qualification"
+  },
+  "bearing": {
+    "MPN": "SKF 6000-2Z",
+    "front_reaction_N": 109.32758286001761,
+    "rear_reaction_N": 32.33632732479394,
+    "front_shock_N": 327.9827485800528,
+    "ideal_L10_million_rev_using_C4750": 3037.580706876167,
+    "not_life_qualification": "Load impulse spectrum, fits, axial load and lubrication unresolved"
+  },
+  "caliper": {
+    "cantilever_span_assumed_mm": 18,
+    "pad_N": 256.6375184507456,
+    "plate_t_mm": 4,
+    "normal_bending_MPa": 61.86797319794759,
+    "shock_bending_MPa": 185.60391959384276,
+    "normal_deflection_mm": 0.0484184138070894,
+    "6061_T6_min_yield_assumption_MPa": 240,
+    "fastener_M3": {
+      "two_screw_direct_shear_each_N": 115.48688330283551,
+      "joint_prying_thread_engagement_HOLD": true
+    }
+  },
+  "rim": {
+    "material": "steel density proxy, grade HOLD",
+    "at6000_thin_ring_hoop_MPa": 17.321155723911826,
+    "overspeed_factor": 1.25,
+    "at7500_hoop_MPa": 27.064305818612223,
+    "qualification": "Rim seams/holes/spoke joints, balance, fatigue and containment are NOT covered by thin-ring screen"
+  },
+  "torsional_coupling": {
+    "parts": [
+      "Ruland MJC25-6-A",
+      "Ruland MJC25-10-A",
+      "JD16/25-92Y",
+      "own 5-to-6 split sleeve"
+    ],
+    "drawing_status": "Manufacturer outer envelope and hub sizes; jaw/insert internals not modeled",
+    "mass_kg_assumption": 0.032,
+    "speed_catalogue_limit_rpm": 8000,
+    "sleeve_runout_and_clamp_torque_HOLD": true,
+    "braking_torque_path": "Wheel to disc to caliper to frame; motor coupling carries rotor/deceleration inertia, not designed as primary 4Nm reaction path"
+  }
+}

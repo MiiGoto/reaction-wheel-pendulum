@@ -1,0 +1,78 @@
+{
+  "status": "GET_UP_NOT_VALIDATED_MANUFACTURING_HOLD",
+  "native_module_kg": 0.6959573234576285,
+  "native_shared_assembly_kg": 2.691293643376651,
+  "missing_hardware_harness_mounting_reserve_kg_assumption": 0.15,
+  "completed_mass_estimate_kg": 2.841293643376651,
+  "standalone_kg": 2.7533100183728876,
+  "shared_frame_improvement_kg": 0.06201637499623658,
+  "COM_mm": [
+    18.054550309772946,
+    7.136314959862169,
+    4.593162690802411
+  ],
+  "centroid_native_inertia_terms_kg_m2": [
+    0.03411952272909015,
+    0.031217653831018478,
+    0.030124446649400234,
+    -0.000464388270255474,
+    -0.002928299478288793,
+    -0.0008119898828301374
+  ],
+  "terms_order": "Ixx Iyy Izz Ixy Iyz Ixz; cross terms treated as products for matrix; confirm sign for downstream solver",
+  "allocation_matrix": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "rank": 3,
+  "condition_number": 1,
+  "axis_offset_is_not_collocated": true,
+  "frame_size_mm": 280,
+  "face_to_edge_barrier_J": 1.241523919748866,
+  "face_to_edge_locked_axis_inertia_kg_m2": 0.13287310377026534,
+  "edge_to_point_potential_screen_delta_m": 0.04200027006706805,
+  "impulse_sensitivity": [
+    {
+      "impulse_transfer_fraction_assumption": 0.9,
+      "face_to_edge_required_H_Nms": 0.6382173023294926,
+      "face_to_edge_wheel_rpm": 9506.292938657696,
+      "edge_to_point_required_H_Nms": 0.7288617588354782,
+      "edge_to_point_equal_two_wheel_rpm": 7676.668483278281
+    },
+    {
+      "impulse_transfer_fraction_assumption": 0.7,
+      "face_to_edge_required_H_Nms": 0.820565102995062,
+      "face_to_edge_wheel_rpm": 12222.376635417042,
+      "edge_to_point_required_H_Nms": 0.9371079756456149,
+      "edge_to_point_equal_two_wheel_rpm": 9870.002335643505
+    },
+    {
+      "impulse_transfer_fraction_assumption": 0.5,
+      "face_to_edge_required_H_Nms": 1.1487911441930867,
+      "face_to_edge_wheel_rpm": 17111.327289583856,
+      "edge_to_point_required_H_Nms": 1.3119511659038607,
+      "edge_to_point_equal_two_wheel_rpm": 13818.003269900906
+    }
+  ],
+  "micro_conditional_angular_momentum_Nms": 0.31834149910502935,
+  "contact_friction_sensitivity_mu": [
+    0.3,
+    0.5,
+    0.8
+  ],
+  "contact_simulation": "NOT RUN; edge changes, sliding, compliance and impacts are not solved. Impulse-transfer fractions bound losses only, not success probability.",
+  "conclusion": "CAD packing is feasible at static reviewed poses; self-righting is not established and current slow actuator is unsuitable for abrupt launch braking."
+}

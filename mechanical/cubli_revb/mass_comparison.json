@@ -1,0 +1,2150 @@
+{
+  "status": "CONFIRMED_NATIVE_WITH_DENSITY_PROXIES",
+  "rev_a_module_kg": 0.8929686753320782,
+  "rev_b_module_kg": 0.6959573234576285,
+  "reduction_kg": 0.19701135187444974,
+  "reduction_percent": 22.06251544055394,
+  "bearing_mass_correction_kg": 0.0179594,
+  "geometry_and_added_brake_change_kg": 0.17905195187444972,
+  "parts_rev_a_descending": [
+    {
+      "part": "15_Motor_4221G024BXTH",
+      "group": "fixed",
+      "bytes": 134656,
+      "solid_bodies": 1,
+      "mass_kg": 0.14,
+      "volume_mm3": 30661.111776984504,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.1905150165656356e-09,
+        -9.269627806431504e-15,
+        -34.92400741413575
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.1086925230755605e-05,
+        2.108692919953944e-05,
+        3.068182575787006e-05,
+        -1.2977478926161371e-20,
+        -1.3076098147185506e-20,
+        -1.0749095203848974e-17
+      ],
+      "mass_override": true,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "12_Wheel_Guard",
+      "group": "fixed",
+      "bytes": 148992,
+      "solid_bodies": 1,
+      "mass_kg": 0.12788874001750894,
+      "volume_mm3": 82990.74628001878,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        1.649327891991511e-11,
+        2.739747328889553e-14,
+        55.780282125894836
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.0006046242052569736,
+        0.0006113853427461962,
+        0.001149391375077983,
+        3.083368937950639e-18,
+        6.85980500647938e-19,
+        7.91770545018693e-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "09_Brake_Actuator_Bracket",
+      "group": "fixed",
+      "bytes": 131584,
+      "solid_bodies": 1,
+      "mass_kg": 0.1259566565328288,
+      "volume_mm3": 46650.613530677336,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        61.38774889880107,
+        0.0,
+        28.328160523976006
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.36040548016007e-05,
+        2.902591688801595e-05,
+        7.588143315411189e-05,
+        1.0773199793156891e-08,
+        0.0,
+        4.663884406754733e-06
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "05_Bearing_Housing",
+      "group": "fixed",
+      "bytes": 179712,
+      "solid_bodies": 1,
+      "mass_kg": 0.09091998028937037,
+      "volume_mm3": 33674.06677384088,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        5.110141311475271e-10,
+        8.440236702411877e-15,
+        20.000000000000007
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.1827872701562104e-05,
+        3.182787235368564e-05,
+        5.2296686819555394e-05,
+        3.8369307731437553e-20,
+        1.151079231931363e-20,
+        2.685851541209575e-20
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "11_Module_Frame",
+      "group": "fixed",
+      "bytes": 145408,
+      "solid_bodies": 1,
+      "mass_kg": 0.07170623217286744,
+      "volume_mm3": 46532.27266247076,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        1.3065945650615505,
+        0.0,
+        2.0000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.00022433780699836157,
+        0.0002302358367094921,
+        0.0004543824270887261,
+        0.0,
+        2.1898927116126285e-21,
+        6.59472476627343e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "01_Wheel_Rim",
+      "group": "rotor",
+      "bytes": 100864,
+      "solid_bodies": 1,
+      "mass_kg": 0.058523460340280366,
+      "volume_mm3": 21675.35568158532,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        3.336133369027959e-08,
+        1.1801208184599783e-13,
+        54.50000000000003
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.0001502282615530251,
+        0.00015022817957380716,
+        0.00029997849953405334,
+        6.139089239271359e-19,
+        5.0263793127669694e-20,
+        4.8729020870096683e-20
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "07_Brake_Drum",
+      "group": "rotor",
+      "bytes": 143360,
+      "solid_bodies": 1,
+      "mass_kg": 0.052390225948606456,
+      "volume_mm3": 6548.778243575807,
+      "material": "ステンレス鋼",
+      "centroid_mm": [
+        -1.0850004524998619e-14,
+        -1.0850004524998619e-14,
+        38.25
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.327389493084669e-05,
+        5.3273894930846554e-05,
+        0.0001065281435269625,
+        -9.094947017729281e-20,
+        9.521272659185348e-21,
+        9.876544027065397e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "04_Wheel_Shaft",
+      "group": "rotor",
+      "bytes": 136192,
+      "solid_bodies": 1,
+      "mass_kg": 0.04331126699364792,
+      "volume_mm3": 5603.009960368424,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        1.1054060641129224e-09,
+        -0.02871224594243267,
+        22.906216816568445
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5183669240108475e-05,
+        1.5189082146251418e-05,
+        5.979075164111461e-07,
+        -1.3746429103609902e-18,
+        2.4987900367273995e-08,
+        -2.682811458561186e-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "14_Bearing_6000_2Z",
+      "group": "fixed",
+      "bytes": 103424,
+      "solid_bodies": 1,
+      "mass_kg": 0.027975756916512176,
+      "volume_mm3": 3619.114736935598,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.5046207820533591e-09,
+        -4.90826339732003e-15,
+        10.000000000000002
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5060279844933621e-06,
+        1.5060283349540873e-06,
+        2.7136482456713216e-06,
+        -1.3731238366497907e-21,
+        -1.0298428776422955e-21,
+        -5.149214389336441e-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "14B_Bearing_6000_2Z",
+      "group": "fixed",
+      "bytes": 103424,
+      "solid_bodies": 1,
+      "mass_kg": 0.027975756916512176,
+      "volume_mm3": 3619.114736935598,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.5046158737899618e-09,
+        0.0,
+        30.000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5060279844933547e-06,
+        1.5060283349540811e-06,
+        2.713648245671319e-06,
+        -6.865619184281969e-22,
+        3.4328095921409847e-22,
+        1.544764316304624e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "02_Wheel_Hub",
+      "group": "rotor",
+      "bytes": 151040,
+      "solid_bodies": 1,
+      "mass_kg": 0.02174630857514365,
+      "volume_mm3": 8054.188361164314,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -1.9186829752386027e-09,
+        -0.05992223902126198,
+        43.508293044951515
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.903146847059304e-06,
+        1.9109031084621336e-06,
+        3.1722362718842358e-06,
+        2.502130267400593e-18,
+        -6.623503133503906e-10,
+        6.040621950708836e-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "06_Motor_Mount",
+      "group": "fixed",
+      "bytes": 134656,
+      "solid_bodies": 1,
+      "mass_kg": 0.019413629514427887,
+      "volume_mm3": 7190.23315349181,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        7.994581830086629e-11,
+        0.0,
+        -22.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.681533956024502e-06,
+        4.681533948931668e-06,
+        9.33394746068453e-06,
+        3.836930773104541e-21,
+        1.5587531265737199e-21,
+        1.438849039904897e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "03_Wheel_Spokes",
+      "group": "rotor",
+      "bytes": 143872,
+      "solid_bodies": 1,
+      "mass_kg": 0.019186931009651555,
+      "volume_mm3": 7106.27074431539,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        1.1518632782890023e-11,
+        0.0,
+        50.249999999999986
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.2210294449850954e-05,
+        3.22102944492837e-05,
+        6.441339380000607e-05,
+        -1.5347723092418165e-20,
+        5.995204332975845e-22,
+        -3.2613911571415484e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "17B_Bearing_Retainer_Front",
+      "group": "fixed",
+      "bytes": 105472,
+      "solid_bodies": 1,
+      "mass_kg": 0.009818432086635227,
+      "volume_mm3": 3636.4563283834173,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -2.780968511032516e-09,
+        1.0746684942089876e-13,
+        35.000000000000014
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.609892350161836e-06,
+        1.6098927766303048e-06,
+        3.2132395054010507e-06,
+        2.685851540879744e-20,
+        3.297362383136796e-22,
+        8.992806459759099e-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "17_Bearing_Retainer_Rear",
+      "group": "fixed",
+      "bytes": 105472,
+      "solid_bodies": 1,
+      "mass_kg": 0.00981843208663522,
+      "volume_mm3": 3636.4563283834145,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -2.7810710930251475e-09,
+        4.884856791859039e-15,
+        5.000000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.609892350161853e-06,
+        1.6098927766303199e-06,
+        3.2132395054010833e-06,
+        2.877698079695022e-21,
+        -2.997602166487918e-23,
+        8.992806496982226e-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "13_Torsional_Coupling",
+      "group": "rotor",
+      "bytes": 118272,
+      "solid_bodies": 1,
+      "mass_kg": 0.008988167280898685,
+      "volume_mm3": 3328.9508447772905,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -1.0508100930264913e-09,
+        1.334021529776516e-15,
+        -12.567032412104599
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.9668496515914133e-07,
+        3.988376985516581e-07,
+        4.229912095677211e-07,
+        -1.1990408667211656e-22,
+        4.488365789581898e-22,
+        2.2994486080893827e-18
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "10_Encoder_Mount",
+      "group": "fixed",
+      "bytes": 105472,
+      "solid_bodies": 1,
+      "mass_kg": 0.007769281909408797,
+      "volume_mm3": 5041.714412335365,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        -55.995584649657374,
+        -1.761659521068972e-15,
+        47.52961751969971
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.185108445360658e-06,
+        1.1197158203667732e-05,
+        8.355244133437924e-06,
+        -2.5184370505016137e-21,
+        3.729255654524468e-21,
+        -3.0716780731756985e-06
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "24_Lower_Pad_Carrier",
+      "group": "pad",
+      "bytes": 86528,
+      "solid_bodies": 1,
+      "mass_kg": 0.005060501528208678,
+      "volume_mm3": 1874.2598252624734,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        49.000000000002366,
+        -4.738822268549366e-15,
+        34.325
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.1448170847568357e-06,
+        1.1058831985930625e-07,
+        2.253109202047719e-06,
+        -6.954437026252549e-22,
+        -1.3027579015556514e-21,
+        -1.4210854715202005e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "24B_Upper_Pad_Carrier",
+      "group": "pad",
+      "bytes": 86016,
+      "solid_bodies": 1,
+      "mass_kg": 0.005060501528208678,
+      "volume_mm3": 1874.2598252624734,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        49.000000000002366,
+        -4.738822268549366e-15,
+        42.17500000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.144817084756835e-06,
+        1.1058831985930625e-07,
+        2.253109202047719e-06,
+        -6.954437026252549e-22,
+        -5.317746243349578e-22,
+        1.4210854715202005e-21
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_-22_-22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -21.999999999012267,
+        -22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381e-08,
+        8.640477872888841e-08,
+        2.1068292952988088e-08,
+        -3.5527136788005012e-22,
+        8.881784197001253e-23,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_-22_22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -21.999999999012267,
+        22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381e-08,
+        8.64047787288886e-08,
+        2.1068292952988445e-08,
+        0.0,
+        -2.664535259100376e-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_22_-22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        22.00000000098774,
+        -22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381e-08,
+        8.640477872888877e-08,
+        2.1068292952989156e-08,
+        -3.5527136788005012e-22,
+        8.881784197001253e-23,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "22_Spacer_22_22",
+      "group": "fixed",
+      "bytes": 100352,
+      "solid_bodies": 1,
+      "mass_kg": 0.002064507037084404,
+      "volume_mm3": 764.6322359571866,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        22.00000000098774,
+        22.0,
+        -10.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.640478144980381e-08,
+        8.640477872888877e-08,
+        2.1068292952989156e-08,
+        -1.7763568394002506e-22,
+        -2.664535259100376e-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "27_Front_Hub_Shim",
+      "group": "rotor",
+      "bytes": 90112,
+      "solid_bodies": 1,
+      "mass_kg": 0.0020398989418290176,
+      "volume_mm3": 263.89378290155463,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1278421494409965e-09,
+        -1.0517707279971468e-15,
+        51.75000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.44397925380153e-08,
+        5.443980650074423e-08,
+        1.0811463693557373e-07,
+        -4.291011989934251e-23,
+        7.13380743366798e-23,
+        9.976602874893259e-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "16_Motor_Rotor_Shaft",
+      "group": "rotor",
+      "bytes": 115712,
+      "solid_bodies": 1,
+      "mass_kg": 0.001973116535995155,
+      "volume_mm3": 255.25440310415976,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        5.228396948677499e-10,
+        0.0,
+        -17.500000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.087105266850427e-08,
+        3.087105187218295e-08,
+        6.165988776824199e-09,
+        0.0,
+        -1.0727529975440577e-23,
+        -5.3637649932003595e-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "20_Retaining_Washer",
+      "group": "rotor",
+      "bytes": 87552,
+      "solid_bodies": 1,
+      "mass_kg": 0.0013599326278860033,
+      "volume_mm3": 175.92918860103535,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1277637925217676e-09,
+        8.046046069178223e-14,
+        53.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.615153537660661e-08,
+        3.6151544685091615e-08,
+        7.207642462371404e-08,
+        9.440226377153698e-22,
+        1.3918970143134207e-22,
+        1.4884447840427489e-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "19_Encoder_PCB_Interface",
+      "group": "fixed",
+      "bytes": 90624,
+      "solid_bodies": 1,
+      "mass_kg": 0.000948749791502015,
+      "volume_mm3": 615.6715064906003,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        4.542441496069896e-12,
+        -1.803271733255219e-15,
+        61.30000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.0956901608301736e-08,
+        3.0956901605372875e-08,
+        6.150900330263335e-08,
+        -1.7108536809481433e-23,
+        2.878511318193942e-23,
+        -6.928957407865706e-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "25_Shaft_Key",
+      "group": "rotor",
+      "bytes": 84992,
+      "solid_bodies": 1,
+      "mass_kg": 0.00083484,
+      "volume_mm3": 108.0,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        0.0,
+        5.499999999999999,
+        43.00000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0644209999999887e-08,
+        1.0644209999999887e-08,
+        1.2522600000000051e-09,
+        3.3523531173251804e-25,
+        2.2204460492503133e-23,
+        4.022823740790216e-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "28_Clip_Stack_Shim",
+      "group": "rotor",
+      "bytes": 83968,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006799663139430016,
+      "volume_mm3": 87.96459430051767,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1278410976702752e-09,
+        0.0,
+        53.75
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.8033269793681227e-08,
+        1.803327444792444e-08,
+        3.603821231185767e-08,
+        -0.0,
+        -1.67617655866259e-24,
+        -1.7432236211745296e-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "26_Inner_Race_Spacer",
+      "group": "rotor",
+      "bytes": 102912,
+      "solid_bodies": 1,
+      "mass_kg": 0.000667824058336879,
+      "volume_mm3": 86.39379797372301,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -8.650602736244708e-10,
+        -8.031703741069142e-16,
+        35.25
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0532139947103581e-08,
+        1.0532142577660332e-08,
+        2.0368632463996394e-08,
+        1.340941246976472e-23,
+        1.8773177457021014e-24,
+        1.0459341723428263e-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "23_Brake_Guide_-32",
+      "group": "fixed",
+      "bytes": 113664,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006010416525031425,
+      "volume_mm3": 77.75441817634444,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        49.000000000313705,
+        -32.00000000000001,
+        37.500000000000014
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.398589280770573e-09,
+        6.398589193445404e-09,
+        6.761718154031372e-10,
+        -3.5527136788005012e-22,
+        -1.7763568394002506e-22,
+        -1.7763568394002506e-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "23_Brake_Guide_32",
+      "group": "fixed",
+      "bytes": 113664,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006010416525031425,
+      "volume_mm3": 77.75441817634444,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        49.000000000313705,
+        32.00000000000001,
+        37.500000000000014
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.398589280770573e-09,
+        6.398589193445404e-09,
+        6.761718154031372e-10,
+        3.5527136788005012e-22,
+        8.881784197001253e-23,
+        -1.7763568394002506e-22
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "08_Brake_Mechanism",
+      "group": "pad",
+      "bytes": 73216,
+      "solid_bodies": 1,
+      "mass_kg": 0.00043148000000000036,
+      "volume_mm3": 280.0000000000002,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        49.0,
+        0.0,
+        36.150000000000006
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.191333333333194e-09,
+        3.739493333332966e-09,
+        1.0643173333333424e-08,
+        2.1385671011842076e-24,
+        4.277134202368415e-24,
+        8.881784197001253e-23
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "08B_Brake_Pad",
+      "group": "pad",
+      "bytes": 73216,
+      "solid_bodies": 1,
+      "mass_kg": 0.00043148000000000036,
+      "volume_mm3": 280.0000000000002,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        49.0,
+        0.0,
+        40.35000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.1913333333331065e-09,
+        3.739493333333144e-09,
+        1.0643173333333424e-08,
+        2.1385671011842076e-24,
+        -1.2831402607105245e-23,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "21_Retaining_Clip",
+      "group": "rotor",
+      "bytes": 96256,
+      "solid_bodies": 1,
+      "mass_kg": 0.00032745757173632253,
+      "volume_mm3": 42.36191096200809,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.4570045636504624e-15,
+        -0.525472045026946,
+        54.5
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.181786470635807e-09,
+        5.152175870812137e-09,
+        9.279386079491368e-09,
+        -7.622871198009236e-24,
+        8.326672684688675e-24,
+        -5.9671885488388224e-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    },
+    {
+      "part": "18_Encoder_Magnet",
+      "group": "rotor",
+      "bytes": 92160,
+      "solid_bodies": 1,
+      "mass_kg": 0.00030355639015312706,
+      "volume_mm3": 39.269908169874135,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.614203911184132e-10,
+        0.0,
+        58.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.754922311155042e-10,
+        5.754923536267498e-10,
+        9.486136579730095e-10,
+        -3.3523531173251804e-25,
+        -2.5142648379938848e-24,
+        -5.83309442432159e-24
+      ],
+      "mass_override": false,
+      "mass_note": "library material proxy unless motor catalogue mass override"
+    }
+  ],
+  "parts_rev_b_descending": [
+    {
+      "part": "15_Motor_4221G024BXTH",
+      "group": "fixed",
+      "bytes": 134656,
+      "solid_bodies": 1,
+      "mass_kg": 0.14,
+      "volume_mm3": 30661.111776984504,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.1905150165656356e-09,
+        -9.269627806431504e-15,
+        -54.22400741413574
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.1086925230755788e-05,
+        2.1086929199539647e-05,
+        3.068182575787006e-05,
+        -1.2977478926161371e-20,
+        -1.3984521672215818e-20,
+        -1.074611038370215e-17
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "01_Wheel_Rim",
+      "group": "rotor",
+      "bytes": 102912,
+      "solid_bodies": 1,
+      "mass_kg": 0.09870525976013705,
+      "volume_mm3": 12338.157470017131,
+      "material": "ステンレス鋼",
+      "centroid_mm": [
+        5.0231378589314765e-08,
+        6.910685691799136e-14,
+        54.749999999999986
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.00025997122987125556,
+        0.00025997101555716527,
+        0.0005194446064104632,
+        1.2732925828247384e-18,
+        -2.7284841053187917e-20,
+        3.0695446134014354e-20
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "05_Bearing_Housing",
+      "group": "fixed",
+      "bytes": 134144,
+      "solid_bodies": 1,
+      "mass_kg": 0.06029311541231601,
+      "volume_mm3": 22330.783486042965,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        7.588381078809642e-10,
+        -3.181897922230086e-15,
+        20.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.2369768378840631e-05,
+        1.2369768031905041e-05,
+        1.738238851898842e-05,
+        -7.673861546354663e-21,
+        -5.755396159656813e-21,
+        -1.9184653865191833e-21
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "04_Wheel_Shaft",
+      "group": "rotor",
+      "bytes": 133120,
+      "solid_bodies": 1,
+      "mass_kg": 0.04794518885414668,
+      "volume_mm3": 6202.482387341097,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        1.1000828000421116e-09,
+        -0.025937195779602535,
+        19.43252968066117
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.0873834578836048e-05,
+        2.0879244026484198e-05,
+        6.563171023918637e-07,
+        -1.3683663730901044e-18,
+        2.9307651768328897e-08,
+        -1.242176952884635e-17
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "12_Wheel_Guard",
+      "group": "fixed",
+      "bytes": 248832,
+      "solid_bodies": 1,
+      "mass_kg": 0.04629663371028916,
+      "volume_mm3": 30043.240564756103,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        -0.39832679142475724,
+        -0.5837590834616362,
+        54.80265308352382
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.0001547193079842534,
+        0.00014635313827287188,
+        0.00028197043430419936,
+        -9.634634166312952e-07,
+        -4.5370548157908373e-07,
+        -9.238539829909766e-07
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "11_Module_Frame",
+      "group": "fixed",
+      "bytes": 202240,
+      "solid_bodies": 1,
+      "mass_kg": 0.043212981207321144,
+      "volume_mm3": 28042.168207216837,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        6.307435226557805,
+        -2.337444077634763,
+        1.5000000000000002
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        0.0001389180017510136,
+        0.00014427052443811918,
+        0.0002831237067173218,
+        6.496779787078343e-06,
+        6.994405055138486e-21,
+        -2.7533531010703882e-21
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "13_Torsional_Coupling",
+      "group": "rotor",
+      "bytes": 112128,
+      "solid_bodies": 1,
+      "mass_kg": 0.032,
+      "volume_mm3": 15518.64146986502,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        2.903368319075289e-09,
+        0.0,
+        -23.800036105161062
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.865135127408255e-06,
+        4.865134751206597e-06,
+        2.912963826720201e-06,
+        0.0,
+        -2.93032964109338e-21,
+        -2.3368879954826746e-17
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "09_Brake_Actuator_Bracket",
+      "group": "fixed",
+      "bytes": 115200,
+      "solid_bodies": 1,
+      "mass_kg": 0.02976372784444555,
+      "volume_mm3": 11023.602905350202,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        66.11720426782628,
+        3.2228244334492716e-15,
+        30.747384087594835
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.913390832258273e-06,
+        6.170358915327666e-06,
+        3.128518680506818e-06,
+        -3.7245046076140843e-22,
+        1.0309242184016674e-21,
+        8.921254614264286e-07
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "07_Brake_Drum",
+      "group": "rotor",
+      "bytes": 141824,
+      "solid_bodies": 1,
+      "mass_kg": 0.027169808470290928,
+      "volume_mm3": 3396.226058786366,
+      "material": "ステンレス鋼",
+      "centroid_mm": [
+        1.25529229820587e-13,
+        1.3598999897230257e-13,
+        38.400000000000006
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.8427980636737094e-05,
+        2.8427980636737118e-05,
+        5.684944051944136e-05,
+        1.932676241267477e-19,
+        -1.053024334396468e-20,
+        -9.897860309138181e-21
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "14_Bearing_6000_2Z",
+      "group": "fixed",
+      "bytes": 103424,
+      "solid_bodies": 1,
+      "mass_kg": 0.019,
+      "volume_mm3": 3619.114736935598,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.5046207820533591e-09,
+        -4.90826339732003e-15,
+        10.000000000000002
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.022833154819296e-06,
+        1.022833392838013e-06,
+        1.8429998809906437e-06,
+        -9.325700453504893e-22,
+        -6.994275341181044e-22,
+        -3.4971376712325454e-22
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "14B_Bearing_6000_2Z",
+      "group": "fixed",
+      "bytes": 103424,
+      "solid_bodies": 1,
+      "mass_kg": 0.019,
+      "volume_mm3": 3619.114736935598,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.5046158737899618e-09,
+        0.0,
+        30.000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0228331548192955e-06,
+        1.0228333928380097e-06,
+        1.842999880990642e-06,
+        -4.662850227454029e-22,
+        2.3314251137270143e-22,
+        1.0491413011629684e-21
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "31_Actuator_PQ12_Body_Envelope",
+      "group": "fixed",
+      "bytes": 87040,
+      "solid_bodies": 1,
+      "mass_kg": 0.0182,
+      "volume_mm3": 11970.564165294225,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        64.46669928625978,
+        -61.589856073087205,
+        38.5
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.4498021093319723e-06,
+        1.0298623502663303e-06,
+        2.8034777199117116e-06,
+        -1.2164783473610898e-08,
+        0.0,
+        5.684341886080802e-21
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "03_Wheel_Spokes",
+      "group": "rotor",
+      "bytes": 143872,
+      "solid_bodies": 1,
+      "mass_kg": 0.01688403389910917,
+      "volume_mm3": 6253.345888558952,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        1.2305696766847476e-11,
+        -3.408780267824786e-14,
+        51.25
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        2.9330497564829106e-05,
+        2.9330497564277444e-05,
+        5.8654663616394364e-05,
+        -1.0743406164693426e-19,
+        5.635492072997294e-21,
+        6.714628852933463e-21
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "02_Wheel_Hub",
+      "group": "rotor",
+      "bytes": 147968,
+      "solid_bodies": 1,
+      "mass_kg": 0.016472438447745805,
+      "volume_mm3": 6100.903128794742,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -1.8271085389901912e-09,
+        -0.07910714033832722,
+        44.664797626620036
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.502935659810828e-06,
+        1.5107168118506365e-06,
+        2.3727789891218536e-06,
+        2.3808822983019004e-18,
+        -2.1693769772799464e-09,
+        7.87537372335065e-18
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "34_Actuator_Mount",
+      "group": "fixed",
+      "bytes": 101376,
+      "solid_bodies": 1,
+      "mass_kg": 0.01197077744838965,
+      "volume_mm3": 4433.6212771813525,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        67.49120885906041,
+        -62.904184274652195,
+        27.21557710242545
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.2083457381277644e-06,
+        1.656829348417034e-06,
+        4.842872257819693e-06,
+        -1.2053464943682002e-08,
+        1.3472151747632211e-08,
+        3.502759454403162e-07
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "10_Encoder_Mount",
+      "group": "fixed",
+      "bytes": 104448,
+      "solid_bodies": 1,
+      "mass_kg": 0.008025312242637576,
+      "volume_mm3": 5207.859988733016,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        -60.05759512808346,
+        6.821830245987117e-15,
+        47.51899392737979
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.375481968251893e-06,
+        1.2829860995346707e-05,
+        9.802149326207399e-06,
+        4.3766322444448974e-21,
+        2.601537461618345e-21,
+        -3.431277882686834e-06
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "17B_Bearing_Retainer_Front",
+      "group": "fixed",
+      "bytes": 110080,
+      "solid_bodies": 1,
+      "mass_kg": 0.00785555688076922,
+      "volume_mm3": 2909.465511396007,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        5.247320786731085e-11,
+        -3.052720220333402e-15,
+        35.00000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.1099243711762427e-06,
+        1.1099243697278014e-06,
+        2.214611702983536e-06,
+        -4.79616346639326e-22,
+        4.1966430330830906e-22,
+        -5.995204332613954e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "17_Bearing_Retainer_Rear",
+      "group": "fixed",
+      "bytes": 110080,
+      "solid_bodies": 1,
+      "mass_kg": 0.007855556880769212,
+      "volume_mm3": 2909.465511396005,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        5.247626058753122e-11,
+        0.0,
+        5.000000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.1099243711762442e-06,
+        1.1099243697278028e-06,
+        2.2146117029835342e-06,
+        0.0,
+        0.0,
+        3.2311742677852646e-34
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "06_Motor_Mount",
+      "group": "fixed",
+      "bytes": 136704,
+      "solid_bodies": 1,
+      "mass_kg": 0.007106357718722724,
+      "volume_mm3": 2631.9843402676756,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        1.404457355006152e-10,
+        0.0,
+        -42.300000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0814294054445809e-06,
+        1.081429400772521e-06,
+        2.1581212344046275e-06,
+        4.796163466380676e-22,
+        -2.398081733190338e-22,
+        -7.781775224222501e-22
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "22_Spacer_-15_-15",
+      "group": "fixed",
+      "bytes": 91648,
+      "solid_bodies": 1,
+      "mass_kg": 0.004708287317015959,
+      "volume_mm3": 1743.810117413318,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -14.999999999067855,
+        -15.0,
+        -20.65
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.910863373750733e-07,
+        6.910863317322481e-07,
+        4.369290348049617e-08,
+        -5.329070518200752e-22,
+        -7.1054273576010025e-22,
+        5.329070518200752e-22
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "22_Spacer_-15_15",
+      "group": "fixed",
+      "bytes": 91648,
+      "solid_bodies": 1,
+      "mass_kg": 0.004708287317015959,
+      "volume_mm3": 1743.810117413318,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -14.999999999067855,
+        15.0,
+        -20.65
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.910863373750733e-07,
+        6.910863317322481e-07,
+        4.369290348049617e-08,
+        -3.5527136788005012e-22,
+        3.5527136788005012e-22,
+        5.329070518200752e-22
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "22_Spacer_15_-15",
+      "group": "fixed",
+      "bytes": 91648,
+      "solid_bodies": 1,
+      "mass_kg": 0.004708287317015959,
+      "volume_mm3": 1743.810117413318,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        15.00000000093215,
+        -15.0,
+        -20.65
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.910863373750733e-07,
+        6.910863317322495e-07,
+        4.369290348049688e-08,
+        -3.5527136788005012e-22,
+        -7.1054273576010025e-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "22_Spacer_15_15",
+      "group": "fixed",
+      "bytes": 91648,
+      "solid_bodies": 1,
+      "mass_kg": 0.004708287317015959,
+      "volume_mm3": 1743.810117413318,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        15.00000000093215,
+        15.0,
+        -20.65
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        6.910863373750733e-07,
+        6.910863317322495e-07,
+        4.369290348049688e-08,
+        -3.5527136788005012e-22,
+        3.5527136788005012e-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "24_Lower_Pad_Carrier",
+      "group": "pad_lower",
+      "bytes": 107520,
+      "solid_bodies": 1,
+      "mass_kg": 0.0024231415282086758,
+      "volume_mm3": 897.4598252624724,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        54.85213725456247,
+        0.10429436211545844,
+        34.32161043323125
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.56318808640836e-07,
+        8.183297319290831e-08,
+        2.3702523282505582e-07,
+        -1.300967873026679e-09,
+        2.0763738868622843e-10,
+        4.228145587390486e-11
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "24B_Upper_Pad_Carrier",
+      "group": "pad_upper",
+      "bytes": 113664,
+      "solid_bodies": 1,
+      "mass_kg": 0.002423141528208673,
+      "volume_mm3": 897.4598252624714,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        54.852137254562464,
+        0.05615850267755365,
+        42.17598277379686
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.5632792656247646e-07,
+        8.182337589240377e-08,
+        2.3704394804720865e-07,
+        -7.005211623988317e-10,
+        -1.1213226414165944e-10,
+        -1.2259120341440168e-11
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "16_Motor_Rotor_Shaft",
+      "group": "rotor",
+      "bytes": 115712,
+      "solid_bodies": 1,
+      "mass_kg": 0.0019731165359951545,
+      "volume_mm3": 255.2544031041597,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        5.2283969486775e-10,
+        0.0,
+        -36.80000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.087105266850294e-08,
+        3.087105187218136e-08,
+        6.165988776824202e-09,
+        0.0,
+        -0.0,
+        1.2873035960933396e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "20_Retaining_Washer",
+      "group": "rotor",
+      "bytes": 87552,
+      "solid_bodies": 1,
+      "mass_kg": 0.0013599326278860033,
+      "volume_mm3": 175.92918860103535,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1277637925217676e-09,
+        8.046046069178223e-14,
+        53.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.615153537660661e-08,
+        3.6151544685091615e-08,
+        7.207642462371404e-08,
+        9.440226377153698e-22,
+        1.3918970143134207e-22,
+        1.4884447840427489e-22
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "30_Dual_Wedge_Slider",
+      "group": "slider",
+      "bytes": 128000,
+      "solid_bodies": 1,
+      "mass_kg": 0.0012257964899999956,
+      "volume_mm3": 453.99869999999834,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        61.53304403735078,
+        -7.198187336953464,
+        39.10612260651849
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.94785133400476e-07,
+        5.3349508603994876e-08,
+        1.7814565332390233e-07,
+        3.384196635639718e-08,
+        -8.227684864677177e-10,
+        -3.189743978300186e-10
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "19_Encoder_PCB_Interface",
+      "group": "fixed",
+      "bytes": 90624,
+      "solid_bodies": 1,
+      "mass_kg": 0.000948749791502015,
+      "volume_mm3": 615.6715064906003,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        4.542441496069896e-12,
+        -1.803271733255219e-15,
+        61.30000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        3.0956901608301736e-08,
+        3.0956901605372875e-08,
+        6.150900330263335e-08,
+        -1.7108536809481433e-23,
+        2.878511318193942e-23,
+        -6.928957407865706e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "35_Slider_Stops",
+      "group": "fixed",
+      "bytes": 97792,
+      "solid_bodies": 1,
+      "mass_kg": 0.000874800000000001,
+      "volume_mm3": 324.00000000000034,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        71.96296296296296,
+        -22.012345679012345,
+        26.85802469135802
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        9.851063333333451e-08,
+        6.965196666666742e-08,
+        3.118906666666775e-08,
+        -1.8031999999996273e-09,
+        1.97493333333334e-08,
+        5.24799999999992e-09
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "25_Shaft_Key",
+      "group": "rotor",
+      "bytes": 84992,
+      "solid_bodies": 1,
+      "mass_kg": 0.00083484,
+      "volume_mm3": 108.0,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        0.0,
+        5.499999999999999,
+        43.00000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0644209999999887e-08,
+        1.0644209999999887e-08,
+        1.2522600000000051e-09,
+        3.3523531173251804e-25,
+        2.2204460492503133e-23,
+        4.022823740790216e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "32_Actuator_PQ12_Rod_Envelope",
+      "group": "slider",
+      "bytes": 93696,
+      "solid_bodies": 1,
+      "mass_kg": 0.0008,
+      "volume_mm3": 289.6570826471159,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        65.0,
+        -37.11008204999011,
+        38.5
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.1515055892409976e-08,
+        3.4817866286090295e-09,
+        1.166350918768515e-08,
+        -3.5527136788005012e-22,
+        -1.7763568394002506e-22,
+        0.0
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "23_Brake_Guide_10",
+      "group": "fixed",
+      "bytes": 111616,
+      "solid_bodies": 1,
+      "mass_kg": 0.0007103219529582592,
+      "volume_mm3": 91.89158511749795,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        60.00000000031367,
+        9.999999999999996,
+        38.49999999999998
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0403256961835972e-08,
+        1.0403256858635501e-08,
+        7.991121454789864e-10,
+        -4.440892098500627e-22,
+        -1.7763568394002506e-22,
+        -7.1054273576010025e-22
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "23_Brake_Guide_-10",
+      "group": "fixed",
+      "bytes": 112128,
+      "solid_bodies": 1,
+      "mass_kg": 0.000710321952958259,
+      "volume_mm3": 91.89158511749794,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        60.000000000313705,
+        -9.999999999999996,
+        38.49999999999999
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0403256961835795e-08,
+        1.040325685863266e-08,
+        7.991121454764994e-10,
+        8.881784197001253e-23,
+        1.332267629550188e-22,
+        0.0
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "13B_Coupling_Sleeve_5_6",
+      "group": "rotor",
+      "bytes": 141312,
+      "solid_bodies": 1,
+      "mass_kg": 0.0007021588806124255,
+      "volume_mm3": 90.83556023446643,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        0.0,
+        -0.048590552190809586,
+        -35.65000000000002
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        9.32779071067973e-09,
+        9.423392092162787e-09,
+        5.3528210959566395e-09,
+        1.3409412469300722e-24,
+        6.4184768611141865e-24,
+        -2.6818824938601443e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "27_Front_Hub_Shim",
+      "group": "rotor",
+      "bytes": 83968,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006799663139430016,
+      "volume_mm3": 87.96459430051767,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1276785990927997e-09,
+        1.5934326529156871e-13,
+        52.25000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.8033269793680873e-08,
+        1.8033274447923375e-08,
+        3.603821231185636e-08,
+        9.976602875937919e-22,
+        2.5880166065751387e-23,
+        6.0342355743757865e-25
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "28_Clip_Stack_Shim",
+      "group": "rotor",
+      "bytes": 83968,
+      "solid_bodies": 1,
+      "mass_kg": 0.0006799663139430016,
+      "volume_mm3": 87.96459430051767,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -1.1278410976702752e-09,
+        0.0,
+        53.75
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.8033269793681227e-08,
+        1.803327444792444e-08,
+        3.603821231185767e-08,
+        -0.0,
+        -1.67617655866259e-24,
+        -1.7432236211745296e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "26_Inner_Race_Spacer",
+      "group": "rotor",
+      "bytes": 102912,
+      "solid_bodies": 1,
+      "mass_kg": 0.000667824058336879,
+      "volume_mm3": 86.39379797372301,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -8.650602736244708e-10,
+        -8.031703741069142e-16,
+        35.25
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.0532139947103581e-08,
+        1.0532142577660332e-08,
+        2.0368632463996394e-08,
+        1.340941246976472e-23,
+        1.8773177457021014e-24,
+        1.0459341723428263e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "18_Encoder_Magnet",
+      "group": "rotor",
+      "bytes": 92160,
+      "solid_bodies": 1,
+      "mass_kg": 0.00030355639015312706,
+      "volume_mm3": 39.269908169874135,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -2.614203911184132e-10,
+        0.0,
+        58.0
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.754922311155042e-10,
+        5.754923536267498e-10,
+        9.486136579730095e-10,
+        -3.3523531173251804e-25,
+        -2.5142648379938848e-24,
+        -5.83309442432159e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "21_Retaining_Clip",
+      "group": "rotor",
+      "bytes": 95744,
+      "solid_bodies": 1,
+      "mass_kg": 0.0003,
+      "volume_mm3": 58.99934746873299,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        -4.704386879929159e-15,
+        -0.5217006847369317,
+        54.49999999999997
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        4.512009434052366e-09,
+        5.461723251748296e-09,
+        9.923732685799806e-09,
+        -1.3376876082829535e-23,
+        2.0816681711721686e-23,
+        1.0959751309335011e-23
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "37_Return_Lower_-10",
+      "group": "fixed",
+      "bytes": 114176,
+      "solid_bodies": 1,
+      "mass_kg": 0.0002,
+      "volume_mm3": 51.57238500133228,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        59.999999999615724,
+        -10.000000000000002,
+        36.575
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.473748814426085e-10,
+        7.473750395190493e-10,
+        1.223999920961738e-09,
+        0.0,
+        -2.2204460492503133e-23,
+        8.881784197001253e-23
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "37_Return_Lower_10",
+      "group": "fixed",
+      "bytes": 113664,
+      "solid_bodies": 1,
+      "mass_kg": 0.0002,
+      "volume_mm3": 51.57238500133228,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        59.999999999615724,
+        10.000000000000002,
+        36.575
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.473748814426529e-10,
+        7.473750395190493e-10,
+        1.223999920961738e-09,
+        -2.2204460492503133e-23,
+        1.1102230246251566e-23,
+        8.881784197001253e-23
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "38_Return_Upper_-10",
+      "group": "fixed",
+      "bytes": 114688,
+      "solid_bodies": 1,
+      "mass_kg": 0.0002,
+      "volume_mm3": 53.38194236980011,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        59.99999999961574,
+        -10.000000000000002,
+        39.875
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.570415481093385e-10,
+        7.570417061852908e-10,
+        1.2239999209615606e-09,
+        -2.2204460492503133e-23,
+        -3.33066907387547e-23,
+        0.0
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "38_Return_Upper_10",
+      "group": "fixed",
+      "bytes": 114688,
+      "solid_bodies": 1,
+      "mass_kg": 0.0002,
+      "volume_mm3": 53.38194236980011,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        59.99999999961574,
+        10.000000000000004,
+        39.875
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.570415481093385e-10,
+        7.570417061852908e-10,
+        1.2239999209615606e-09,
+        6.66133814775094e-23,
+        2.2204460492503133e-23,
+        0.0
+      ],
+      "mass_override": true,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "08_Brake_Mechanism",
+      "group": "pad_lower",
+      "bytes": 74752,
+      "solid_bodies": 1,
+      "mass_kg": 0.00013807360000000005,
+      "volume_mm3": 89.60000000000002,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        51.900000000000006,
+        0.0,
+        36.150000000000006
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.824170666666185e-10,
+        4.0685687466650576e-10,
+        1.0972248746665692e-09,
+        -2.6732088764802594e-25,
+        -6.683022191200649e-26,
+        1.332267629550188e-22
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "08B_Brake_Pad",
+      "group": "pad_upper",
+      "bytes": 74752,
+      "solid_bodies": 1,
+      "mass_kg": 0.00013807360000000005,
+      "volume_mm3": 89.60000000000002,
+      "material": "PET プラスチック",
+      "centroid_mm": [
+        51.900000000000006,
+        0.0,
+        40.35000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        7.824170666665964e-10,
+        4.06856874666417e-10,
+        1.0972248746665692e-09,
+        -2.6732088764802594e-25,
+        -6.683022191200649e-26,
+        4.4408920985006265e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "29_Frame_Shim_-15_-15",
+      "group": "fixed",
+      "bytes": 93184,
+      "solid_bodies": 1,
+      "mass_kg": 0.00011400211421347125,
+      "volume_mm3": 42.22300526424861,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -15.000000000466077,
+        -15.0,
+        3.5
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.384698836623236e-10,
+        5.38470020292503e-10,
+        1.057939551585918e-09,
+        -5.551115123125783e-24,
+        0.0,
+        -1.3877787807814458e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "29_Frame_Shim_-15_15",
+      "group": "fixed",
+      "bytes": 93184,
+      "solid_bodies": 1,
+      "mass_kg": 0.00011400211421347125,
+      "volume_mm3": 42.22300526424861,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        -15.000000000466077,
+        15.0,
+        3.5
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.384698836623181e-10,
+        5.38470020292503e-10,
+        1.057939551585918e-09,
+        -5.551115123125783e-24,
+        0.0,
+        -1.3877787807814458e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "29_Frame_Shim_15_-15",
+      "group": "fixed",
+      "bytes": 93184,
+      "solid_bodies": 1,
+      "mass_kg": 0.00011400211421347121,
+      "volume_mm3": 42.2230052642486,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        14.999999999533927,
+        -15.000000000000002,
+        3.5000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.384698836623181e-10,
+        5.384700202925085e-10,
+        1.0579395515859069e-09,
+        -5.551115123125783e-24,
+        -1.3877787807814458e-24,
+        1.3877787807814458e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "29_Frame_Shim_15_15",
+      "group": "fixed",
+      "bytes": 93184,
+      "solid_bodies": 1,
+      "mass_kg": 0.00011400211421347121,
+      "volume_mm3": 42.2230052642486,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        14.999999999533927,
+        15.0,
+        3.5000000000000004
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        5.384698836623236e-10,
+        5.384700202925085e-10,
+        1.0579395515859292e-09,
+        0.0,
+        6.938893903907229e-25,
+        1.3877787807814458e-24
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "33_Actuator_Clevis",
+      "group": "slider",
+      "bytes": 128512,
+      "solid_bodies": 1,
+      "mass_kg": 8.649903036931816e-05,
+      "volume_mm3": 32.03667791456228,
+      "material": "アルミニウム 6061",
+      "centroid_mm": [
+        66.82603202978824,
+        -30.743507930602675,
+        38.50000000000001
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        8.922060891367157e-10,
+        1.246340122181433e-09,
+        3.869039470236757e-10,
+        1.7847973612816762e-12,
+        0.0,
+        4.4408920985006265e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "36_Spring_Seat_-10",
+      "group": "fixed",
+      "bytes": 89600,
+      "solid_bodies": 1,
+      "mass_kg": 6.556818027307519e-05,
+      "volume_mm3": 8.48230016469278,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        59.9999999996341,
+        -9.999999999999934,
+        38.20000000000003
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.8528471369736455e-10,
+        1.8528476132955163e-10,
+        3.688209902197759e-10,
+        0.0,
+        -5.551115123125783e-24,
+        6.66133814775094e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    },
+    {
+      "part": "36_Spring_Seat_10",
+      "group": "fixed",
+      "bytes": 89600,
+      "solid_bodies": 1,
+      "mass_kg": 6.556818027307519e-05,
+      "volume_mm3": 8.48230016469278,
+      "material": "鋼、合金鋼",
+      "centroid_mm": [
+        59.9999999996341,
+        10.000000000000071,
+        38.20000000000003
+      ],
+      "centroid_tensor_terms_kg_m2": [
+        1.8528471369738675e-10,
+        1.8528476132955163e-10,
+        3.688209902197759e-10,
+        2.2204460492503133e-23,
+        1.1102230246251566e-23,
+        6.66133814775094e-23
+      ],
+      "mass_override": false,
+      "mass_note": "Motor/bearing catalogue or explicit actuator/coupling/spring envelope override; otherwise material density proxy. See design review for classification."
+    }
+  ],
+  "wheel_inertia_gain_percent": 34.429840722628846
+}

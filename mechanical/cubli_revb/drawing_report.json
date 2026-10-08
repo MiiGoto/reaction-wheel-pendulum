@@ -1,0 +1,142 @@
+[
+  {
+    "drawing": "01_Wheel_Rim",
+    "native_bytes": 169472,
+    "pdf_bytes": 76090,
+    "native_dimensions": 0,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "02_Wheel_Hub",
+    "native_bytes": 165888,
+    "pdf_bytes": 74312,
+    "native_dimensions": 0,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "03_Wheel_Spokes",
+    "native_bytes": 176128,
+    "pdf_bytes": 78715,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "04_Wheel_Shaft",
+    "native_bytes": 175104,
+    "pdf_bytes": 77099,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "05_Bearing_Housing",
+    "native_bytes": 173056,
+    "pdf_bytes": 75860,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "06_Motor_Mount",
+    "native_bytes": 173568,
+    "pdf_bytes": 76537,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "07_Brake_Drum",
+    "native_bytes": 176640,
+    "pdf_bytes": 77064,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "08_Brake_Mechanism",
+    "native_bytes": 168960,
+    "pdf_bytes": 73859,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "08B_Brake_Pad",
+    "native_bytes": 168960,
+    "pdf_bytes": 73823,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "09_Brake_Actuator_Bracket",
+    "native_bytes": 169984,
+    "pdf_bytes": 74660,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "10_Encoder_Mount",
+    "native_bytes": 169984,
+    "pdf_bytes": 74698,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "11_Module_Frame",
+    "native_bytes": 179200,
+    "pdf_bytes": 75996,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "12_Wheel_Guard",
+    "native_bytes": 181248,
+    "pdf_bytes": 77980,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "13_Torsional_Coupling",
+    "native_bytes": 164864,
+    "pdf_bytes": 72820,
+    "native_dimensions": 0,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "30_Dual_Wedge_Slider",
+    "native_bytes": 171520,
+    "pdf_bytes": 74800,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "31_Actuator_PQ12_Body_Envelope",
+    "native_bytes": 169472,
+    "pdf_bytes": 73702,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "33_Actuator_Clevis",
+    "native_bytes": 165888,
+    "pdf_bytes": 72509,
+    "native_dimensions": 0,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "34_Actuator_Mount",
+    "native_bytes": 169984,
+    "pdf_bytes": 73728,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "35_Slider_Stops",
+    "native_bytes": 169984,
+    "pdf_bytes": 74083,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  },
+  {
+    "drawing": "Cubli_OneWheel_Module_RevB",
+    "native_bytes": 239104,
+    "pdf_bytes": 89513,
+    "native_dimensions": 2,
+    "status": "PARTIAL_HOLD"
+  }
+]

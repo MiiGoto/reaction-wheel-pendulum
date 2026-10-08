@@ -1,0 +1,166 @@
+{
+  "pdf_files": [
+    {
+      "file": "01_Wheel_Rim.pdf",
+      "pages": 1,
+      "bytes": 76090,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "02_Wheel_Hub.pdf",
+      "pages": 1,
+      "bytes": 74312,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "03_Wheel_Spokes.pdf",
+      "pages": 1,
+      "bytes": 78715,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "04_Wheel_Shaft.pdf",
+      "pages": 1,
+      "bytes": 77099,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "05_Bearing_Housing.pdf",
+      "pages": 1,
+      "bytes": 75860,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "06_Motor_Mount.pdf",
+      "pages": 1,
+      "bytes": 76537,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "07_Brake_Drum.pdf",
+      "pages": 1,
+      "bytes": 77064,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "08_Brake_Mechanism.pdf",
+      "pages": 1,
+      "bytes": 73859,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "08B_Brake_Pad.pdf",
+      "pages": 1,
+      "bytes": 73823,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "09_Brake_Actuator_Bracket.pdf",
+      "pages": 1,
+      "bytes": 74660,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "10_Encoder_Mount.pdf",
+      "pages": 1,
+      "bytes": 74698,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "11_Module_Frame.pdf",
+      "pages": 1,
+      "bytes": 75996,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "12_Wheel_Guard.pdf",
+      "pages": 1,
+      "bytes": 77980,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "13_Torsional_Coupling.pdf",
+      "pages": 1,
+      "bytes": 72820,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "30_Dual_Wedge_Slider.pdf",
+      "pages": 1,
+      "bytes": 74800,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "31_Actuator_PQ12_Body_Envelope.pdf",
+      "pages": 1,
+      "bytes": 73702,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "33_Actuator_Clevis.pdf",
+      "pages": 1,
+      "bytes": 72509,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "34_Actuator_Mount.pdf",
+      "pages": 1,
+      "bytes": 73728,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "35_Slider_Stops.pdf",
+      "pages": 1,
+      "bytes": 74083,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    },
+    {
+      "file": "Cubli_OneWheel_Module_RevB.pdf",
+      "pages": 1,
+      "bytes": 89513,
+      "author": "Reaction Wheel Pendulum project",
+      "HOLD_note_present": true,
+      "native_dimension_status": "see drawing_report.json; production dimension closure NOT completed"
+    }
+  ],
+  "all_pages_rendered": true,
+  "visual_scope": "Review sheets only; four lack associative dimensions, small views/label placement require production cleanup"
+}

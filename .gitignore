@@ -57,3 +57,7 @@ mechanical/cubli_concept/local_native*/
 # One-wheel native CAD retains local absolute references; publish own neutral exports.
 mechanical/cubli_reva/one_wheel_module/local_*
 mechanical/cubli_reva/one_wheel_module/views/*.bmp
+
+# Rev B native references and temporary repair scripts stay local.
+mechanical/cubli_revb/local_*
+mechanical/cubli_revb/views/*.bmp
