@@ -31,4 +31,6 @@
 
 ## Validation and safety
 
+New or revised copper must use45degree bends or arcs; no90degree bends or acute-angle copper. Preserve net/width/clearance/return path and avoid unnecessary vias. A passing DRC does not validate trace geometry. Keep reference-machine identification and engineering assumptions explicit; no copying third-party CAD from a software-license declaration alone. Native CAD containing private paths stays local; publish independent generators and validated neutral geometry instead. Preserve the existing1axis design when exploring3axes.
+
 Document what was actually tested and the limits of the test. Unknown voltage, motor limits or braking behavior block powered motor testing. Use a current-limited supply, guarded wheel, mechanical fixture, independent power isolation and an agreed safe-state policy. Do not assume zero command or communication loss means zero torque.

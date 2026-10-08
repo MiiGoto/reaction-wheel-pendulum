@@ -1,5 +1,9 @@
 # Initial requirements
 
+## Provisional expansion — 2026-10-08
+
+従来1軸のF-01等は中間試作で保持。3軸要求は追加候補で、参考Xの機体同一性/性能を未確認のため確定しない。候補:3独立reaction wheelsで辺/点倒立、段階的self-righting、正負torqueとmomentum/thermal/regen監視、guard/impact安全性。3軸のcapture域・外乱・保持時間・安全RPM・self-righting成功基準はTBD。1軸の過去受入値を無条件に3軸へ流用しない。180mmcube/90gannulus/24V/1.2kgはscreening仮定で購入/製造仕様ではない。docs/design_direction.md、motor_selection.md、validation_plan.mdを参照。
+
 状態: 初期版。Mustは要求、Candidateは候補、TBDは未決。数値のない項目はまだ受入判定できないため、実回路設計・実機評価前に基準を確定する。
 
 | ID | Category | Requirement / status | Verification / open criterion |

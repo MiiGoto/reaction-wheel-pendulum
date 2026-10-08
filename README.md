@@ -1,5 +1,9 @@
 # reaction-wheel-pendulum
 
+最新方針（2026-10-08）: [1軸を保持して3軸へ発展する案B](docs/design_direction.md)を暫定第一候補にしました。指定X機体の同一性は未確認。GB54直結の自力起き上がりは仮定付き角運動量screeningで不適合。新しい[Inventor配置概念/STEP](mechanical/cubli_concept/README.md)と固定支点simulationを追加しましたが、製作可能な機構・実機性能・起き上がりは未完成です。[検証計画](docs/validation_plan.md)を参照してください。既存1軸native設計と未コミット変更は元checkoutに保持。
+
+以下は既存1軸PCBの基準。機構・motor・driverの採用確定を意味しません。
+
 1自由度リアクションホイール型倒立振子を製作し、制御モデルと実機の対応を検証する開発プロジェクトです。回路、STM32ファームウェア、シミュレーション、機構、試験記録を一つのGit repositoryで管理します。
 
 ## Project overview / System concept
